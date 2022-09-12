@@ -1,0 +1,15 @@
+---
+title: "About me"
+editor: visual
+---
+
+*\>Soy Biólogo Colombiano terminando su doctorado en el Instituto de Ecología A.C. en México* 🎓*. Mi trabajo se ha centrado en evaluar e interpretar los patrones de co-ocurrencia de mamíferos a través de datos de cámaras trampa. Desde mi maestría he usado intensamente modelos de ocupación, pero en general soy un aficionado a la bio-estadística* 👨‍💻*. Me apasiona la enseñanza de la estadística aplicada a la ecología y he participado en varios cursos enfocados en analizar datos de fototrampeo. Me obsesiona el R y lo uso para escribir, enseñar, analizar y visualizar datos de todo lo que se me ocurra.*
+
+<ul class="fa-ul">
+  <li><a href="https://scholar.google.com.mx/citations?user=tu7S2ZAAAAAJ&hl=es"><i class="fa-li ai ai-google-scholar" style="padding-top:3px;"></i>Google Scholar</a></li>
+  <li><a href="https://github.com/gpandradep"><i class="fa-li fa fa-github-alt" style="padding-top:3px;"></i>gpandradep on GitHub</a></li>
+</ul>
+
+## Otros intereses
+
+- Aficionado a los videojuegos, especialmente estrategia en tiempo real y aventura

@@ -1,0 +1,13 @@
+---
+title: "Publicaciones"
+listing:
+  contents: .
+  sort: "date desc"
+  categories: false
+  sort-ui: [date, title, author]
+  date-format: "YYYY"
+  page-size: 50
+sidebar: false
+page-layout: full
+
+---

@@ -1,0 +1,15 @@
+---
+date: "2016-10-03"
+title: "Estado de Conocimiento y prioridades de investigacion de Canidae, Mephitidae y Procyonidae en Colombia"
+categories:
+  - carnívoros
+  - Colombia
+  - artículo
+image: E_cono.png
+---
+
+## [Andrade Ponce, G. P., Montaño-Salazar, S. M., Riveros-Loaiza, L. M., Ramírez-Cháves, H. E., & Suárez-Castro, A. F. (2016). Estado del conocimiento y prioridades de investigación sobre las familias Canidae, Mephitidae y Procyonidae (Mammalia: Carnivora) en Colombia. Revista De La Academia Colombiana De Ciencias Exactas, Físicas Y Naturales, 40(156), 500--513. https://doi.org/10.18257/raccefyn.327](https://www.researchgate.net/publication/308963398_Estado_del_conocimiento_y_prioridades_de_investigacion_sobre_las_familias_Canidae_Mephitidae_y_Procyonidae_Mammalia_Carnivora_en_Colombia)
+
+A pesar de la gran diversidad de ecosistemas que habitan y de su importancia económica‚ ecológica y cultural‚ la información sobre las especies del orden Carnivora es escasa en Colombia. Con el fin de ejemplificar los sesgos y los avances en el conocimiento que se tiene sobre tres de las familias de Carnivora (Canidae, Mephitidae y Procyonidae) en el país, se evaluó el estado de la investigación sobre ellas con base en el número de publicaciones dedicadas a cada especie. Además, se estableció una escala de prioridades según el estado de amenaza y el esfuerzo de investigación de cada familia. Se encontraron 78 estudios sobre las tres familias y se constató que existen grandes vacíos relacionados con la ecología y la historia natural de la mayoría de las especies evaluadas, aun cuando el 80 % de ellas se registraron por primera vez a nivel nacional hace más de 60 años. La mayoría de los estudios relacionados con la distribución y los registros correspondió a la familia Procyonidae, en tanto que la mayor parte de los estudios ecológicos se registró en torno a la familia Canidae, específicamente sobre la especie Cerdocyon thous. Aunque la prioridad más alta correspondió a Bassaricyon neblina, la mayoría de los estudios sobre las demás especies correspondió a evaluaciones locales en escalas temporales y espaciales pequeñas. El presente estudio muestra que la asignación de algunas especies a las diferentes categorías de amenaza se ha basado en supuestos erróneos que no han sido verificados en campo. Además, la presunta ausencia de ciertas especies en algunas provincias biogeográficas es señal de la existencia de grandes vacíos de información. Esta revisión sirve como marco de referencia para priorizar las investigaciones sobre los patrones de distribución y el estado de amenaza de las especies de estas familias en el país.
+
+![](publications/E_cono.png)

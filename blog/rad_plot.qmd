@@ -1,0 +1,12 @@
+---
+date: "2022-05-10"
+title: "Gráfico de radar"
+categories:
+  - Gráficos
+  
+image: rad_plot.png
+---
+
+Pequeño tutorial para hacer gráfico de radar con datos de actividad de cámaras trampa
+
+[![](blog/rad_plot.png)](https://gpandradep.github.io/Grafico_roseta/)

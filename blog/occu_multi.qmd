@@ -1,0 +1,14 @@
+---
+date: "2022-04-30"
+title: "Modelos de ocupación para comunidades"
+categories:
+  - Modelos
+  - Comunidades
+  - Ocupación
+  
+image: occu_multi.png
+---
+
+Introducción a `DiversityOccupancy` y `camtrapR` para ajustar modelos de ocupación de comunidades para datos de fototrampeo.
+
+[![](blog/occu_multi.png)](https://gpandradep.github.io/Ocupacion_comunidades/)

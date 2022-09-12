@@ -1,0 +1,13 @@
+---
+date: "2022-06-08"
+title: "Independencia espacial"
+categories:
+  - autocorrelacion
+  - análisis
+  - Moran
+image: IN_esp.png
+---
+
+Esta es una introducción a la evaluación de la independencia espacial de datos de fototrampeo.
+
+[![](IN_esp.png)](https://introindependenciaespacial.netlify.app/)
