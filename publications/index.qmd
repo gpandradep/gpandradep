@@ -2,12 +2,15 @@
 title: "Publicaciones"
 listing:
   contents: .
+  type: table
+  fields: [image, date, title]
+  max-description-length: 60
   sort: "date desc"
   categories: false
-  sort-ui: [date, title, author]
+  sort-ui: [date, title]
   date-format: "YYYY"
   page-size: 50
 sidebar: false
-page-layout: full
+page-layout: article
 
 ---

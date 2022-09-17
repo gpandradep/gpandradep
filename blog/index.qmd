@@ -3,8 +3,8 @@ title: "Blog"
 description: Tutoriales, presentaciones y más
 listing:
   contents: .
-  sort: "date desc"
-  type: default
+  #sort: "date desc"
+  type: grid
   categories: cloud
   sort-ui: true
   filter-ui: true

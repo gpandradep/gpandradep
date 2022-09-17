@@ -1,0 +1,18 @@
+---
+date: "2015-01-01"
+title: "**Andrade-Ponce**, G.P., Jiménez-Ramírez, J.S., Montaño Salazar, S.M., Riveros Loaiza, L.M. (2015) Generalidades del orden Carnivora. En Los carnívoros terrestres y semiacuáticos continentales de Colombia // Guía de Campo. Ed Andrés F. Suárez-Castro, Héctor E. Ramírez-Chaves"
+categories:
+  - carnívoros
+  - Colombia
+  - libro
+image: img/AP_2015p.png
+---
+
+[**Andrade-Ponce**, G.P., Jiménez-Ramírez, J.S., Montaño Salazar, S.M., Riveros Loaiza, L.M. (2015) Generalidades del orden Carnivora. En Los carnívoros terrestres y semiacuáticos continentales de Colombia // Guía de Campo. Ed Andrés F. Suárez-Castro, Héctor E. Ramírez-Chaves](https://www.researchgate.net/publication/312373249_Generalidades_del_orden_Carnivora)
+
+![](img/AP_2015.png)
+
+
+Capítulo del libro **Los carnívoros terrestres y semiacuáticos continentales de Colombia // Guía de Campo**. Se presentan generalidades del orden, así como medidas morfométricas y de pesos de ejemplares depositados en la colección de mamíferos del Instituto de Ciencias Naturales de la Universidad Nacional de Colombia.
+
+

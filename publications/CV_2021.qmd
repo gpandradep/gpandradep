@@ -1,0 +1,15 @@
+---
+date: "2021-03-21"
+title: "Cudney-Valenzuela, S. J., Arroyo-Rodríguez, V., Andresen, E., Toledo-Aceves, T., Mora-Ardila, F., **Andrade-Ponce, G.**, & Mandujano, S. (2021). Does patch quality drive arboreal mammal assemblages in fragmented rainforests?"
+categories:
+  - mamíferos
+  - México
+  - artículo
+image: img/CV_2021p.png
+---
+
+[Cudney-Valenzuela, S. J., Arroyo-Rodríguez, V., Andresen, E., Toledo-Aceves, T., Mora-Ardila, F., **Andrade-Ponce, G.**, & Mandujano, S. (2021). Does patch quality drive arboreal mammal assemblages in fragmented rainforests?. Perspectives in Ecology and Conservation, 19(1), 61-68.](https://www.researchgate.net/publication/346791262_Does_patch_quality_drive_arboreal_mammal_assemblages_in_fragmented_rainforests)
+
+### Abstract
+
+Patch size is considered a major driver of species diversity in fragmented landscapes. Yet, assemblages of forest-dependent species, such as tropical arboreal mammals, can also depend on vegetation characteristics within the patch, i.e. patch quality. To test this, we assessed the influence of patch size and quality (measured through six attributes of vegetation structure) on arboreal mammals in 20 forest patches in the Lacandona rainforest – a biodiversity hotspot in the Mesoamerican Biological Corridor. We placed camera traps in 100 trees and registered arboreal mammals for one year. We used generalized linear models with a multimodel averaging approach and a distance-based redundancy analysis to identify the relative importance of patch size and quality on arboreal mammal diversity and composition. Species diversity was mainly and positively influenced by tree basal area – a vegetation attribute indicative of older and better-preserved forests – while species composition was driven by both patch size and quality. Patch size was negatively related to the abundance of kinkajous and Deppei’s squirrels, likely due to a higher density (and detectability) of individuals in small patches. The abundance of kinkajous and Deppei’s squirrels was lower in patches with higher tree density – an attribute typically related to forest disturbance. Therefore, to effectively preserve this highly endangered and ecologically relevant group of mammals both patch size and quality should be considered, paying special attention to the conservation of large trees.

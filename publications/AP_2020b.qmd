@@ -1,0 +1,21 @@
+---
+date: "2020-04-04"
+title: "**Andrade-Ponce, G. P.**, Montero-Bagatella, S. H., Durán-Antonio, J., González-Romero, A., & Gallina, S. (2020). Interaction between Ground Squirrels with rattlesnakes in arid zones"
+categories:
+  - roedores
+  - México
+  - artículo
+image: img/AP_2020bp.png
+---
+
+[**Andrade-Ponce, G. P.**, Montero-Bagatella, S. H., Durán-Antonio, J., González-Romero, A., & Gallina, S. (2020). Interaction between Ground Squirrels with rattlesnakes in arid zones. Therya Notes, 1, 11-13.](https://www.researchgate.net/publication/340479791_Interaction_between_Ground_Squirrels_with_rattlesnakes_in_arid_zones)
+
+![](img/AP_2020b.png)
+
+### Resumen
+
+La depredación de ardillas terrestres por serpientes de cascabel ha influido en el desarrollo de estrategias antidepredatorias especializadas por parte de las ardillas. En esta nota se describen dos casos de encuentros de ardillas con serpientes de cascabel, capturados fotográficamente en México. El primer evento es la interacción entre un individuo de *Xerospermophilus spilosoma* y uno de *Crotalus atrox* en la Reserva de la Biósfera de Mapimí, Durango, zona árida del Desierto Chihuahuense al norte del país. El segundo evento lo componen dos individuos de *X. perotensis* y uno de *C. scutulatus salvini* en el Valle de Perote, zona semiárida de Veracruz. Ambas especies de ardillas presentaron comportamientos antidepredadores reportados para su género, así como la capacidad para identificar a las serpientes y transmitir el estado de alerta a sus congéneres; por lo que estas observaciones contribuyen con el conocimiento de la historia natural de dichas especies.
+
+### Abstract
+
+The predation of ground squirrels by rattlesnakes has influenced the development of specialized anti-predatory strategies by squirrels. This note describes two cases of encounters of squirrels with rattlesnakes in México, captured photographically. The first event is the interaction between an individual of *Xerospermophilus spilosoma* and one of *Crotalus atrox* in the Mapimí Biosphere Reserve, Durango, an arid area of the Chihuahuan Desert in northern México. The second event involved two individuals of *X. perotensis* and one of *C. scutulatus salvini* in the Perote Valley, a semi-arid zone of Veracruz. Both squirrel species displayed anti-predation behaviors reported for the genus, as well as the ability to spot snakes and communicate the alert status to other group members; thus, these observations contributes to the knowledge of the natural history of these species.
