@@ -26,4 +26,14 @@ Xalapa, México
 
 ------------------------------------------------------------------------
 
-*Soy Biólogo Colombiano terminando su doctorado en el Instituto de Ecología A.C. en México* 🎓*. Mi trabajo se ha centrado en evaluar e interpretar los patrones de co-ocurrencia de mamíferos a través de datos de cámaras trampa. Desde mi maestría he usado intensamente modelos de ocupación, pero en general soy un aficionado a la bio-estadística* 👨‍💻*. Me apasiona la enseñanza de la estadística aplicada a la ecología y he participado en varios cursos enfocados en analizar datos de fototrampeo. Me obsesiona el R y lo uso para escribir, enseñar, analizar y visualizar datos de todo lo que se me ocurra. En mi tiempo libre soy un videojugador empedernido :D.*
+Hola a todos, bienvenidos a mi página personal. Aquí pueden encontrar mis redes sociales, pero también:
+
+-   [Más información y mi cv](https://gpandradep.github.io/gpandradep/about/)
+
+-   [En mi blog encontrarán tutoriales de R, en mayor parte de análisis estadísticos usando datos de cámaras trampa.](https://gpandradep.github.io/gpandradep/blog/)
+
+-   [Mis publicaciones y colaboraciones.](https://gpandradep.github.io/gpandradep/publications/)
+
+Sean libres de contactarme si tienen dudas, comentarios o precisiones sobre el contenido. Siempre que tenga tiempo trataré de ayudar a quien tenga dudas, e incluso colaborar.
+
+Actualmente estoy terminando mi doctorado, por lo que empezaré la búsqueda de **Posdoc**. Si saben o tienen de un proyecto en el que pueda ser de utilidad como ***Posdoc***, no duden en contactarme.

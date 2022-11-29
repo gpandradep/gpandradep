@@ -4,26 +4,26 @@
     "href": "index.html",
     "title": "Gabriel Andrade-Ponce",
     "section": "",
-    "text": "Biólogo - Universidad Nacional de Colombia\nMaestro en Ciencias - Instituto de Ecología A. C.\nEstudiante de Doctorado - Instituto de Ecología A. C.\nXalapa, México\n\nSoy Biólogo Colombiano terminando su doctorado en el Instituto de Ecología A.C. en México 🎓. Mi trabajo se ha centrado en evaluar e interpretar los patrones de co-ocurrencia de mamíferos a través de datos de cámaras trampa. Desde mi maestría he usado intensamente modelos de ocupación, pero en general soy un aficionado a la bio-estadística 👨‍💻. Me apasiona la enseñanza de la estadística aplicada a la ecología y he participado en varios cursos enfocados en analizar datos de fototrampeo. Me obsesiona el R y lo uso para escribir, enseñar, analizar y visualizar datos de todo lo que se me ocurra. En mi tiempo libre soy un videojugador empedernido :D."
+    "text": "Gabriel Andrade-Ponce \nBiólogo - Universidad Nacional de Colombia\nMaestro en Ciencias - Instituto de Ecología A. C.\nEstudiante de Doctorado - Instituto de Ecología A. C.\nXalapa, México\n\nHola a todos, bienvenidos a mi página personal. Aquí pueden encontrar mis redes sociales, pero también:\n\nMás información y mi cv\nEn mi blog encontrarán tutoriales de R, en mayor parte de análisis estadísticos usando datos de cámaras trampa.\nMis publicaciones y colaboraciones.\n\nSean libres de contactarme si tienen dudas, comentarios o precisiones sobre el contenido. Siempre que tenga tiempo trataré de ayudar a quien tenga dudas, e incluso colaborar.\nActualmente estoy terminando mi doctorado, por lo que empezaré la búsqueda de Posdoc. Si saben o tienen de un proyecto en el que pueda ser de utilidad como Posdoc, no duden en contactarme."
   },
   {
     "objectID": "blog/index.html",
     "href": "blog/index.html",
     "title": "Blog",
     "section": "",
-    "text": "Order By\n       Default\n         \n          Title\n        \n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n         \n          Author\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\n\n\n\n\n\n\n\nautocorrelacion\n\n\nanálisis\n\n\nMoran\n\n\n\n\n\n\n\n\n\n\n8 June 2022\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nGráficos\n\n\n\n\n\n\n\n\n\n\n10 May 2022\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nModelos\n\n\nComunidades\n\n\nOcupación\n\n\n\n\n\n\n\n\n\n\n30 April 2022\n\n\n\n\n\n\n\n\nNo matching items"
+    "text": "Order By\n       Default\n         \n          Title\n        \n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n         \n          Author\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\n\n\n\n\n\n\n\nCámaras trampa\n\n\nAnálisis\n\n\n\nQue es el RAI? paraque sirve y para que no?\n\n\n\n\n\n\n12 October 2022\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nCámaras trampa\n\n\nAnálisis\n\n\nComunidades\n\n\n\nMuchos índices, ¿Cuál usar?\n\n\n\n\n\n\n12 October 2022\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nautocorrelacion\n\n\nanálisis\n\n\nMoran\n\n\n\nVerificando la autocorrelación espacial\n\n\n\n\n\n\n8 June 2022\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nGráficos\n\n\n\nSimplemente hacer gráficos de radar lindos\n\n\n\n\n\n\n10 May 2022\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nModelos\n\n\nComunidades\n\n\nOcupación\n\n\n\nAjusta modelos de ocupación para comunidades\n\n\n\n\n\n\n30 April 2022\n\n\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "about/index.html",
     "href": "about/index.html",
-    "title": "About me",
+    "title": "Gabriel Andrade-Ponce",
     "section": "",
-    "text": ">Soy Biólogo Colombiano terminando su doctorado en el Instituto de Ecología A.C. en México 🎓. Mi trabajo se ha centrado en evaluar e interpretar los patrones de co-ocurrencia de mamíferos a través de datos de cámaras trampa. Desde mi maestría he usado intensamente modelos de ocupación, pero en general soy un aficionado a la bio-estadística 👨‍💻. Me apasiona la enseñanza de la estadística aplicada a la ecología y he participado en varios cursos enfocados en analizar datos de fototrampeo. Me obsesiona el R y lo uso para escribir, enseñar, analizar y visualizar datos de todo lo que se me ocurra."
+    "text": "Soy biólogo colombiano 🇨🇴 y estudiante de doctorado del Instituto de Ecología A.C. 🇲🇽. Mi trabajo se ha centrado en el uso de modelos jerárquicos para estimar e interpretar la co-ocurrencia espacial de mamíferos, a partir de cámaras trampa 🐺🐱🐇.\nSoy un entusiasta de aprender y usar la estadística 👨‍💻 para resolver problemas y preguntas sobre ecología de mamíferos (aunque en general puede ser de cualquier bicho).\nMe apasiona la enseñanza y he participado en varios talleres como profesor y coordinador. En los talleres he tratado temas que abarcan desde la organización de datos, hasta análisis de ocupación, diversidad y algo de estadística espacial. Parte de lo que doy en los cursos lo pueden ver en la sección de blog. Eso sí, todo lo hacemos en R. Olvidé mencionar que me obsesiona el R y lo uso para escribir, enseñar, analizar y visualizar datos de todo lo que se me ocurra."
   },
   {
     "objectID": "about/index.html#otros-intereses",
     "href": "about/index.html#otros-intereses",
-    "title": "About me",
+    "title": "Gabriel Andrade-Ponce",
     "section": "Otros intereses",
     "text": "Otros intereses\n\nAficionado a los videojuegos, especialmente estrategia en tiempo real y aventura"
   },
@@ -46,7 +46,7 @@
     "href": "blog/rad_plot.html",
     "title": "Gráfico de radar",
     "section": "",
-    "text": "Pequeño tutorial para hacer gráfico de radar con datos de actividad de cámaras trampa"
+    "text": "Pequeño tutorial para hacer gráfico de radar con datos de actividad de cámaras trampa."
   },
   {
     "objectID": "publications/AP_2015.html",
@@ -124,5 +124,33 @@
     "title": "Publicaciones",
     "section": "",
     "text": "Order By\n       Default\n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n         \n          Title\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\n\n\n\nDate\n\n\nTitle\n\n\n\n\n\n\n\n\n\n2022\n\n\nAndrade-Ponce, G.P., Mandujano, S., Dáttilo, W., Farías-González, V., Jiménez, J., Velásquez-C, K. and Zavaleta, A. (2022), A framework to interpret co-occurrence patterns from camera trap data: The case of the gray fox, the bobcat, and the eastern cottontail rabbit in a tropical dry habitat\n\n\n\n\n\n\n\n2021\n\n\nAndrade-Ponce, G., Cepeda-Duque, J. C., Mandujano, S., Velásquez-C, K. L., Lizcano, D. J., & Gómez-Valencia, B. (2021). Modelos de ocupación para datos de cámaras trampa\n\n\n\n\n\n\n\n2021\n\n\nCudney-Valenzuela, S. J., Arroyo-Rodríguez, V., Andresen, E., Toledo-Aceves, T., Mora-Ardila, F., Andrade-Ponce, G., & Mandujano, S. (2021). Does patch quality drive arboreal mammal assemblages in fragmented rainforests?\n\n\n\n\n\n\n\n2020\n\n\nHernández-Gómez, C. A., Andrade-Ponce, G. P., Velásquez-C., K. L., & Mandujano, S. (2020). Uso de bebederos artificiales por pequeños roedores en un bosque tropical seco en Oaxaca, México\n\n\n\n\n\n\n\n2020\n\n\nAndrade-Ponce, G. (2020). Registros de mamíferos terrestres en un salado natural del Resguardo Indígena Nonuya-Villazul departamento del Amazonas, Colombia\n\n\n\n\n\n\n\n2020\n\n\nAndrade-Ponce, G. P., Montero-Bagatella, S. H., Durán-Antonio, J., González-Romero, A., & Gallina, S. (2020). Interaction between Ground Squirrels with rattlesnakes in arid zones\n\n\n\n\n\n\n\n2020\n\n\nAndrade-Ponce, G. P., Gallina, S., Gómez-Valencia, B., & Lira-Noriega, A. (2020). Coexistencia de Vulpes macrotis y Canis latrans (Carnivora: Canidae) en la Reserva de la Biosfera de Mapimí, México\n\n\n\n\n\n\n\n\n2017\n\n\nAndrade-Ponce, G.P & Angarita-Sierra, T. (2017). Notable altitudinal range expansion of Lontra longicaudis (Carnivora: Mustelidae) in Colombia\n\n\n\n\n\n\n\n2016\n\n\nAndrade Ponce, G. P., Montaño-Salazar, S. M., Riveros-Loaiza, L. M., Ramírez-Cháves, H. E., & Suárez-Castro, A. F. (2016). Estado del conocimiento y prioridades de investigación sobre las familias Canidae, Mephitidae y Procyonidae (Mammalia: Carnivora) en Colombia\n\n\n\n\n\n\n\n2015\n\n\nAndrade-Ponce, G.P., Jiménez-Ramírez, J.S., Montaño Salazar, S.M., Riveros Loaiza, L.M. (2015) Generalidades del orden Carnivora. En Los carnívoros terrestres y semiacuáticos continentales de Colombia // Guía de Campo. Ed Andrés F. Suárez-Castro, Héctor E. Ramírez-Chaves\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "blog/iar.html",
+    "href": "blog/iar.html",
+    "title": "Indice de ¿abundancia? relativa (RAI)",
+    "section": "",
+    "text": "Cómo parte de los cursos pre-congreso del XV Congreso Nacional de Mastozoología, Chihuahua 2022. Un pequeño tutorial sobre el famoso índice de abundancia relativa, su utilidad y sus riesgos."
+  },
+  {
+    "objectID": "blog/riquybiodiver.html",
+    "href": "blog/riquybiodiver.html",
+    "title": "Introdución al análisis de diversidad taxonómica",
+    "section": "",
+    "text": "Cómo parte de los cursos pre-congreso del XV Congreso Nacional de Mastozoología, Chihuahua 2022. Guía introductoria de las consideraciones prácticas y conceptuales para medir la diversidad taxonómica de especies. En este caso usaremos datos de cámaras trampa."
+  },
+  {
+    "objectID": "about/index.html#cv",
+    "href": "about/index.html#cv",
+    "title": "Gabriel Andrade-Ponce",
+    "section": "CV",
+    "text": "CV\nCV formato html \nCV en PDF"
+  },
+  {
+    "objectID": "about/index.html#sociales",
+    "href": "about/index.html#sociales",
+    "title": "Gabriel Andrade-Ponce",
+    "section": "Sociales",
+    "text": "Sociales\n\n\n  @Gatorco_AP\n   Gabriel Andrade-Ponce\n   gpandradep\n\n   gpandradep\n   Google Scholar\n   Researchgate"
   }
 ]

@@ -1,6 +1,7 @@
 ---
 date: "2022-06-08"
 title: "Independencia espacial"
+description: "Verificando la autocorrelación espacial"
 categories:
   - autocorrelacion
   - análisis

@@ -1,0 +1,15 @@
+---
+date: "2022-10-12"
+title: "Introdución al análisis de diversidad taxonómica"
+description: "Muchos índices, ¿Cuál usar?"
+categories:
+  - Cámaras trampa
+  - Análisis
+  - Comunidades
+  
+image: riquezaydiversidad.png
+---
+
+Cómo parte de los cursos pre-congreso del XV Congreso Nacional de Mastozoología, Chihuahua 2022. Guía introductoria de las consideraciones prácticas y conceptuales para medir la diversidad taxonómica de especies. En este caso usaremos datos de cámaras trampa.
+
+[![](riquezaydiversidad.png)](https://gpandradep.github.io/Curso-Congreso-Chihuahhua/Diversidad%20Congreso.html)

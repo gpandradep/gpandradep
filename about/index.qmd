@@ -1,17 +1,46 @@
 ---
-title: "About me"
+title: ""
 editor: visual
 ---
 
-*\>Soy Biólogo Colombiano terminando su doctorado en el Instituto de Ecología A.C. en México* 🎓*. Mi trabajo se ha centrado en evaluar e interpretar los patrones de co-ocurrencia de mamíferos a través de datos de cámaras trampa. Desde mi maestría he usado intensamente modelos de ocupación, pero en general soy un aficionado a la bio-estadística* 👨‍💻*. Me apasiona la enseñanza de la estadística aplicada a la ecología y he participado en varios cursos enfocados en analizar datos de fototrampeo. Me obsesiona el R y lo uso para escribir, enseñar, analizar y visualizar datos de todo lo que se me ocurra.*
+## Sobre mí
 
-<ul class="fa-ul">
+Soy biólogo colombiano 🇨🇴 y estudiante de doctorado del Instituto de Ecología A.C. 🇲🇽. Mi trabajo se ha centrado en el uso de modelos jerárquicos para estimar e interpretar la co-ocurrencia espacial de mamíferos, a partir de cámaras trampa 🐺🐱🐇.
 
-<li><a href="https://scholar.google.com.mx/citations?user=tu7S2ZAAAAAJ&hl=es"><i class="fa-li ai ai-google-scholar" style="padding-top:3px;"></i>Google Scholar</a></li>
+Soy un entusiasta de aprender y usar la estadística 👨‍💻 para resolver problemas y preguntas sobre ecología de mamíferos (aunque en general puede ser de cualquier bicho).
 
-<li><a href="https://github.com/gpandradep"><i class="fa-li fa fa-github-alt" style="padding-top:3px;"></i>gpandradep on GitHub</a></li>
+Me apasiona la enseñanza y he participado en varios talleres como profesor y coordinador. En los talleres he tratado temas que abarcan desde la organización de datos, hasta análisis de ocupación, diversidad y algo de estadística espacial. Parte de lo que doy en los cursos lo pueden ver en la sección de blog. Eso sí, todo lo hacemos en R. Olvidé mencionar que me obsesiona el R y lo uso para escribir, enseñar, analizar y visualizar datos de todo lo que se me ocurra.
 
-</ul>
+## CV
+
+[CV formato html {{< fa file-code size= 1.8x >}}](https://htmlpreview.github.io/?https://raw.githubusercontent.com/gpandradep/CV/master/cv.html)
+
+[CV en PDF {{< fa file-pdf size= 1.8x >}}](https://github.com/gpandradep/CV/raw/master/Gabriel%20Andrade%20Ponce%E2%80%99s%20CV.pdf)
+
+## Sociales
+
+:::: {.columns}
+
+::: {.column width="50%"}
+
+<span style="color:Dodgerblue">{{< fa brands twitter size= 2x >}} </span> [\@Gatorco_AP](https://twitter.com/Gatorco_AP)
+
+<span style="color:DeepSkyBlue">{{< fa brands facebook size= 2x >}} </span> [\ Gabriel Andrade-Ponce](https://www.facebook.com/patrick.l.ponce)
+
+<span style="color:LightSalmon">{{< fa brands instagram size= 2x >}} </span> [\ gpandradep](https://www.instagram.com/gatorcandrade/)
+:::
+
+::: {.column width="50%"}
+
+<span style="color:black">{{< fa brands github size= 2x >}} </span> [\ gpandradep](https://github.com/gpandradep)
+
+<span style="color:black">{{< ai google-scholar size= 2x >}} </span> [\ Google Scholar](https://scholar.google.com.mx/citations?user=tu7S2ZAAAAAJ&hl=es)
+
+<span style="color:DarkTurquoise">{{< fa brands researchgate size= 2x >}} </span> [\ Researchgate](https://www.researchgate.net/profile/Gabriel-Andrade-Ponce)
+:::
+::::
+
+
 
 ## Otros intereses
 

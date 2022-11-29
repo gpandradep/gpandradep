@@ -1,0 +1,14 @@
+---
+date: "2022-10-12"
+title: "Indice de ¿abundancia? relativa (RAI)"
+description: "Que es el RAI? paraque sirve y para que no?"
+categories:
+  - Cámaras trampa
+  - Análisis
+  
+image: iar_plot.png
+---
+
+Cómo parte de los cursos pre-congreso del XV Congreso Nacional de Mastozoología, Chihuahua 2022. Un pequeño tutorial sobre el famoso índice de abundancia relativa, su utilidad y sus riesgos.
+
+[![](iar_plot.png){width="636"}](https://gpandradep.github.io/Curso-Congreso-Chihuahhua/IAR_doc.html)
