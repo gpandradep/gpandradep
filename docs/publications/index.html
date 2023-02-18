@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-0.9.515">
+<meta name="generator" content="quarto-1.2.269">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -11,10 +11,15 @@
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
-span.underline{text-decoration: underline;}
-div.column{display: inline-block; vertical-align: top; width: 50%;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
 div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
 ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1.6em;
+  vertical-align: middle;
+}
 </style>
 
 
@@ -35,7 +40,7 @@ ul.task-list{list-style: none;}
 <link href="../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -77,6 +82,12 @@ ul.task-list{list-style: none;}
       window['quarto-listing-loaded']();
     }
   });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
   </script>
 <link href="https://fonts.googleapis.com/css?family=Fira+Sans|Merriweather" rel="stylesheet">
 <script src="https://kit.fontawesome.com/0fba9333d8.js" crossorigin="anonymous"></script>
@@ -108,22 +119,27 @@ ul.task-list{list-style: none;}
   <header id="quarto-header" class="headroom fixed-top">
     <nav class="navbar navbar-expand-lg navbar-dark ">
       <div class="navbar-container container-fluid">
-      <a class="navbar-brand" href="../index.html">
+      <div class="navbar-brand-container">
+    <a class="navbar-brand" href="../index.html">
     <span class="navbar-title">Gabriel Andrade-Ponce</span>
-  </a>
+    </a>
+  </div>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
   <span class="navbar-toggler-icon"></span>
 </button>
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link" href="../about/index.html">About</a>
+    <a class="nav-link" href="../about/index.html">
+ <span class="menu-text">Sobre mi</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../blog/index.html">Blog</a>
+    <a class="nav-link" href="../blog/index.html">
+ <span class="menu-text">Blog</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link active" href="../publications/index.html" aria-current="page">Publicaciones</a>
+    <a class="nav-link active" href="../publications/index.html" aria-current="page">
+ <span class="menu-text">Publicaciones</span></a>
   </li>  
 </ul>
               <div id="quarto-search" class="" title="Search"></div>
@@ -151,6 +167,7 @@ ul.task-list{list-style: none;}
 <div class="quarto-title-meta">
 
     
+  
     
   </div>
   
@@ -199,7 +216,7 @@ ul.task-list{list-style: none;}
 </tr>
 </thead>
 <tbody class="list">
-<tr data-index="0" data-categories="mamíferos,ocupacion,artículo" data-listing-date-sort="1660971600000" data-listing-file-modified-sort="1663374868162" data-listing-reading-time-sort="2.925" data-listing-title-sort="**Andrade-Ponce, G.P.**, Mandujano, S., Dáttilo, W., Farías-González, V., Jiménez, J., Velásquez-C, K. and Zavaleta, A. (2022), A framework to interpret co-occurrence patterns from camera trap data: The case of the gray fox, the bobcat, and the eastern cottontail rabbit in a tropical dry habitat" data-listing-filename-sort="AP_2022.qmd">
+<tr data-index="0" data-categories="mamíferos,ocupacion,artículo" data-listing-date-sort="1660971600000" data-listing-file-modified-sort="1676700520075" data-listing-reading-time-sort="2.93" data-listing-title-sort="**Andrade-Ponce, G.P.**, Mandujano, S., Dáttilo, W., Farías-González, V., Jiménez, J., Velásquez-C, K. and Zavaleta, A. (2022), A framework to interpret co-occurrence patterns from camera trap data: The case of the gray fox, the bobcat, and the eastern cottontail rabbit in a tropical dry habitat" data-listing-filename-sort="AP_2022.qmd">
 <td class="listing-image">
 <img src="../publications/img/AP_2022p.png" style="height: 40px;">
 </td>
@@ -210,7 +227,7 @@ ul.task-list{list-style: none;}
 <a href="../publications/AP_2022.html" class="title"><strong>Andrade-Ponce, G.P.</strong>, Mandujano, S., Dáttilo, W., Farías-González, V., Jiménez, J., Velásquez-C, K. and Zavaleta, A. (2022), A framework to interpret co-occurrence patterns from camera trap data: The case of the gray fox, the bobcat, and the eastern cottontail rabbit in a tropical dry habitat</a>
 </td>
 </tr>
-<tr data-index="1" data-categories="fototrampeo,ocupacion,artículo" data-listing-date-sort="1622782800000" data-listing-file-modified-sort="1663374848083" data-listing-reading-time-sort="2.115" data-listing-title-sort="**Andrade-Ponce, G**., Cepeda-Duque, J. C., Mandujano, S., Velásquez-C, K. L., Lizcano, D. J., &amp; Gómez-Valencia, B. (2021). Modelos de ocupación para datos de cámaras trampa" data-listing-filename-sort="AP_2021.qmd">
+<tr data-index="1" data-categories="fototrampeo,ocupacion,artículo" data-listing-date-sort="1622782800000" data-listing-file-modified-sort="1676700470644" data-listing-reading-time-sort="1.955" data-listing-title-sort="**Andrade-Ponce, G**., Cepeda-Duque, J. C., Mandujano, S., Velásquez-C, K. L., Lizcano, D. J., &amp; Gómez-Valencia, B. (2021). Modelos de ocupación para datos de cámaras trampa" data-listing-filename-sort="AP_2021.qmd">
 <td class="listing-image">
 <img src="../publications/img/AP_2021p.png" style="height: 40px;">
 </td>
@@ -232,7 +249,7 @@ ul.task-list{list-style: none;}
 <a href="../publications/CV_2021.html" class="title">Cudney-Valenzuela, S. J., Arroyo-Rodríguez, V., Andresen, E., Toledo-Aceves, T., Mora-Ardila, F., <strong>Andrade-Ponce, G.</strong>, &amp; Mandujano, S. (2021). Does patch quality drive arboreal mammal assemblages in fragmented rainforests?</a>
 </td>
 </tr>
-<tr data-index="3" data-categories="roedores,México,artículo" data-listing-date-sort="1601182800000" data-listing-file-modified-sort="1663374778633" data-listing-reading-time-sort="2.31" data-listing-title-sort="Hernández-Gómez, C. A., **Andrade-Ponce, G. P**., Velásquez-C., K. L., &amp; Mandujano, S. (2020). Uso de bebederos artificiales por pequeños roedores en un bosque tropical seco en Oaxaca, México" data-listing-filename-sort="AP_2020d.qmd">
+<tr data-index="3" data-categories="roedores,México,artículo" data-listing-date-sort="1601182800000" data-listing-file-modified-sort="1676700289211" data-listing-reading-time-sort="2.04" data-listing-title-sort="Hernández-Gómez, C. A., **Andrade-Ponce, G. P**., Velásquez-C., K. L., &amp; Mandujano, S. (2020). Uso de bebederos artificiales por pequeños roedores en un bosque tropical seco en Oaxaca, México" data-listing-filename-sort="AP_2020d.qmd">
 <td class="listing-image">
 <img src="../publications/img/AP_2020dp.png" style="height: 40px;">
 </td>
@@ -243,7 +260,7 @@ ul.task-list{list-style: none;}
 <a href="../publications/AP_2020d.html" class="title">Hernández-Gómez, C. A., <strong>Andrade-Ponce, G. P</strong>., Velásquez-C., K. L., &amp; Mandujano, S. (2020). Uso de bebederos artificiales por pequeños roedores en un bosque tropical seco en Oaxaca, México</a>
 </td>
 </tr>
-<tr data-index="4" data-categories="salados,Colombia,artículo" data-listing-date-sort="1589000400000" data-listing-file-modified-sort="1663374749287" data-listing-reading-time-sort="1.64" data-listing-title-sort="**Andrade-Ponce, G.** (2020). Registros de mamíferos terrestres en un salado natural del Resguardo Indígena Nonuya-Villazul departamento del Amazonas, Colombia" data-listing-filename-sort="AP_2020c.qmd">
+<tr data-index="4" data-categories="salados,Colombia,artículo" data-listing-date-sort="1589000400000" data-listing-file-modified-sort="1676700238488" data-listing-reading-time-sort="1.645" data-listing-title-sort="**Andrade-Ponce, G.** (2020). Registros de mamíferos terrestres en un salado natural del Resguardo Indígena Nonuya-Villazul departamento del Amazonas, Colombia" data-listing-filename-sort="AP_2020c.qmd">
 <td class="listing-image">
 <img src="../publications/img/AP_2020cp.png" style="height: 40px;">
 </td>
@@ -254,7 +271,7 @@ ul.task-list{list-style: none;}
 <a href="../publications/AP_2020c.html" class="title"><strong>Andrade-Ponce, G.</strong> (2020). Registros de mamíferos terrestres en un salado natural del Resguardo Indígena Nonuya-Villazul departamento del Amazonas, Colombia</a>
 </td>
 </tr>
-<tr data-index="5" data-categories="roedores,México,artículo" data-listing-date-sort="1585980000000" data-listing-file-modified-sort="1663374720047" data-listing-reading-time-sort="1.515" data-listing-title-sort="**Andrade-Ponce, G. P.**, Montero-Bagatella, S. H., Durán-Antonio, J., González-Romero, A., &amp; Gallina, S. (2020). Interaction between Ground Squirrels with rattlesnakes in arid zones" data-listing-filename-sort="AP_2020b.qmd">
+<tr data-index="5" data-categories="roedores,México,artículo" data-listing-date-sort="1585980000000" data-listing-file-modified-sort="1676700176406" data-listing-reading-time-sort="1.52" data-listing-title-sort="**Andrade-Ponce, G. P.**, Montero-Bagatella, S. H., Durán-Antonio, J., González-Romero, A., &amp; Gallina, S. (2020). Interaction between Ground Squirrels with rattlesnakes in arid zones" data-listing-filename-sort="AP_2020b.qmd">
 <td class="listing-image">
 <img src="../publications/img/AP_2020bp.png" style="height: 40px;">
 </td>
@@ -265,7 +282,7 @@ ul.task-list{list-style: none;}
 <a href="../publications/AP_2020b.html" class="title"><strong>Andrade-Ponce, G. P.</strong>, Montero-Bagatella, S. H., Durán-Antonio, J., González-Romero, A., &amp; Gallina, S. (2020). Interaction between Ground Squirrels with rattlesnakes in arid zones</a>
 </td>
 </tr>
-<tr data-index="6" data-categories="carnívoros,México,artículo,ocupación" data-listing-date-sort="1584079200000" data-listing-file-modified-sort="1663374695212" data-listing-reading-time-sort="1.955" data-listing-title-sort="**Andrade-Ponce, G. P.**, Gallina, S., Gómez-Valencia, B., &amp; Lira-Noriega, A. (2020). Coexistencia de *Vulpes macrotis* y *Canis latrans* (Carnivora: Canidae) en la Reserva de la Biosfera de Mapimí, México" data-listing-filename-sort="AP_2020.qmd">
+<tr data-index="6" data-categories="carnívoros,México,artículo,ocupación" data-listing-date-sort="1584079200000" data-listing-file-modified-sort="1676700113217" data-listing-reading-time-sort="1.96" data-listing-title-sort="**Andrade-Ponce, G. P.**, Gallina, S., Gómez-Valencia, B., &amp; Lira-Noriega, A. (2020). Coexistencia de *Vulpes macrotis* y *Canis latrans* (Carnivora: Canidae) en la Reserva de la Biosfera de Mapimí, México" data-listing-filename-sort="AP_2020.qmd">
 <td class="listing-image">
 <img src="../publications/img/AP_2020p.png" style="height: 40px;">
 </td>
@@ -277,7 +294,7 @@ ul.task-list{list-style: none;}
 </td>
 </tr>
 
-<tr data-index="7" data-categories="carnívoros,Colombia,artículo" data-listing-date-sort="1484287200000" data-listing-file-modified-sort="1663374676808" data-listing-reading-time-sort="2.71" data-listing-title-sort="**Andrade-Ponce, G.P** &amp; Angarita-Sierra, T. (2017). Notable altitudinal range expansion of *Lontra longicaudis* (Carnivora: Mustelidae) in Colombia" data-listing-filename-sort="AP_2017.qmd">
+<tr data-index="7" data-categories="carnívoros,Colombia,artículo" data-listing-date-sort="1484287200000" data-listing-file-modified-sort="1676700034460" data-listing-reading-time-sort="2.715" data-listing-title-sort="**Andrade-Ponce, G.P** &amp; Angarita-Sierra, T. (2017). Notable altitudinal range expansion of *Lontra longicaudis* (Carnivora: Mustelidae) in Colombia" data-listing-filename-sort="AP_2017.qmd">
 <td class="listing-image">
 <img src="../publications/img/AP_2017p.png" style="height: 40px;">
 </td>
@@ -319,6 +336,24 @@ No matching items
 </div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
   const icon = "";
   const anchorJS = new window.AnchorJS();
   anchorJS.options = {
@@ -340,7 +375,24 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     button.classList.add('code-copy-button-checked');
     var currentTitle = button.getAttribute("title");
     button.setAttribute("title", "Copied!");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "Copied!");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
     setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
       button.setAttribute("title", currentTitle);
       button.classList.remove('code-copy-button-checked');
     }, 1000);
@@ -368,31 +420,50 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   for (var i=0; i<noterefs.length; i++) {
     const ref = noterefs[i];
     tippyHover(ref, function() {
-      let href = ref.getAttribute('href');
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
       try { href = new URL(href).hash; } catch {}
       const id = href.replace(/^#\/?/, "");
       const note = window.document.getElementById(id);
       return note.innerHTML;
     });
   }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
   var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
   for (var i=0; i<bibliorefs.length; i++) {
     const ref = bibliorefs[i];
-    const cites = ref.parentNode.getAttribute('data-cites').split(' ');
-    tippyHover(ref, function() {
-      var popup = window.document.createElement('div');
-      cites.forEach(function(cite) {
-        var citeDiv = window.document.createElement('div');
-        citeDiv.classList.add('hanging-indent');
-        citeDiv.classList.add('csl-entry');
-        var biblioDiv = window.document.getElementById('ref-' + cite);
-        if (biblioDiv) {
-          citeDiv.innerHTML = biblioDiv.innerHTML;
-        }
-        popup.appendChild(citeDiv);
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
       });
-      return popup.innerHTML;
-    });
+    }
   }
 });
 </script>

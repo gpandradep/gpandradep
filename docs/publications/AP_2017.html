@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-0.9.515">
+<meta name="generator" content="quarto-1.2.269">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -12,10 +12,15 @@
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
-span.underline{text-decoration: underline;}
-div.column{display: inline-block; vertical-align: top; width: 50%;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
 div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
 ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1.6em;
+  vertical-align: middle;
+}
 </style>
 
 
@@ -34,7 +39,7 @@ ul.task-list{list-style: none;}
 <link href="../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -68,22 +73,27 @@ ul.task-list{list-style: none;}
   <header id="quarto-header" class="headroom fixed-top">
     <nav class="navbar navbar-expand-lg navbar-dark ">
       <div class="navbar-container container-fluid">
-      <a class="navbar-brand" href="../index.html">
+      <div class="navbar-brand-container">
+    <a class="navbar-brand" href="../index.html">
     <span class="navbar-title">Gabriel Andrade-Ponce</span>
-  </a>
+    </a>
+  </div>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
   <span class="navbar-toggler-icon"></span>
 </button>
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link" href="../about/index.html">About</a>
+    <a class="nav-link" href="../about/index.html">
+ <span class="menu-text">About</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../blog/index.html">Blog</a>
+    <a class="nav-link" href="../blog/index.html">
+ <span class="menu-text">Blog</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../publications/index.html">Publicaciones</a>
+    <a class="nav-link" href="../publications/index.html">
+ <span class="menu-text">Publicaciones</span></a>
   </li>  
 </ul>
               <div id="quarto-search" class="" title="Search"></div>
@@ -96,14 +106,7 @@ ul.task-list{list-style: none;}
 <!-- sidebar -->
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        <nav id="TOC" role="doc-toc">
-    <h2 id="toc-title">On this page</h2>
-   
-  <ul>
-  <li><a href="#resumen" id="toc-resumen" class="nav-link active" data-scroll-target="#resumen">Resumen</a></li>
-  <li><a href="#abstract" id="toc-abstract" class="nav-link" data-scroll-target="#abstract">Abstract</a></li>
-  </ul>
-</nav>
+        
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
@@ -129,6 +132,7 @@ ul.task-list{list-style: none;}
       <p class="date">13 January 2017</p>
     </div>
   </div>
+  
     
   </div>
   
@@ -137,20 +141,41 @@ ul.task-list{list-style: none;}
 
 <p><a href="https://www.researchgate.net/publication/312373252_Notable_altitudinal_range_expansion_of_Lontra_longicaudis_Carnivora_Mustelidae_in_Colombian_Paramos"><strong>Andrade-Ponce, G.P</strong> &amp; Angarita-Sierra, T. (2017). Notable altitudinal range expansion of <em>Lontra longicaudis</em> (Carnivora: Mustelidae) in Colombia. Therya, 8(1)</a></p>
 <p><img src="img/AP_2017.png" class="img-fluid"></p>
-<section id="resumen" class="level3">
-<h3 class="anchored" data-anchor-id="resumen">Resumen</h3>
+<div class="panel-tabset">
+<ul class="nav nav-tabs" role="tablist"><li class="nav-item" role="presentation"><a class="nav-link active" id="tabset-1-1-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-1" role="tab" aria-controls="tabset-1-1" aria-selected="true">Resumen</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-2-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-2" role="tab" aria-controls="tabset-1-2" aria-selected="false">Abstract</a></li></ul>
+<div class="tab-content">
+<div id="tabset-1-1" class="tab-pane active" role="tabpanel" aria-labelledby="tabset-1-1-tab">
 <p>La nutria neotropical <em>Lontra longicaudis</em> es un carnívoro, que se distribuye desde México hasta el norte del Argentina, entre 0 y 3,885 m sobre el nivel del mar. En Colombia la especie es considerada como prioridad de investigación debido al escaso conocimiento sobre ecología y distribución. Con el fin de contribuir al conocimiento sobre L. longicaudis en Colombia, esta nota presenta un nuevo registro altitudinal de la especie para el Páramo de Mamapacha en Boyacá, Colombia. Se realizó un estudio de fototrampeo entre el 18 de Noviembre al 7 de Diciembre del 2015 en el departamento de Boyacá en la Cordillera Oriental en Colombia. Adicionalmente, se realizó una búsqueda de especímenes preservados y registros en publicaciones científicas de L. longicaudis, considerando registros por encima de los 2,000 m sobre el nivel del mar. De un total de 275 imágenes de fauna obtenidas, se registraron cuatro de <em>L. longicaudis</em> para la Laguna de Mundo nuevo en el municipio de Chinvita a 3,110 m sobre el nivel del mar. Los registros encontrados en la revisión de literatura y ejemplares de museos, no superan los 3,000 m de altitud y en su mayoría proceden de la cordillera occidental, lo que confirma que nuestro registro representa una expansión en la distribución altitudinal y el registro más alto para la especie en Colombia. Este registro puede deberse a la abundante fuente de alimento que representa la Trucha Arcoiris (<em>Oncorhynchus mykiss</em>). Debido a que la trucha es un recurso que genera competencia directa entre la nutria y la población humana es necesario implementar planes de manejo del recurso pesquero con el fin de mitigar el conflicto nutria-humano y asegurar la viabilidad poblacional de la especie en el área.</p>
-</section>
-<section id="abstract" class="level3">
-<h3 class="anchored" data-anchor-id="abstract">Abstract</h3>
+</div>
+<div id="tabset-1-2" class="tab-pane" role="tabpanel" aria-labelledby="tabset-1-2-tab">
 <p>The neotropical otter <em>Lontra longicaudis</em> is a carnivore that ranges from Mexico to northern of Argentina, from 0 to 3,885 m above the sea level. In Colombia, this mammal is considered a research priority due the poor information about its distribution and basic ecology. The aim of this note is to contribute to the knowledge of the altitudinal distribution of L. longicaudis in the Mamapacha Paramos, Boyacá, Colombia. Camera trap fieldwork was carried out from November 18th to December 7th of 2015 in the department of Boyacá on the Cordillera Oriental, Colombia. Additionally, we reviewed preserved specimens and historical records of sightings above 2000 m in several scientific publications on L. longicaudis. Of the 275 images of wildlife, four images corresponded to L. longicaudis at the Mundo Nuevo lagoon, municipality of Chinavita (3,110 m above sea level). After the literature and museum specimens review, we found that there were no records of L. longicaudis in Colombia that exceeded 3,000 m above sea level. Therefore, our record represents a notable altitudinal range expansion of <em>L. longicaudis</em> and a new altitudinal level record for the species in Colombia. This record can be a consequence of the abundant food supply provided by the Rainbow trout (<em>Oncorhynchus mykiss</em>). Due to the competition between otters and local people by the trout, it is necessary to implement management plans of fish resources in order to mitigate human-otter conflict and to ensure the population viability at Mundo Nuevo Lagon</p>
+</div>
+</div>
+</div>
 
 
-</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
   const icon = "";
   const anchorJS = new window.AnchorJS();
   anchorJS.options = {
@@ -172,7 +197,24 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     button.classList.add('code-copy-button-checked');
     var currentTitle = button.getAttribute("title");
     button.setAttribute("title", "Copied!");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "Copied!");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
     setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
       button.setAttribute("title", currentTitle);
       button.classList.remove('code-copy-button-checked');
     }, 1000);
@@ -200,31 +242,50 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   for (var i=0; i<noterefs.length; i++) {
     const ref = noterefs[i];
     tippyHover(ref, function() {
-      let href = ref.getAttribute('href');
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
       try { href = new URL(href).hash; } catch {}
       const id = href.replace(/^#\/?/, "");
       const note = window.document.getElementById(id);
       return note.innerHTML;
     });
   }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
   var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
   for (var i=0; i<bibliorefs.length; i++) {
     const ref = bibliorefs[i];
-    const cites = ref.parentNode.getAttribute('data-cites').split(' ');
-    tippyHover(ref, function() {
-      var popup = window.document.createElement('div');
-      cites.forEach(function(cite) {
-        var citeDiv = window.document.createElement('div');
-        citeDiv.classList.add('hanging-indent');
-        citeDiv.classList.add('csl-entry');
-        var biblioDiv = window.document.getElementById('ref-' + cite);
-        if (biblioDiv) {
-          citeDiv.innerHTML = biblioDiv.innerHTML;
-        }
-        popup.appendChild(citeDiv);
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
       });
-      return popup.innerHTML;
-    });
+    }
   }
 });
 </script>

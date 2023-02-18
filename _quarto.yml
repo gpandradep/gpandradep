@@ -4,12 +4,13 @@ project:
 
 website:
   title: "Gabriel Andrade-Ponce"
+  twitter-card: true
   
   navbar:
-    background: "#536878"
+    background: "#104E8B"
     left:
       - href: about/index.qmd
-        text: About
+        text: Sobre mi
       - href: blog/index.qmd
         text: Blog
       - href: publications/index.qmd
@@ -25,6 +26,20 @@ website:
      background: "#536878"
     
 date-format: "D MMMM YYYY"
+
+filters:
+  - social-share
+share:
+  permalink: "https://gpandradep.github.io/gpandradep/"
+  description: "Página Gabriel Andrade"
+  twitter: true
+  facebook: true
+  reddit: false
+  stumble: false
+  tumblr: false
+  linkedin: true
+  email: true
+  mastodon: true
 
 format:
   html:

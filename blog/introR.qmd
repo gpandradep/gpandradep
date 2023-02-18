@@ -1,0 +1,14 @@
+---
+date: "2023-01-62"
+title: "Introducción a R"
+description: "Una introducción rápid a a R y Rstudio"
+categories:
+  - R
+  
+  
+image: introR.png
+---
+
+Mi versión de la introducción a R. Esta diseñada para personas recién iniciadas o algunas con algo de experiencia que no tuvieron tiempo de aprender lo básico: desde instalar R, objetos de R, gráficos y uso de tidyverse.
+
+[![](introR.png)](https://gpandradep.github.io/Intro-a-R/)

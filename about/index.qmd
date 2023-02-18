@@ -5,9 +5,15 @@ editor: visual
 
 ## Sobre mí
 
-Soy biólogo colombiano 🇨🇴 y estudiante de doctorado del Instituto de Ecología A.C. 🇲🇽. Mi trabajo se ha centrado en el uso de modelos jerárquicos para estimar e interpretar la co-ocurrencia espacial de mamíferos, a partir de cámaras trampa 🐺🐱🐇.
+### Mi trabajo
+
+Soy biólogo colombiano 🇨🇴 y maestro en ciencias por el Instituto de Ecología A.C. (INECOL) 🇲🇽. Actualmente soy estudiante de doctorado del INECOL. Mi trabajo se ha centrado en el uso de modelos estadísticos para estimar e interpretar la co-ocurrencia espacial de mamíferos, principalmente utilizando datos de cámaras trampa🐺🐱🐇.
+
+![](cams_me.png)
 
 Soy un entusiasta de aprender y usar la estadística 👨‍💻 para resolver problemas y preguntas sobre ecología de mamíferos (aunque en general puede ser de cualquier bicho).
+
+![](zorro_code.png)
 
 Me apasiona la enseñanza y he participado en varios talleres como profesor y coordinador. En los talleres he tratado temas que abarcan desde la organización de datos, hasta análisis de ocupación, diversidad y algo de estadística espacial. Parte de lo que doy en los cursos lo pueden ver en la sección de blog. Eso sí, todo lo hacemos en R. Olvidé mencionar que me obsesiona el R y lo uso para escribir, enseñar, analizar y visualizar datos de todo lo que se me ocurra.
 
@@ -19,28 +25,23 @@ Me apasiona la enseñanza y he participado en varios talleres como profesor y co
 
 ## Sociales
 
-:::: {.columns}
-
+::: columns
 ::: {.column width="50%"}
+[{{< fa brands twitter size= 2x >}}]{style="color:Dodgerblue"} [\@Gatorco_AP](https://twitter.com/Gatorco_AP)
 
-<span style="color:Dodgerblue">{{< fa brands twitter size= 2x >}} </span> [\@Gatorco_AP](https://twitter.com/Gatorco_AP)
+[{{< fa brands facebook size= 2x >}}]{style="color:DeepSkyBlue"} [ Gabriel Andrade-Ponce](https://www.facebook.com/patrick.l.ponce)
 
-<span style="color:DeepSkyBlue">{{< fa brands facebook size= 2x >}} </span> [\ Gabriel Andrade-Ponce](https://www.facebook.com/patrick.l.ponce)
-
-<span style="color:LightSalmon">{{< fa brands instagram size= 2x >}} </span> [\ gpandradep](https://www.instagram.com/gatorcandrade/)
+[{{< fa brands instagram size= 2x >}}]{style="color:LightSalmon"} [ gpandradep](https://www.instagram.com/gatorcandrade/)
 :::
 
 ::: {.column width="50%"}
+[{{< fa brands github size= 2x >}}]{style="color:black"} [ gpandradep](https://github.com/gpandradep)
 
-<span style="color:black">{{< fa brands github size= 2x >}} </span> [\ gpandradep](https://github.com/gpandradep)
+[{{< ai google-scholar size= 2x >}}]{style="color:black"} [ Google Scholar](https://scholar.google.com.mx/citations?user=tu7S2ZAAAAAJ&hl=es)
 
-<span style="color:black">{{< ai google-scholar size= 2x >}} </span> [\ Google Scholar](https://scholar.google.com.mx/citations?user=tu7S2ZAAAAAJ&hl=es)
-
-<span style="color:DarkTurquoise">{{< fa brands researchgate size= 2x >}} </span> [\ Researchgate](https://www.researchgate.net/profile/Gabriel-Andrade-Ponce)
+[{{< fa brands researchgate size= 2x >}}]{style="color:DarkTurquoise"} [ Researchgate](https://www.researchgate.net/profile/Gabriel-Andrade-Ponce)
 :::
-::::
-
-
+:::
 
 ## Otros intereses
 
