@@ -9,6 +9,7 @@ I am a Colombian biologist with a Master of Science from the Instituto de Ecolog
 <a href="https://www.instagram.com/gatorcandrade/" target="blank"><img align="center" src="https://github.com/gpandradep/gpandradep/blob/master/socials/instagram.png" alt="" height="30" /></a>
 <a href="https://www.facebook.com/patrick.l.ponce" target="blank"><img align="center" src="https://github.com/gpandradep/gpandradep/blob/master/socials/facebook.png" alt="" height="30" /></a>
 <a href="https://gpandradep.github.io/gpandradep/" target="blank"><img align="center" src="https://github.com/gpandradep/gpandradep/blob/master/socials/web.png" alt="" height="30" /></a>
+<a href="gpandradep@gmail.com" target="blank"><img align="center" src="https://github.com/gpandradep/gpandradep/blob/master/socials/Gmail.svg" alt="" height="30" /></a>
 </p>
 
 ### I am also dedicated to video games
@@ -18,4 +19,4 @@ I am a Colombian biologist with a Master of Science from the Instituto de Ecolog
 <a href=" " target="blank"><img align="center" src="https://github.com/gpandradep/gpandradep/blob/master/socials/Steam.png" height="30" /></a>
 
 
-[![Gabriel GitHub stats](https://github-readme-stats.vercel.app/api?username=gpandradep)](https://github.com/anuraghazra/github-readme-stats)
+[![Gabriel GitHub stats](https://github-readme-stats.vercel.app/api?username=gpandradep&show_icons=true&theme=radical)]
