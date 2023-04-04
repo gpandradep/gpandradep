@@ -11,4 +11,4 @@ image: beta.png
 
 Núnca has escuchado de un glmm tipo beta? Es normal, la verdad que tienden a ser olvidados. Este tipo de glms sirve para modelar datos de proporciones o que van de 0 a 1. En este pequeño ejercicio que hice para un curso de posgrado te muestro cómo ajustar, válidar y gráficar éste tipo de modelos
 
-[![](blog/beta.png)](https://gpandradep.quarto.pub/glmm-familia-beta--introduccion/)
+[![](beta.png)](https://gpandradep.quarto.pub/glmm-familia-beta--introduccion/)
