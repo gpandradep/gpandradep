@@ -1,11 +1,11 @@
 ---
-date: "2023-01-62"
+date: "2023-01-12"
 title: "Introducción a R"
 description: "Una introducción rápid a a R y Rstudio"
 categories:
   - R
-  
-  
+  - RStudio
+
 image: introR.png
 ---
 

@@ -156,8 +156,15 @@
   {
     "objectID": "blog/introR.html",
     "href": "blog/introR.html",
-    "title": "Gabriel Andrade-Ponce",
+    "title": "Introducción a R",
     "section": "",
     "text": "Mi versión de la introducción a R. Esta diseñada para personas recién iniciadas o algunas con algo de experiencia que no tuvieron tiempo de aprender lo básico: desde instalar R, objetos de R, gráficos y uso de tidyverse."
+  },
+  {
+    "objectID": "blog/beta.html",
+    "href": "blog/beta.html",
+    "title": "Modelos lineal generalizado mixto de familia Betta",
+    "section": "",
+    "text": "Núnca has escuchado de un glmm tipo beta? Es normal, la verdad que tienden a ser olvidados. Este tipo de glms sirve para modelar datos de proporciones o que van de 0 a 1. En este pequeño ejercicio que hice para un curso de posgrado te muestro cómo ajustar, válidar y gráficar éste tipo de modelos"
   }
 ]
