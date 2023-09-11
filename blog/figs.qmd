@@ -6,7 +6,7 @@ categories:
   - R
   - Gráficos
   
-image: Figsvender/Diapositiva1.png
+image: Figsvender/yoRoss.png
 ---
 
 # Grafiquitas frescas para todos
