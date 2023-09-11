@@ -1,0 +1,44 @@
+---
+date: "2023-08-11"
+title: "Se le tiene la gráfica"
+description: "Necesitas hacer una figura bonita para tu investigación o tesis?"
+categories:
+  - R
+  - Gráficos
+  
+image: Figsvender/Diapositiva1.png
+---
+
+# Grafiquitas frescas para todos
+
+Necesitas hacer un gráfico pero no sabes cómo? te da flojera hacerlo?
+
+Pos yo lo puedo hacer por tiiiii (por un modico precio)
+
+![](Figsvender/Diapositiva1.PNG)
+
+Los colores, el diseño y las variables que necesites
+
+![](Figsvender/Diapositiva2.PNG)
+
+No te quedes sin tu grafiquito
+
+![](Figsvender/Diapositiva3.PNG)
+
+Presenta tus resultados como un PRO
+
+![](Figsvender/Diapositiva4.PNG)
+
+![](Figsvender/Diapositiva5.PNG)
+
+![](Figsvender/Diapositiva6.PNG)
+
+![](Figsvender/Diapositiva7.PNG)
+
+Nacesitas un mapa. No hay lio, también se le tienen
+
+![](Figsvender/Diapositiva8.PNG)
+
+Y que nadie te diga que tu modelo esta mal
+
+![](Figsvender/Diapositiva9.PNG)
