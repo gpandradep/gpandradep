@@ -2,20 +2,23 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.9.36">
+<meta name="generator" content="quarto-1.10.18">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Publicaciones – Gabriel Andrade-Ponce</title>
+<title>index – Gabriel Andrade-Ponce</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
 */
-code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
-div.columns{display: flex; gap: min(4vw, 1.5em);}
-div.column{flex: auto; overflow-x: auto;}
+div.columns{display: flex; gap: 1.5em;}
+div.column{flex: auto;}
+@media screen {
+div.columns{gap: min(4vw, 1.5em);}
+div.column{overflow-x: auto;}
+}
 div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
 ul.task-list{list-style: none;}
 ul.task-list li input[type="checkbox"] {
@@ -33,18 +36,16 @@ ul.task-list li input[type="checkbox"] {
 <script src="../site_libs/quarto-search/fuse.min.js"></script>
 <script src="../site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="../">
-<script src="../site_libs/quarto-listing/list.min.js"></script>
-<script src="../site_libs/quarto-listing/quarto-listing.js"></script>
 <script src="../site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
 <script src="../site_libs/quarto-html/popper.min.js"></script>
 <script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="../site_libs/quarto-html/anchor.min.js"></script>
 <link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting-845c23b38eaddc0f92fda52bfe77a8c8.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-8f45ca03c306255dd7117c768ed20bd9.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-5771f77c49e926cfd22e6f15bd39b066.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <link href="../site_libs/quarto-contrib/social-share-0.1.0/social-share.css" rel="stylesheet">
 <link href="../site_libs/quarto-contrib/social-share-0.1.0/all.css" rel="stylesheet">
 <script id="quarto-search-options" type="application/json">{
@@ -74,35 +75,6 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
-<script>
-
-  window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-listing .list');
-    if (!listingTargetEl) {
-      // No listing discovered, do not attach.
-      return; 
-    }
-
-    const options = {
-      valueNames: ['listing-image','listing-date','listing-title',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-title-sort'] }],
-      
-      searchColumns: ["listing-date","listing-title","listing-author"],
-    };
-
-    window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-listing'] = new List('listing-listing', options);
-
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  });
-
-  window.addEventListener('hashchange',() => {
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  })
-  </script>
 <link href="https://fonts.googleapis.com/css?family=Fira+Sans|Merriweather" rel="stylesheet">
 
 <script src="https://kit.fontawesome.com/0fba9333d8.js" crossorigin="anonymous"></script>
@@ -110,53 +82,11 @@ ul.task-list li input[type="checkbox"] {
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
 
 
-  <script>window.backupDefine = window.define; window.define = undefined;</script><script src="https://cdn.jsdelivr.net/npm/katex@latest/dist/katex.min.js"></script>
-  <script>document.addEventListener("DOMContentLoaded", function () {
- var mathElements = document.getElementsByClassName("math");
- var macros = [];
- for (var i = 0; i < mathElements.length; i++) {
-  var texText = mathElements[i].firstChild;
-  if (mathElements[i].tagName == "SPAN") {
-   katex.render(texText.data, mathElements[i], {
-    displayMode: mathElements[i].classList.contains('display'),
-    throwOnError: false,
-    macros: macros,
-    fleqn: false
-   });
-}}});
-  </script>
-  <script>window.define = window.backupDefine; window.backupDefine = undefined;</script><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@latest/dist/katex.min.css">
-
-<script type="text/javascript">
-const typesetMath = (el) => {
-  if (window.MathJax) {
-    // MathJax Typeset
-    window.MathJax.typeset([el]);
-  } else if (window.katex) {
-    // KaTeX Render
-    var mathElements = el.getElementsByClassName("math");
-    var macros = [];
-    for (var i = 0; i < mathElements.length; i++) {
-      var texText = mathElements[i].firstChild;
-      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
-        window.katex.render(texText.data, mathElements[i], {
-          displayMode: mathElements[i].classList.contains('display'),
-          throwOnError: false,
-          macros: macros,
-          fleqn: false
-        });
-      }
-    }
-  }
-}
-window.Quarto = {
-  typesetMath
-};
-</script>
 
 <link rel="stylesheet" href="../styles.css">
-<meta name="twitter:title" content="Publicaciones – Gabriel Andrade-Ponce">
-<meta name="twitter:image" content="../publications/img/FS_2023.png">
+<meta name="twitter:title" content="– Gabriel Andrade-Ponce">
+<meta name="twitter:image" content="img/RA_2026.jpg">
+<meta name="twitter:image:alt" content="">
 <meta name="twitter:card" content="summary_large_image">
 </head>
 
@@ -176,18 +106,26 @@ window.Quarto = {
   <span class="navbar-toggler-icon"></span>
 </button>
           <div class="collapse navbar-collapse" id="navbarCollapse">
-            <ul class="navbar-nav navbar-nav-scroll me-auto">
+            <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item">
-    <a class="nav-link" href="../about/index.html"> 
-<span class="menu-text">Sobre mi</span></a>
-  </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="../blog/index.html"> 
-<span class="menu-text">Blog</span></a>
+    <a class="nav-link" href="../research/index.html"> 
+<span class="menu-text">Research</span></a>
   </li>  
   <li class="nav-item">
     <a class="nav-link active" href="../publications/index.html" aria-current="page"> 
-<span class="menu-text">Publicaciones</span></a>
+<span class="menu-text">Publications</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../teaching/index.html"> 
+<span class="menu-text">Teaching</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../resources/index.html"> 
+<span class="menu-text">Resources</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../about/index.html"> 
+<span class="menu-text">About me</span></a>
   </li>  
 </ul>
           </div> <!-- /navcollapse -->
@@ -197,228 +135,614 @@ window.Quarto = {
     </nav>
 </header>
 <!-- content -->
-<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
-        
-    </div>
+    
 <!-- main -->
-<main class="content" id="quarto-document-content">
+<main class="content column-page" id="quarto-document-content"><header id="title-block-header" class="quarto-title-block"></header>
 
-<header id="title-block-header" class="quarto-title-block default">
-<div class="quarto-title">
-<h1 class="title">Publicaciones</h1>
+
+
+
+<div class="publications-header">
+<div class="section-label">
+Publications
 </div>
-
-
-
-<div class="quarto-title-meta">
-
-    
-  
-    
-  </div>
-  
-
-
-</header>
-
-
-
-
-
-
-<div class="quarto-listing quarto-listing-container-table" id="listing-listing">
-<div class="listing-actions-group">
-   <div class="input-group input-group-sm quarto-listing-sort">
-    <span class="input-group-text"><i class="bi bi-sort-down"></i></span>
-    <select id="listing-listing-sort" class="form-select" aria-label="Order By" onchange="window['quarto-listings']['listing-listing'].sort(this.options[this.selectedIndex].value, { order: this.options[this.selectedIndex].getAttribute('data-direction')})">
-      <option value="" disabled="" selected="" hidden="">Order By</option>
-      <option value="index" data-direction="asc">Default</option>
-      <option value="listing-date-sort" data-direction="asc">
-        Date - Oldest
-      </option>
-      <option value="listing-date-sort" data-direction="desc">
-        Date - Newest
-      </option>
-      <option value="listing-title-sort" data-direction="asc">
-        Title
-      </option>
-    </select>
-  </div>
-    <div class="input-group input-group-sm quarto-listing-filter">
-      <span class="input-group-text"><i class="bi bi-search"></i></span>
-      <input type="text" class="search form-control" placeholder="Filter">
-    </div>
+<div class="publications-title">
+Scientific publications
 </div>
-<table class="quarto-listing-table table">
-<thead>
-<tr>
+<p>
+Peer-reviewed articles, book chapters, and other contributions.
+</p>
+</div>
+<div class="publications-tools">
+<div class="publication-search-wrapper">
+<p><i class="bi bi-search"></i></p>
+<p><input type="search" id="publication-search" placeholder="Search publications..." aria-label="Search publications"></p>
+</div>
+<p><select id="publication-type" aria-label="Filter publications by type"> <option value="all">All publications</option> <option value="Research article">Research articles</option> <option value="Book chapter">Book chapters</option> <option value="Book">Books</option> </select></p>
+</div>
+<div id="publication-count">
 
-<th>
- 
-</th>
+</div>
+<div class="publication-year" data-year="2026">
+2026
+</div>
+<article class="publication-item publication-with-image" data-type="Research article" data-search="climbing the urban canopy: camera trap insights into mammal activity and habitat use antoniazzi, r., velasquez-c., k., menzel, e. r., stage, d., hughes, k., &amp; andrade-ponce, g. p. wildlife society bulletin 50(1), e70013 2026 research article mammals camera trapping urban ecology canopy united states">
+<div class="publication-thumb">
+<img src="img/RA_2026.jpg" alt="">
+</div>
+<div class="publication-content">
+<div class="publication-title">
+Climbing the urban canopy: Camera trap insights into mammal activity and habitat use
+</div>
+<div class="publication-authors">
+Antoniazzi, R., Velasquez-C., K., Menzel, E. R., Stage, D., Hughes, K., &amp; <strong>Andrade-Ponce, G. P.</strong>
+</div>
+<div class="publication-venue">
+<em>Wildlife Society Bulletin</em> · 50(1), e70013
+</div>
+<div class="publication-links">
+<a href="https://doi.org/10.1002/wsb.70013" target="_blank"><i class="bi bi-box-arrow-up-right"></i> Publisher</a><a href="https://www.researchgate.net/publication/400831782_Climbing_the_urban_canopy_Camera_trap_insights_into_mammal_activity_and_habitat_use" target="_blank"><i class="ai ai-researchgate"></i> ResearchGate</a><a href="https://figshare.com/articles/journal_contribution/Dataset_and_R_scripts_for_the_manuscript_Climbing_the_Urban_Canopy_Camera_Trap_Insights_into_Mammal_Activity_and_Habitat_Use_/29452724" target="_blank"><i class="bi bi-github"></i> Code</a>
+</div>
+</div>
+</article>
+<article class="publication-item publication-with-image" data-type="Research article" data-search="understanding mammalian habitat use with a multi-species, multi-scale approach: the jaguar protection corridor in guaviare, colombia andrade-ponce, g. p., molina-gonzález, e., &amp; cabrera, j. a. animal conservation 1–15 2026 research article mammals camera trapping landscape ecology occupancy conservation colombia">
+<div class="publication-thumb">
+<img src="img/AP_2026.jpg" alt="">
+</div>
+<div class="publication-content">
+<div class="publication-title">
+Understanding Mammalian Habitat Use With a Multi-Species, Multi-Scale Approach: The Jaguar Protection Corridor in Guaviare, Colombia
+</div>
+<div class="publication-authors">
+<strong>Andrade-Ponce, G. P.</strong>, Molina-González, E., &amp; Cabrera, J. A.
+</div>
+<div class="publication-venue">
+<em>Animal Conservation</em> · 1–15
+</div>
+<div class="publication-links">
+<a href="https://doi.org/10.1111/acv.70084" target="_blank"><i class="bi bi-box-arrow-up-right"></i> Publisher</a><a href="https://www.researchgate.net/publication/408490968_Understanding_Mammalian_Habitat_Use_With_a_Multi-Species_Multi-Scale_Approach_The_Jaguar_Protection_Corridor_in_Guaviare_Colombia" target="_blank"><i class="ai ai-researchgate"></i> ResearchGate</a><a href="https://zslpublications.onlinelibrary.wiley.com/action/downloadSupplement?doi=10.1111%2Facv.70084&amp;file=acv70084-sup-0001-Supinfo.pdf" target="_blank"><i class="bi bi-paperclip"></i> Supplement</a>
+</div>
+</div>
+</article>
+<article class="publication-item" data-type="Book chapter" data-search="wildlife in shortleaf pine ecosystems saenz, d., anderson, t., antoniazzi, r., andrade-ponce, g. p., bennett, d., eversole, c. b., glasscock, j. l., glasscock, s. n., grantham, g., suarez joaqui, t., velasquez-c, k., loeb, s., schaefer, r. r., &amp; schalk, c. m. the ecology and management of shortleaf pine ecosystems chapter 5 · in press · eds. crouch, c., dey, d., kabrick, j., &amp; knapp, b. 2026 book chapter wildlife forest ecology conservation united states">
+<div class="publication-content">
+<div class="publication-title">
+Wildlife in Shortleaf Pine Ecosystems
+</div>
+<div class="publication-authors">
+Saenz, D., Anderson, T., Antoniazzi, R., <strong>Andrade-Ponce, G. P.</strong>, Bennett, D., Eversole, C. B., Glasscock, J. L., Glasscock, S. N., Grantham, G., Suarez Joaqui, T., Velasquez-C, K., Loeb, S., Schaefer, R. R., &amp; Schalk, C. M.
+</div>
+<div class="publication-venue">
+<em>The Ecology and Management of Shortleaf Pine Ecosystems</em> · Chapter 5 · In press · Eds. Crouch, C., Dey, D., Kabrick, J., &amp; Knapp, B.
+</div>
+<div class="publication-links">
+<a href="https://doi.org/10.1079/9781800627420.0005" target="_blank"><i class="bi bi-box-arrow-up-right"></i> Publisher</a>
+</div>
+</div>
+</article>
+<div class="publication-year" data-year="2025">
+2025
+</div>
+<article class="publication-item publication-with-image" data-type="Research article" data-search="when the wild things are: defining mammalian diel activity and plasticity devarajan, k., fidino, m., farris, z. j., adalsteinsson, s. a., andrade-ponce, g. p., angstmann, j. l., et al. science advances 11(9), eado3843 2025 research article mammals quantitative ecology camera trap">
+<div class="publication-thumb">
+<img src="img/KM_2025.jpg" alt="">
+</div>
+<div class="publication-content">
+<div class="publication-title">
+When the wild things are: Defining mammalian diel activity and plasticity
+</div>
+<div class="publication-authors">
+Devarajan, K., Fidino, M., Farris, Z. J., Adalsteinsson, S. A., <strong>Andrade-Ponce, G. P.</strong>, Angstmann, J. L., et al.
+</div>
+<div class="publication-venue">
+<em>Science Advances</em> · 11(9), eado3843
+</div>
+<div class="publication-links">
+<a href="https://www.science.org/doi/full/10.1126/sciadv.ado3843" target="_blank"><i class="bi bi-box-arrow-up-right"></i> Publisher</a><a href="https://www.researchgate.net/publication/389358196_When_the_wild_things_are_Defining_mammalian_diel_activity_and_plasticity" target="_blank"><i class="ai ai-researchgate"></i> ResearchGate</a>
+</div>
+</div>
+</article>
+<article class="publication-item publication-with-image" data-type="Research article" data-search="different drivers, same tick: effect of host traits, habitat, and climate on the infestation of three rodent species by larval dermacentor ticks andrade-ponce, g. p., giles, b. g., newman, b. c., lópez-pérez, a. m., &amp; eversole, c. b. international journal for parasitology: parasites and wildlife 26, 101054 2025 research article mammals quantitative ecology interactions united states">
+<div class="publication-thumb">
+<img src="img/AP_2025.jpg" alt="">
+</div>
+<div class="publication-content">
+<div class="publication-title">
+Different drivers, same tick: Effect of host traits, habitat, and climate on the infestation of three rodent species by larval <em>Dermacentor</em> ticks
+</div>
+<div class="publication-authors">
+<strong>Andrade-Ponce, G. P.</strong>, Giles, B. G., Newman, B. C., López-Pérez, A. M., &amp; Eversole, C. B.
+</div>
+<div class="publication-venue">
+<em>International Journal for Parasitology: Parasites and Wildlife</em> · 26, 101054
+</div>
+<div class="publication-links">
+<a href="https://doi.org/10.1016/j.ijppaw.2025.101054" target="_blank"><i class="bi bi-box-arrow-up-right"></i> Publisher</a><a href="https://www.researchgate.net/publication/389655573_Different_drivers_same_tick_Effect_of_host_traits_habitat_and_climate_on_the_infestation_of_three_rodent_species_by_larval_Dermacentor_ticks" target="_blank"><i class="ai ai-researchgate"></i> ResearchGate</a>
+</div>
+</div>
+</article>
+<article class="publication-item publication-with-image" data-type="Research article" data-search="efficacy of various survey methods to detect an experimental population of spot-tailed earless lizards: a case study rangel, e. d., henke, s. e., wester, d. b., andrade-ponce, g. p., ayala, r. a., &amp; eversole, c. b. plos one 20(11), e0336129. 2025 research article reptiles quantitative ecology methods us">
+<div class="publication-thumb">
+<img src="img/ER_2025.PNG" alt="">
+</div>
+<div class="publication-content">
+<div class="publication-title">
+Efficacy of various survey methods to detect an experimental population of spot-tailed earless lizards: A case study
+</div>
+<div class="publication-authors">
+Rangel, E. D., Henke, S. E., Wester, D. B., <strong>Andrade-Ponce, G. P.</strong>, Ayala, R. A., &amp; Eversole, C. B.
+</div>
+<div class="publication-venue">
+<em>PLOS ONE</em> · 20(11), e0336129.
+</div>
+<div class="publication-links">
+<a href="https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0336129" target="_blank"><i class="bi bi-box-arrow-up-right"></i> Publisher</a><a href="https://www.researchgate.net/publication/397685722_Efficacy_of_various_survey_methods_to_detect_an_experimental_population_of_spot-tailed_earless_lizards_A_case_study" target="_blank"><i class="ai ai-researchgate"></i> ResearchGate</a>
+</div>
+</div>
+</article>
+<div class="publication-year" data-year="2024">
+2024
+</div>
+<article class="publication-item" data-type="Research article" data-search="wilderness areas maintain mammal assemblage in subtropical mountain forests bardavid, s., andrade-ponce, g. p., politi, n., &amp; rivera, l. biodiversity and conservation 33(13), 3853–3870 2024 research article mammals quantitative ecology argentina camera trap conservation occupancy">
+<div class="publication-content">
+<div class="publication-title">
+Wilderness areas maintain mammal assemblage in subtropical mountain forests
+</div>
+<div class="publication-authors">
+Bardavid, S., <strong>Andrade-Ponce, G. P.</strong>, Politi, N., &amp; Rivera, L.
+</div>
+<div class="publication-venue">
+<em>Biodiversity and Conservation</em> · 33(13), 3853–3870
+</div>
+<div class="publication-links">
+<a href="https://link.springer.com/article/10.1007/s10531-024-02932-8" target="_blank"><i class="bi bi-box-arrow-up-right"></i> Publisher</a><a href="https://www.researchgate.net/publication/384113739_Wilderness_areas_maintain_mammal_assemblage_in_subtropical_mountain_forests" target="_blank"><i class="ai ai-researchgate"></i> ResearchGate</a>
+</div>
+</div>
+</article>
+<div class="publication-year" data-year="2023">
+2023
+</div>
+<article class="publication-item publication-with-image" data-type="Research article" data-search="socioecological assessment of mammal assemblages in small oil-palm plantations in a highly deforested region in mexico franquesa-soler, m., ocampo-saure, f., mora, f., andrade-ponce, g. p., &amp; andresen, e. tropical conservation science 16, 19400829231169977 2023 research article mammals conservation agricultural landscapes mexico">
+<div class="publication-thumb">
+<img src="img/FS_2023.jpg" alt="">
+</div>
+<div class="publication-content">
+<div class="publication-title">
+Socioecological Assessment of Mammal Assemblages in Small Oil-Palm Plantations in a Highly Deforested Region in Mexico
+</div>
+<div class="publication-authors">
+Franquesa-Soler, M., Ocampo-Saure, F., Mora, F., <strong>Andrade-Ponce, G. P.</strong>, &amp; Andresen, E.
+</div>
+<div class="publication-venue">
+<em>Tropical Conservation Science</em> · 16, 19400829231169977
+</div>
+<div class="publication-links">
+<a href="https://journals.sagepub.com/doi/full/10.1177/19400829231169977" target="_blank"><i class="bi bi-box-arrow-up-right"></i> Publisher</a><a href="https://www.researchgate.net/publication/369998157_Socioecological_Assessment_of_Mammal_Assemblages_in_Small_Oil-Palm_Plantations_in_a_Highly_Deforested_Region_in_Mexico" target="_blank"><i class="ai ai-researchgate"></i> ResearchGate</a>
+</div>
+</div>
+</article>
+<article class="publication-item publication-with-image" data-type="Research article" data-search="assessing microhabitat, landscape features and intraguild relationships in the occupancy of the enigmatic and threatened andean tiger cat (leopardus tigrinus pardinoides) in the cloud forests of northwestern colombia cepeda-duque, j.c., andrade-ponce, g. p., montes-rojas, a., rendón-jaramillo, u., lópez-velasco, v., arango-correa, e., lópez-barrera, a., mazariegos, l., lizcano, d., link, a. &amp; de oliveira, t.g.  plos one 18(7), e0288247 2023 research article mammals conservation carnivores occupancy quantitative ecology colombia">
+<div class="publication-thumb">
+<img src="img/JCD_2023.PNG" alt="">
+</div>
+<div class="publication-content">
+<div class="publication-title">
+Assessing microhabitat, landscape features and intraguild relationships in the occupancy of the enigmatic and threatened Andean tiger cat (Leopardus tigrinus pardinoides) in the cloud forests of northwestern Colombia
+</div>
+<div class="publication-authors">
+Cepeda-Duque, J.C., <strong>Andrade-Ponce, G. P.</strong>, Montes-Rojas, A., Rendón-Jaramillo, U., López-Velasco, V., Arango-Correa, E., López-Barrera, A., Mazariegos, L., Lizcano, D., Link, A. &amp; de Oliveira, T.G.
+</div>
+<div class="publication-venue">
+<em>PLOS ONE</em> · 18(7), e0288247
+</div>
+<div class="publication-links">
+<a href="https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0288247" target="_blank"><i class="bi bi-box-arrow-up-right"></i> Publisher</a><a href="https://www.researchgate.net/publication/372245552_Assessing_microhabitat_landscape_features_and_intraguild_relationships_in_the_occupancy_of_the_enigmatic_and_threatened_Andean_tiger_cat_Leopardus_tigrinus_pardinoides_in_the_cloud_forests_of_northwes" target="_blank"><i class="ai ai-researchgate"></i> ResearchGate</a>
+</div>
+</div>
+</article>
+<article class="publication-item publication-with-image" data-type="Research article" data-search="expanding the frontiers of camera-trapping in colombia: application of the “mostela” system to gain knowledge on small non-volant mammals from an andean cloud forest cepeda-duque, j.c., arango-correa, e., andrade-ponce, g. p., mazariegos, l., hofmeester t.r. &amp; ramírez-chaves, h.  mammalia 87(5):419-428 2023 research article mammals conservation colombia camera trap">
+<div class="publication-thumb">
+<img src="img/JCD_2023b.jpg" alt="">
+</div>
+<div class="publication-content">
+<div class="publication-title">
+Expanding the frontiers of camera-trapping in Colombia: application of the “Mostela” system to gain knowledge on small non-volant mammals from an Andean cloud forest
+</div>
+<div class="publication-authors">
+Cepeda-Duque, J.C., Arango-Correa, E., <strong>Andrade-Ponce, G. P.</strong>, Mazariegos, L., Hofmeester T.R. &amp; Ramírez-Chaves, H.
+</div>
+<div class="publication-venue">
+<em>Mammalia</em> · 87(5):419-428
+</div>
+<div class="publication-links">
+<a href="https://doi.org/10.1515/mammalia-2023-0033" target="_blank"><i class="bi bi-box-arrow-up-right"></i> Publisher</a><a href="https://www.researchgate.net/publication/372781143_Expanding_the_frontiers_of_camera-trapping_in_Colombia_application_of_the_Mostela_system_to_gain_knowledge_on_small_non-volant_mammals_from_an_Andean_cloud_forest" target="_blank"><i class="ai ai-researchgate"></i> ResearchGate</a>
+</div>
+</div>
+</article>
+<article class="publication-item publication-with-image" data-type="Book chapter" data-search="occupancy modeling reveals that landscape scale drives habitat use by white-tailed deer in the tehuacán-cuicatlán biosphere reserve, mexico mandujano, s., andrade-ponce, g. p., zavaleta, a. &amp; lópez-téllez, c. neotropical mammals: hierarchical analysis of occupancy and abundance (pp. 317–338) eds. mandujano, s., naranjo, e. j., &amp; andrade-ponce, g. p. 2023 book chapter mammals landscape mexico camera trap occupancy">
+<div class="publication-thumb">
+<img src="img/SM_2023.webp" alt="">
+</div>
+<div class="publication-content">
+<div class="publication-title">
+Occupancy Modeling Reveals That Landscape Scale Drives Habitat Use by White-Tailed Deer in the Tehuacán-Cuicatlán Biosphere Reserve, Mexico
+</div>
+<div class="publication-authors">
+Mandujano, S., <strong>Andrade-Ponce, G. P.</strong>, Zavaleta, A. &amp; López-Téllez, C.
+</div>
+<div class="publication-venue">
+<em>Neotropical Mammals: Hierarchical Analysis of Occupancy and Abundance (pp.&nbsp;317–338)</em> · Eds. Mandujano, S., Naranjo, E. J., &amp; Andrade-Ponce, G. P.
+</div>
+<div class="publication-links">
+<a href="https://link.springer.com/chapter/10.1007/978-3-031-39566-6_14" target="_blank"><i class="bi bi-box-arrow-up-right"></i> Publisher</a><a href="https://www.researchgate.net/publication/375209828_Occupancy_Modeling_Reveals_That_Landscape_Scale_Drives_Habitat_Use_by_White-Tailed_Deer_in_the_Tehuacan-Cuicatlan_Biosphere_Reserve_Mexico" target="_blank"><i class="ai ai-researchgate"></i> ResearchGate</a>
+</div>
+</div>
+</article>
+<article class="publication-item publication-with-image" data-type="Book chapter" data-search="neotropical mammals and the analysis of occupancy and abundance mandujano, s., naranjo, e. j. &amp; andrade-ponce, g. p. neotropical mammals: hierarchical analysis of occupancy and abundance (pp. 3–11) eds. mandujano, s., naranjo, e. j., &amp; andrade-ponce, g. p. 2023 book chapter mammals quantitative ecology">
+<div class="publication-thumb">
+<img src="img/SM_2023b.webp" alt="">
+</div>
+<div class="publication-content">
+<div class="publication-title">
+Neotropical Mammals and the Analysis of Occupancy and Abundance
+</div>
+<div class="publication-authors">
+Mandujano, S., Naranjo, E. J. &amp; <strong>Andrade-Ponce, G. P.</strong>
+</div>
+<div class="publication-venue">
+<em>Neotropical Mammals: Hierarchical Analysis of Occupancy and Abundance (pp.&nbsp;3–11)</em> · Eds. Mandujano, S., Naranjo, E. J., &amp; Andrade-Ponce, G. P.
+</div>
+<div class="publication-links">
+<a href="https://link.springer.com/chapter/10.1007/978-3-031-39566-6_1" target="_blank"><i class="bi bi-box-arrow-up-right"></i> Publisher</a><a href="https://www.researchgate.net/publication/375209741_Neotropical_Mammals_and_the_Analysis_of_Occupancy_and_Abundance" target="_blank"><i class="ai ai-researchgate"></i> ResearchGate</a>
+</div>
+</div>
+</article>
+<article class="publication-item publication-with-image" data-type="Book chapter" data-search="overview of hierarchical models and future directions in the study of neotropical mammals andrade-ponce, g. p. neotropical mammals: hierarchical analysis of occupancy and abundance (pp. 339-352) eds. mandujano, s., naranjo, e. j., &amp; andrade-ponce, g. p. 2023 book chapter mammals quantitative ecology">
+<div class="publication-thumb">
+<img src="img/SM_2023c.webp" alt="">
+</div>
+<div class="publication-content">
+<div class="publication-title">
+Overview of Hierarchical Models and Future Directions in the Study of Neotropical Mammals
+</div>
+<div class="publication-authors">
+<strong>Andrade-Ponce, G. P.</strong>
+</div>
+<div class="publication-venue">
+<em>Neotropical Mammals: Hierarchical Analysis of Occupancy and Abundance (pp.&nbsp;339-352)</em> · Eds. Mandujano, S., Naranjo, E. J., &amp; Andrade-Ponce, G. P.
+</div>
+<div class="publication-links">
+<a href="https://link.springer.com/chapter/10.1007/978-3-031-39566-6_15" target="_blank"><i class="bi bi-box-arrow-up-right"></i> Publisher</a><a href="https://www.researchgate.net/publication/375209324_Overview_of_Hierarchical_Models_and_Future_Directions_in_the_Study_of_Neotropical_Mammals" target="_blank"><i class="ai ai-researchgate"></i> ResearchGate</a>
+</div>
+</div>
+</article>
+<article class="publication-item publication-with-image" data-type="Book" data-search="neotropical mammals: hierarchical analysis of occupancy and abundance mandujano, s., naranjo, e. j. &amp; andrade-ponce, g. p. springer img/sm_2023c.webp 2023 book mammals quantitative ecology">
+<div class="publication-thumb">
+<img src="img/SM_2023c.webp" alt="">
+</div>
+<div class="publication-content">
+<div class="publication-title">
+Neotropical Mammals: Hierarchical Analysis of Occupancy and Abundance
+</div>
+<div class="publication-authors">
+Mandujano, S., Naranjo, E. J. &amp; <strong>Andrade-Ponce, G. P.</strong>
+</div>
+<div class="publication-venue">
+<em>Springer</em> · img/SM_2023c.webp
+</div>
+<div class="publication-links">
+<a href="https://link.springer.com/book/10.1007/978-3-031-39566-6" target="_blank"><i class="bi bi-box-arrow-up-right"></i> Publisher</a><a href="https://www.researchgate.net/publication/375415168_Neotropical_Mammals_Hierarchical_Analysis_of_Occupancy_and_Abundance" target="_blank"><i class="ai ai-researchgate"></i> ResearchGate</a>
+</div>
+</div>
+</article>
+<div class="publication-year" data-year="2022">
+2022
+</div>
+<article class="publication-item publication-with-image" data-type="Research article" data-search="a framework to interpret co-occurrence patterns from camera trap data: the case of the gray fox, the bobcat, and the eastern cottontail rabbit in a tropical dry habitat andrade-ponce, g. p., mandujano, s., dáttilo, w., farías-gonzález, v., jiménez, j., velásquez-c, k., &amp; zavaleta, a. j zool.  2022 research article mammals camera trapping co-occurrence occupancy quantitative ecology">
+<div class="publication-thumb">
+<img src="img/AP_2022.png" alt="">
+</div>
+<div class="publication-content">
+<div class="publication-title">
+A framework to interpret co-occurrence patterns from camera trap data: The case of the gray fox, the bobcat, and the eastern cottontail rabbit in a tropical dry habitat
+</div>
+<div class="publication-authors">
+<strong>Andrade-Ponce, G. P.</strong>, Mandujano, S., Dáttilo, W., Farías-González, V., Jiménez, J., Velásquez-C, K., &amp; Zavaleta, A.
+</div>
+<div class="publication-venue">
+<em>J Zool.</em>
+</div>
+<div class="publication-links">
+<a href="https://doi.org/10.1111/jzo.13002" target="_blank"><i class="bi bi-box-arrow-up-right"></i> Publisher</a><a href="https://www.researchgate.net/publication/362814492_A_framework_to_interpret_co-occurrence_patterns_from_camera_trap_data_The_case_of_the_gray_fox_the_bobcat_and_the_eastern_cottontail_rabbit_in_a_tropical_dry_habitat" target="_blank"><i class="ai ai-researchgate"></i> ResearchGate</a><a href="https://zslpublications.onlinelibrary.wiley.com/action/downloadSupplement?doi=10.1111%2Fjzo.13002&amp;file=jzo13002-sup-0002-AppendixS2.docx" target="_blank"><i class="bi bi-github"></i> Code</a>
+</div>
+</div>
+</article>
+<div class="publication-year" data-year="2021">
+2021
+</div>
+<article class="publication-item publication-with-image" data-type="Research article" data-search="does patch quality drive arboreal mammal assemblages in fragmented rainforests? cudney-valenzuela, s. j., arroyo-rodríguez, v., andresen, e., toledo-aceves, t., mora-ardila, f., andrade-ponce, g., &amp; mandujano, s. perspectives in ecology and conservation 19(1), 61–68 2021 research article mammals fragmentation landscape ecology mexico">
+<div class="publication-thumb">
+<img src="img/CV_2021.jpg" alt="">
+</div>
+<div class="publication-content">
+<div class="publication-title">
+Does patch quality drive arboreal mammal assemblages in fragmented rainforests?
+</div>
+<div class="publication-authors">
+Cudney-Valenzuela, S. J., Arroyo-Rodríguez, V., Andresen, E., Toledo-Aceves, T., Mora-Ardila, F., <strong>Andrade-Ponce, G.</strong>, &amp; Mandujano, S.
+</div>
+<div class="publication-venue">
+<em>Perspectives in Ecology and Conservation</em> · 19(1), 61–68
+</div>
+<div class="publication-links">
+<a href="https://www.sciencedirect.com/science/article/pii/S2530064420300821" target="_blank"><i class="bi bi-box-arrow-up-right"></i> Publisher</a><a href="https://www.researchgate.net/publication/346791262_Does_patch_quality_drive_arboreal_mammal_assemblages_in_fragmented_rainforests" target="_blank"><i class="ai ai-researchgate"></i> ResearchGate</a>
+</div>
+</div>
+</article>
+<article class="publication-item publication-with-image" data-type="Research article" data-search="modelos de ocupación para datos de cámaras trampa andrade-ponce, g., cepeda-duque, j. c., mandujano, s., velásquez-c, k. l., lizcano, d. j., &amp; gómez-valencia, b. mammalogy notes 7(1), 200 2021 research article camera trapping occupancy quantitative ecology">
+<div class="publication-thumb">
+<img src="img/AP_2021.png" alt="">
+</div>
+<div class="publication-content">
+<div class="publication-title">
+Modelos de ocupación para datos de cámaras trampa
+</div>
+<div class="publication-authors">
+<strong>Andrade-Ponce, G.</strong>, Cepeda-Duque, J. C., Mandujano, S., Velásquez-C, K. L., Lizcano, D. J., &amp; Gómez-Valencia, B.
+</div>
+<div class="publication-venue">
+<em>Mammalogy Notes</em> · 7(1), 200
+</div>
+<div class="publication-links">
+<a href="https://doi.org/10.47603/mano.v7n1.200" target="_blank"><i class="bi bi-box-arrow-up-right"></i> Publisher</a><a href="https://www.researchgate.net/publication/352134794_Modelos_de_Ocupacion_para_datos_de_camaras_trampa_de_los_conceptos_a_la_interpretacion" target="_blank"><i class="ai ai-researchgate"></i> ResearchGate</a>
+</div>
+</div>
+</article>
+<div class="publication-year" data-year="2020">
+2020
+</div>
+<article class="publication-item publication-with-image" data-type="Research article" data-search="coexistencia de vulpes macrotis y canis latrans (carnivora: canidae) en la reserva de la biosfera de mapimí, méxico andrade-ponce, g. p., gallina, s., gómez-valencia, b., &amp; lira-noriega, a. revista mexicana de biodiversidad 91 2020 research article carnivores co-occurrence occupancy mexico">
+<div class="publication-thumb">
+<img src="img/AP_2020.png" alt="">
+</div>
+<div class="publication-content">
+<div class="publication-title">
+Coexistencia de <em>Vulpes macrotis</em> y <em>Canis latrans</em> (Carnivora: Canidae) en la Reserva de la Biosfera de Mapimí, México
+</div>
+<div class="publication-authors">
+<strong>Andrade-Ponce, G. P.</strong>, Gallina, S., Gómez-Valencia, B., &amp; Lira-Noriega, A.
+</div>
+<div class="publication-venue">
+<em>Revista Mexicana de Biodiversidad</em> · 91
+</div>
+<div class="publication-links">
+<a href="https://revista.ib.unam.mx/index.php/bio/article/view/2973" target="_blank"><i class="bi bi-box-arrow-up-right"></i> Publisher</a><a href="https://www.researchgate.net/publication/339182388_Coexistencia_de_Vulpes_macrotis_y_Canis_latrans_Carnivora_Canidae_en_la_Reserva_de_la_Biosfera_de_Mapimi_Mexico" target="_blank"><i class="ai ai-researchgate"></i> ResearchGate</a>
+</div>
+</div>
+</article>
+<article class="publication-item publication-with-image" data-type="Research article" data-search="interaction between ground squirrels with rattlesnakes in arid zones andrade-ponce, g. p., montero-bagatella, s. h., durán-antonio, j., gonzález-romero, a., &amp; gallina, s. therya notes 1, 11–13 2020 research article rodents natural history mexico">
+<div class="publication-thumb">
+<img src="img/AP_2020b.png" alt="">
+</div>
+<div class="publication-content">
+<div class="publication-title">
+Interaction between Ground Squirrels with rattlesnakes in arid zones
+</div>
+<div class="publication-authors">
+<strong>Andrade-Ponce, G. P.</strong>, Montero-Bagatella, S. H., Durán-Antonio, J., González-Romero, A., &amp; Gallina, S.
+</div>
+<div class="publication-venue">
+<em>Therya Notes</em> · 1, 11–13
+</div>
+<div class="publication-links">
+<a href="https://theryanotes.mastozoologiamexicana.com/index.php/theryanotes/article/view/20" target="_blank"><i class="bi bi-box-arrow-up-right"></i> Publisher</a><a href="https://www.researchgate.net/publication/340479791_Interaction_between_Ground_Squirrels_with_rattlesnakes_in_arid_zones" target="_blank"><i class="ai ai-researchgate"></i> ResearchGate</a>
+</div>
+</div>
+</article>
+<article class="publication-item publication-with-image" data-type="Research article" data-search="registros de mamíferos terrestres en un salado natural del resguardo indígena nonuya-villazul departamento del amazonas, colombia andrade-ponce, g. mammalogy notes 6(1), 0107 2020 research article mammals camera trapping salt licks colombia">
+<div class="publication-thumb">
+<img src="img/AP_2020c.png" alt="">
+</div>
+<div class="publication-content">
+<div class="publication-title">
+Registros de mamíferos terrestres en un salado natural del Resguardo Indígena Nonuya-Villazul departamento del Amazonas, Colombia
+</div>
+<div class="publication-authors">
+<strong>Andrade-Ponce, G.</strong>
+</div>
+<div class="publication-venue">
+<em>Mammalogy Notes</em> · 6(1), 0107
+</div>
+<div class="publication-links">
+<a href="https://doi.org/10.47603/manovol6n1.mn0107" target="_blank"><i class="bi bi-box-arrow-up-right"></i> Publisher</a><a href="https://www.researchgate.net/publication/341273437_Registros_de_mamiferos_terrestres_en_un_salado_natural_y_sus_inmediaciones_en_el_Resguardo_Indigena_Nonuya_Villazul_departamento_del_Amazonas_-_Colombia" target="_blank"><i class="ai ai-researchgate"></i> ResearchGate</a>
+</div>
+</div>
+</article>
+<article class="publication-item publication-with-image" data-type="Research article" data-search="uso de bebederos artificiales por pequeños roedores en un bosque tropical seco en oaxaca, méxico hernández-gómez, c. a., andrade-ponce, g. p., velásquez-c., k. l., &amp; mandujano, s. mammalogy notes 6(2), 179 2020 research article rodents wildlife management camera trapping mexico">
+<div class="publication-thumb">
+<img src="img/AP_2020d.png" alt="">
+</div>
+<div class="publication-content">
+<div class="publication-title">
+Uso de bebederos artificiales por pequeños roedores en un bosque tropical seco en Oaxaca, México
+</div>
+<div class="publication-authors">
+Hernández-Gómez, C. A., <strong>Andrade-Ponce, G. P.</strong>, Velásquez-C., K. L., &amp; Mandujano, S.
+</div>
+<div class="publication-venue">
+<em>Mammalogy Notes</em> · 6(2), 179
+</div>
+<div class="publication-links">
+<a href="https://doi.org/10.47603/mano.v6n2.179" target="_blank"><i class="bi bi-box-arrow-up-right"></i> Publisher</a><a href="https://www.researchgate.net/publication/344469109_Uso_de_bebederos_artificiales_por_pequenos_roedores_en_un_bosque_tropical_seco_en_Oaxaca_Mexico" target="_blank"><i class="ai ai-researchgate"></i> ResearchGate</a>
+</div>
+</div>
+</article>
+<div class="publication-year" data-year="2017">
+2017
+</div>
+<article class="publication-item publication-with-image" data-type="Research article" data-search="notable altitudinal range expansion of lontra longicaudis (carnivora: mustelidae) in colombia andrade-ponce, g. p. &amp; angarita-sierra, t. therya 8(1) 2017 research article carnivores colombia natural history">
+<div class="publication-thumb">
+<img src="img/AP_2017.png" alt="">
+</div>
+<div class="publication-content">
+<div class="publication-title">
+Notable altitudinal range expansion of <em>Lontra longicaudis</em> (Carnivora: Mustelidae) in Colombia
+</div>
+<div class="publication-authors">
+<strong>Andrade-Ponce, G. P.</strong> &amp; Angarita-Sierra, T.
+</div>
+<div class="publication-venue">
+<em>Therya</em> · 8(1)
+</div>
+<div class="publication-links">
+<a href="https://www.scielo.org.mx/scielo.php?pid=S2007-33642017000100075&amp;script=sci_arttext&amp;tlng=en" target="_blank"><i class="bi bi-box-arrow-up-right"></i> Publisher</a><a href="https://www.researchgate.net/publication/312373252_Notable_altitudinal_range_expansion_of_Lontra_longicaudis_Carnivora_Mustelidae_in_Colombian_Paramos" target="_blank"><i class="ai ai-researchgate"></i> ResearchGate</a>
+</div>
+</div>
+</article>
+<div class="publication-year" data-year="2016">
+2016
+</div>
+<article class="publication-item publication-with-image" data-type="Research article" data-search="estado del conocimiento y prioridades de investigación sobre las familias canidae, mephitidae y procyonidae (mammalia: carnivora) en colombia andrade ponce, g. p., montaño-salazar, s. m., riveros-loaiza, l. m., ramírez-cháves, h. e., &amp; suárez-castro, a. f. revista de la academia colombiana de ciencias exactas, físicas y naturales 40(156), 500–513 2016 research article carnivores colombia">
+<div class="publication-thumb">
+<img src="img/AP_2016.png" alt="">
+</div>
+<div class="publication-content">
+<div class="publication-title">
+Estado del conocimiento y prioridades de investigación sobre las familias Canidae, Mephitidae y Procyonidae (Mammalia: Carnivora) en Colombia
+</div>
+<div class="publication-authors">
+<strong>Andrade Ponce, G. P.</strong>, Montaño-Salazar, S. M., Riveros-Loaiza, L. M., Ramírez-Cháves, H. E., &amp; Suárez-Castro, A. F.
+</div>
+<div class="publication-venue">
+<em>Revista de la Academia Colombiana de Ciencias Exactas, Físicas y Naturales</em> · 40(156), 500–513
+</div>
+<div class="publication-links">
+<a href="https://raccefyn.co/index.php/raccefyn/article/view/327" target="_blank"><i class="bi bi-box-arrow-up-right"></i> Publisher</a><a href="https://www.researchgate.net/publication/308963398_Estado_del_conocimiento_y_prioridades_de_investigacion_sobre_las_familias_Canidae_Mephitidae_y_Procyonidae_Mammalia_Carnivora_en_Colombia" target="_blank"><i class="ai ai-researchgate"></i> ResearchGate</a>
+</div>
+</div>
+</article>
+<div class="publication-year" data-year="2015">
+2015
+</div>
+<article class="publication-item publication-with-image" data-type="Book chapter" data-search="generalidades del orden carnivora andrade-ponce, g. p., jiménez-ramírez, j. s., montaño salazar, s. m., &amp; riveros loaiza, l. m. los carnívoros terrestres y semiacuáticos continentales de colombia // guía de campo eds. andrés f. suárez-castro &amp; héctor e. ramírez-chaves 2015 book chapter carnivores colombia">
+<div class="publication-thumb">
+<img src="img/AP_2015p.png" alt="">
+</div>
+<div class="publication-content">
+<div class="publication-title">
+Generalidades del orden Carnivora
+</div>
+<div class="publication-authors">
+<strong>Andrade-Ponce, G. P.</strong>, Jiménez-Ramírez, J. S., Montaño Salazar, S. M., &amp; Riveros Loaiza, L. M.
+</div>
+<div class="publication-venue">
+<em>Los carnívoros terrestres y semiacuáticos continentales de Colombia // Guía de Campo</em> · Eds. Andrés F. Suárez-Castro &amp; Héctor E. Ramírez-Chaves
+</div>
+<div class="publication-links">
+<a href="https://www.researchgate.net/publication/312373249_Generalidades_del_orden_Carnivora" target="_blank"><i class="ai ai-researchgate"></i> ResearchGate</a>
+</div>
+</div>
+</article>
+<script>
 
-<th>
-<a class="sort" data-sort="listing-date-sort" onclick="if (this.classList.contains('sort-asc')) { this.classList.add('sort-desc'); this.classList.remove('sort-asc') } else { this.classList.add('sort-asc'); this.classList.remove('sort-desc')} return false;">Date</a>
-</th>
+document.addEventListener("DOMContentLoaded", function () {
 
-<th>
-<a class="sort" data-sort="listing-title-sort" onclick="if (this.classList.contains('sort-asc')) { this.classList.add('sort-desc'); this.classList.remove('sort-asc') } else { this.classList.add('sort-asc'); this.classList.remove('sort-desc')} return false;">Title</a>
-</th>
+  const search = document.getElementById("publication-search");
+  const typeFilter = document.getElementById("publication-type");
+  const publications = document.querySelectorAll(".publication-item");
+  const years = document.querySelectorAll(".publication-year");
+  const count = document.getElementById("publication-count");
 
-</tr>
-</thead>
-<tbody class="list">
 
-<tr data-index="0" data-categories="bWFtJUMzJUFEZmVyb3MlMkNNJUMzJUE5eGljbyUyQ2FydCVDMyVBRGN1bG8=" data-listing-date-sort="1680152400000" data-listing-file-modified-sort="1789864608150" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="4" data-listing-word-count-sort="702" data-listing-title-sort="Franquesa-Soler, M., Ocampo-Saure, F., Mora, F., **Andrade-Ponce, G. P.**, &amp; Andresen, E. (2023). Socioecological Assessment of Mammal Assemblages in Small Oil-Palm Plantations in a Highly Deforested Region in Mexico." data-listing-filename-sort="FS_2023.qmd">
-<td>
-<span class="listing-image"><img loading="lazy" src="../publications/img/FS_2023.png" style="height: 40px;"></span>
-</td>
-<td>
-<span class="listing-date">2023</span>
-</td>
-<td>
-<a href="../publications/FS_2023.html" class="title listing-title">Franquesa-Soler, M., Ocampo-Saure, F., Mora, F., <strong>Andrade-Ponce, G. P.</strong>, &amp; Andresen, E. (2023). Socioecological Assessment of Mammal Assemblages in Small Oil-Palm Plantations in a Highly Deforested Region in Mexico.</a>
-</td>
+  function filterPublications() {
 
-</tr>
+    const query = search.value.toLowerCase().trim();
+    const type = typeFilter.value;
 
-<tr data-index="1" data-categories="bWFtJUMzJUFEZmVyb3MlMkNvY3VwYWNpb24lMkNhcnQlQzMlQURjdWxv" data-listing-date-sort="1660971600000" data-listing-file-modified-sort="1789864608149" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="586" data-listing-title-sort="**Andrade-Ponce, G.P.**, Mandujano, S., Dáttilo, W., Farías-González, V., Jiménez, J., Velásquez-C, K. and Zavaleta, A. (2022), A framework to interpret co-occurrence patterns from camera trap data: The case of the gray fox, the bobcat, and the eastern cottontail rabbit in a tropical dry habitat" data-listing-filename-sort="AP_2022.qmd">
-<td>
-<span class="listing-image"><img loading="lazy" src="../publications/img/AP_2022p.png" style="height: 40px;"></span>
-</td>
-<td>
-<span class="listing-date">2022</span>
-</td>
-<td>
-<a href="../publications/AP_2022.html" class="title listing-title"><strong>Andrade-Ponce, G.P.</strong>, Mandujano, S., Dáttilo, W., Farías-González, V., Jiménez, J., Velásquez-C, K. and Zavaleta, A. (2022), A framework to interpret co-occurrence patterns from camera trap data: The case of the gray fox, the bobcat, and the eastern cottontail rabbit in a tropical dry habitat</a>
-</td>
+    let visible = 0;
 
-</tr>
 
-<tr data-index="2" data-categories="Zm90b3RyYW1wZW8lMkNvY3VwYWNpb24lMkNhcnQlQzMlQURjdWxv" data-listing-date-sort="1622782800000" data-listing-file-modified-sort="1789864608148" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="391" data-listing-title-sort="**Andrade-Ponce, G**., Cepeda-Duque, J. C., Mandujano, S., Velásquez-C, K. L., Lizcano, D. J., &amp; Gómez-Valencia, B. (2021). Modelos de ocupación para datos de cámaras trampa" data-listing-filename-sort="AP_2021.qmd">
-<td>
-<span class="listing-image"><img loading="lazy" src="../publications/img/AP_2021p.png" style="height: 40px;"></span>
-</td>
-<td>
-<span class="listing-date">2021</span>
-</td>
-<td>
-<a href="../publications/AP_2021.html" class="title listing-title"><strong>Andrade-Ponce, G</strong>., Cepeda-Duque, J. C., Mandujano, S., Velásquez-C, K. L., Lizcano, D. J., &amp; Gómez-Valencia, B. (2021). Modelos de ocupación para datos de cámaras trampa</a>
-</td>
+    publications.forEach(function (publication) {
 
-</tr>
+      const text = publication.dataset.search;
+      const publicationType = publication.dataset.type;
 
-<tr data-index="3" data-categories="bWFtJUMzJUFEZmVyb3MlMkNNJUMzJUE5eGljbyUyQ2FydCVDMyVBRGN1bG8=" data-listing-date-sort="1616302800000" data-listing-file-modified-sort="1789864608149" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="264" data-listing-title-sort="Cudney-Valenzuela, S. J., Arroyo-Rodríguez, V., Andresen, E., Toledo-Aceves, T., Mora-Ardila, F., **Andrade-Ponce, G.**, &amp; Mandujano, S. (2021). Does patch quality drive arboreal mammal assemblages in fragmented rainforests?" data-listing-filename-sort="CV_2021.qmd">
-<td>
-<span class="listing-image"><img loading="lazy" src="../publications/img/CV_2021p.png" style="height: 40px;"></span>
-</td>
-<td>
-<span class="listing-date">2021</span>
-</td>
-<td>
-<a href="../publications/CV_2021.html" class="title listing-title">Cudney-Valenzuela, S. J., Arroyo-Rodríguez, V., Andresen, E., Toledo-Aceves, T., Mora-Ardila, F., <strong>Andrade-Ponce, G.</strong>, &amp; Mandujano, S. (2021). Does patch quality drive arboreal mammal assemblages in fragmented rainforests?</a>
-</td>
+      const matchesSearch =
+        text.includes(query);
 
-</tr>
+      const matchesType =
+        type === "all" ||
+        publicationType === type;
 
-<tr data-index="4" data-categories="cm9lZG9yZXMlMkNNJUMzJUE5eGljbyUyQ2FydCVDMyVBRGN1bG8=" data-listing-date-sort="1601182800000" data-listing-file-modified-sort="1789864608148" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="408" data-listing-title-sort="Hernández-Gómez, C. A., **Andrade-Ponce, G. P**., Velásquez-C., K. L., &amp; Mandujano, S. (2020). Uso de bebederos artificiales por pequeños roedores en un bosque tropical seco en Oaxaca, México" data-listing-filename-sort="AP_2020d.qmd">
-<td>
-<span class="listing-image"><img loading="lazy" src="../publications/img/AP_2020dp.png" style="height: 40px;"></span>
-</td>
-<td>
-<span class="listing-date">2020</span>
-</td>
-<td>
-<a href="../publications/AP_2020d.html" class="title listing-title">Hernández-Gómez, C. A., <strong>Andrade-Ponce, G. P</strong>., Velásquez-C., K. L., &amp; Mandujano, S. (2020). Uso de bebederos artificiales por pequeños roedores en un bosque tropical seco en Oaxaca, México</a>
-</td>
+      const show =
+        matchesSearch && matchesType;
 
-</tr>
+      publication.style.display =
+        show ? "" : "none";
 
-<tr data-index="5" data-categories="c2FsYWRvcyUyQ0NvbG9tYmlhJTJDYXJ0JUMzJUFEY3Vsbw==" data-listing-date-sort="1589000400000" data-listing-file-modified-sort="1789864608147" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="329" data-listing-title-sort="**Andrade-Ponce, G.** (2020). Registros de mamíferos terrestres en un salado natural del Resguardo Indígena Nonuya-Villazul departamento del Amazonas, Colombia" data-listing-filename-sort="AP_2020c.qmd">
-<td>
-<span class="listing-image"><img loading="lazy" src="../publications/img/AP_2020cp.png" style="height: 40px;"></span>
-</td>
-<td>
-<span class="listing-date">2020</span>
-</td>
-<td>
-<a href="../publications/AP_2020c.html" class="title listing-title"><strong>Andrade-Ponce, G.</strong> (2020). Registros de mamíferos terrestres en un salado natural del Resguardo Indígena Nonuya-Villazul departamento del Amazonas, Colombia</a>
-</td>
+      if (show) visible++;
 
-</tr>
+    });
 
-<tr data-index="6" data-categories="cm9lZG9yZXMlMkNNJUMzJUE5eGljbyUyQ2FydCVDMyVBRGN1bG8=" data-listing-date-sort="1585976400000" data-listing-file-modified-sort="1789864608145" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="304" data-listing-title-sort="**Andrade-Ponce, G. P.**, Montero-Bagatella, S. H., Durán-Antonio, J., González-Romero, A., &amp; Gallina, S. (2020). Interaction between Ground Squirrels with rattlesnakes in arid zones" data-listing-filename-sort="AP_2020b.qmd">
-<td>
-<span class="listing-image"><img loading="lazy" src="../publications/img/AP_2020bp.png" style="height: 40px;"></span>
-</td>
-<td>
-<span class="listing-date">2020</span>
-</td>
-<td>
-<a href="../publications/AP_2020b.html" class="title listing-title"><strong>Andrade-Ponce, G. P.</strong>, Montero-Bagatella, S. H., Durán-Antonio, J., González-Romero, A., &amp; Gallina, S. (2020). Interaction between Ground Squirrels with rattlesnakes in arid zones</a>
-</td>
 
-</tr>
+    years.forEach(function (year) {
 
-<tr data-index="7" data-categories="Y2FybiVDMyVBRHZvcm9zJTJDTSVDMyVBOXhpY28lMkNhcnQlQzMlQURjdWxvJTJDb2N1cGFjaSVDMyVCM24=" data-listing-date-sort="1584075600000" data-listing-file-modified-sort="1789864608145" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="392" data-listing-title-sort="**Andrade-Ponce, G. P.**, Gallina, S., Gómez-Valencia, B., &amp; Lira-Noriega, A. (2020). Coexistencia de *Vulpes macrotis* y *Canis latrans* (Carnivora: Canidae) en la Reserva de la Biosfera de Mapimí, México" data-listing-filename-sort="AP_2020.qmd">
-<td>
-<span class="listing-image"><img loading="lazy" src="../publications/img/AP_2020p.png" style="height: 40px;"></span>
-</td>
-<td>
-<span class="listing-date">2020</span>
-</td>
-<td>
-<a href="../publications/AP_2020.html" class="title listing-title"><strong>Andrade-Ponce, G. P.</strong>, Gallina, S., Gómez-Valencia, B., &amp; Lira-Noriega, A. (2020). Coexistencia de <em>Vulpes macrotis</em> y <em>Canis latrans</em> (Carnivora: Canidae) en la Reserva de la Biosfera de Mapimí, México</a>
-</td>
+      let next = year.nextElementSibling;
+      let hasVisible = false;
 
-</tr>
+      while (
+        next &&
+        !next.classList.contains("publication-year")
+      ) {
 
-<tr data-index="8" data-categories="Y2FybiVDMyVBRHZvcm9zJTJDQ29sb21iaWElMkNhcnQlQzMlQURjdWxv" data-listing-date-sort="1484287200000" data-listing-file-modified-sort="1789864608144" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="543" data-listing-title-sort="**Andrade-Ponce, G.P** &amp; Angarita-Sierra, T. (2017). Notable altitudinal range expansion of *Lontra longicaudis* (Carnivora: Mustelidae) in Colombia" data-listing-filename-sort="AP_2017.qmd">
-<td>
-<span class="listing-image"><img loading="lazy" src="../publications/img/AP_2017p.png" style="height: 40px;"></span>
-</td>
-<td>
-<span class="listing-date">2017</span>
-</td>
-<td>
-<a href="../publications/AP_2017.html" class="title listing-title"><strong>Andrade-Ponce, G.P</strong> &amp; Angarita-Sierra, T. (2017). Notable altitudinal range expansion of <em>Lontra longicaudis</em> (Carnivora: Mustelidae) in Colombia</a>
-</td>
+        if (
+          next.classList.contains("publication-item") &&
+          next.style.display !== "none"
+        ) {
+          hasVisible = true;
+        }
 
-</tr>
+        next = next.nextElementSibling;
+      }
 
-<tr data-index="9" data-categories="Y2FybiVDMyVBRHZvcm9zJTJDQ29sb21iaWElMkNhcnQlQzMlQURjdWxv" data-listing-date-sort="1475470800000" data-listing-file-modified-sort="1789864608144" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="348" data-listing-title-sort="**Andrade Ponce, G. P**., Montaño-Salazar, S. M., Riveros-Loaiza, L. M., Ramírez-Cháves, H. E., &amp; Suárez-Castro, A. F. (2016). Estado del conocimiento y prioridades de investigación sobre las familias Canidae, Mephitidae y Procyonidae (Mammalia: Carnivora) en Colombia" data-listing-filename-sort="AP_2016.qmd">
-<td>
-<span class="listing-image"><img loading="lazy" src="../publications/img/AP_2016p.png" style="height: 40px;"></span>
-</td>
-<td>
-<span class="listing-date">2016</span>
-</td>
-<td>
-<a href="../publications/AP_2016.html" class="title listing-title"><strong>Andrade Ponce, G. P</strong>., Montaño-Salazar, S. M., Riveros-Loaiza, L. M., Ramírez-Cháves, H. E., &amp; Suárez-Castro, A. F. (2016). Estado del conocimiento y prioridades de investigación sobre las familias Canidae, Mephitidae y Procyonidae (Mammalia: Carnivora) en Colombia</a>
-</td>
+      year.style.display =
+        hasVisible ? "" : "none";
 
-</tr>
+    });
 
-<tr data-index="10" data-categories="Y2FybiVDMyVBRHZvcm9zJTJDQ29sb21iaWElMkNsaWJybw==" data-listing-date-sort="1420092000000" data-listing-file-modified-sort="1789864608143" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="80" data-listing-title-sort="**Andrade-Ponce**, G.P., Jiménez-Ramírez, J.S., Montaño Salazar, S.M., Riveros Loaiza, L.M. (2015) Generalidades del orden Carnivora. En Los carnívoros terrestres y semiacuáticos continentales de Colombia // Guía de Campo. Ed Andrés F. Suárez-Castro, Héctor E. Ramírez-Chaves" data-listing-filename-sort="AP_2015.qmd">
-<td>
-<span class="listing-image"><img loading="lazy" src="../publications/img/AP_2015p.png" style="height: 40px;"></span>
-</td>
-<td>
-<span class="listing-date">2015</span>
-</td>
-<td>
-<a href="../publications/AP_2015.html" class="title listing-title"><strong>Andrade-Ponce</strong>, G.P., Jiménez-Ramírez, J.S., Montaño Salazar, S.M., Riveros Loaiza, L.M. (2015) Generalidades del orden Carnivora. En Los carnívoros terrestres y semiacuáticos continentales de Colombia // Guía de Campo. Ed Andrés F. Suárez-Castro, Héctor E. Ramírez-Chaves</a>
-</td>
 
-</tr>
+    count.textContent =
+      visible +
+      (visible === 1
+        ? " publication"
+        : " publications");
 
-</tbody>
-</table>
-<div class="listing-no-matching d-none">No matching items</div>
-</div></main> <!-- /main -->
+  }
+
+
+  search.addEventListener(
+    "input",
+    filterPublications
+  );
+
+  typeFilter.addEventListener(
+    "change",
+    filterPublications
+  );
+
+
+  filterPublications();
+
+});
+
+</script>
+
+
+
+</main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
     const icon = "";
@@ -820,7 +1144,7 @@ window.Quarto = {
   });
   </script>
 </div> <!-- /content -->
-<div class="page-columns page-rows-contents page-layout-article"><div class="social-share"><a href="https://twitter.com/share?url=https://gpandradep.github.io/gpandradep/&amp;text=Página Gabriel Andrade" target="_blank" class="twitter"><i class="fab fa-twitter fa-fw fa-lg"></i></a><a href="https://www.linkedin.com/shareArticle?url=https://gpandradep.github.io/gpandradep/&amp;title=Página Gabriel Andrade" target="_blank" class="linkedin"><i class="fa-brands fa-linkedin-in fa-fw fa-lg"></i></a>  <a href="mailto:?subject=Página Gabriel Andrade&amp;body=Check out this link:https://gpandradep.github.io/gpandradep/" target="_blank" class="email"><i class="fa-solid fa-envelope fa-fw fa-lg"></i></a><a href="https://www.facebook.com/sharer.php?u=https://gpandradep.github.io/gpandradep/" target="_blank" class="facebook"><i class="fab fa-facebook-f fa-fw fa-lg"></i></a><a href="javascript:void(0);" onclick="var mastodon_instance=prompt('Mastodon Instance / Server Name?'); if(typeof mastodon_instance==='string' &amp;&amp; mastodon_instance.length){this.href='https://'+mastodon_instance+'/share?text=Página Gabriel Andrade https://gpandradep.github.io/gpandradep/'}else{return false;}" target="_blank" class="mastodon"><i class="fa-brands fa-mastodon fa-fw fa-lg"></i></a></div></div>
+<div class="page-columns page-rows-contents page-layout-article"><div class="social-share"><a href="https://twitter.com/share?url=https://gpandradep.github.io/gpandradep/&amp;text=Gabriel Andrade-Ponce" target="_blank" class="twitter"><i class="fab fa-twitter fa-fw fa-lg"></i></a><a href="https://www.linkedin.com/shareArticle?url=https://gpandradep.github.io/gpandradep/&amp;title=Gabriel Andrade-Ponce" target="_blank" class="linkedin"><i class="fa-brands fa-linkedin-in fa-fw fa-lg"></i></a>  <a href="mailto:?subject=Gabriel Andrade-Ponce&amp;body=Check out this link:https://gpandradep.github.io/gpandradep/" target="_blank" class="email"><i class="fa-solid fa-envelope fa-fw fa-lg"></i></a><a href="https://www.facebook.com/sharer.php?u=https://gpandradep.github.io/gpandradep/" target="_blank" class="facebook"><i class="fab fa-facebook-f fa-fw fa-lg"></i></a><a href="javascript:void(0);" onclick="var mastodon_instance=prompt('Mastodon Instance / Server Name?'); if(typeof mastodon_instance==='string' &amp;&amp; mastodon_instance.length){this.href='https://'+mastodon_instance+'/share?text=Gabriel Andrade-Ponce https://gpandradep.github.io/gpandradep/'}else{return false;}" target="_blank" class="mastodon"><i class="fa-brands fa-mastodon fa-fw fa-lg"></i></a></div></div>
 
 
 

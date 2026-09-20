@@ -357,7 +357,7 @@ a.navbar-brand:hover {
 .section-label {
   margin-bottom: 0.6rem;
 
-  font-size: 0.82rem;
+  font-size: 1rem;
   font-weight: 600;
   letter-spacing: 0.14em;
   text-transform: uppercase;
@@ -723,4 +723,1157 @@ a.navbar-brand:hover {
     max-width: none;
   }
 
+}
+
+
+/* =========================================================
+   PUBLICATIONS
+   ========================================================= */
+
+.publications-header {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 5rem 2rem 2rem 2rem;
+}
+
+.publications-title {
+  margin: 0 0 0.8rem 0;
+
+  font-size: clamp(1.7rem, 2.5vw, 2.2rem);
+  line-height: 1.15;
+  font-weight: 500;
+
+  color: var(--text);
+}
+
+.publications-header p {
+  max-width: 650px;
+  margin: 0;
+
+  font-size: 0.92rem;
+  line-height: 1.5;
+
+  color: var(--muted);
+}
+
+
+/* Search + filters */
+
+.publications-tools {
+  display: flex;
+  align-items: center;
+  gap: 0.8rem;
+
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 1rem 2rem 0.8rem 2rem;
+}
+
+.publication-search-wrapper {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+
+  flex: 1;
+  max-width: 420px;
+
+  padding: 0.55rem 0.8rem;
+
+  border: 1px solid var(--border);
+  border-radius: 7px;
+
+  background-color: var(--surface);
+}
+
+.publication-search-wrapper .bi {
+  color: var(--muted);
+  font-size: 0.9rem;
+}
+
+#publication-search {
+  width: 100%;
+
+  border: 0;
+  outline: 0;
+
+  background: transparent;
+  color: var(--text);
+
+  font-family: inherit;
+  font-size: 0.85rem;
+}
+
+#publication-search::placeholder {
+  color: var(--muted);
+}
+
+#publication-type {
+  padding: 0.55rem 2rem 0.55rem 0.8rem;
+
+  border: 1px solid var(--border);
+  border-radius: 7px;
+
+  background-color: var(--surface);
+  color: var(--text);
+
+  font-family: inherit;
+  font-size: 0.85rem;
+}
+
+
+/* Publication counter */
+
+#publication-count {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0.5rem 2rem 0 2rem;
+
+  font-size: 0.78rem;
+  color: var(--muted);
+}
+
+
+/* Years */
+
+.publication-year {
+  max-width: 1100px;
+  margin: 2.8rem auto 0 auto;
+  padding: 0 2rem 0.7rem 2rem;
+
+  font-size: 1.3rem;
+  font-weight: 600;
+  letter-spacing: 0.06em;
+
+  color: var(--accent);
+}
+
+
+/* Individual publication */
+
+.publication-item {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 1.4rem 2rem;
+
+  border-top: 1px solid var(--border);
+}
+
+.publication-with-image {
+  display: grid;
+  grid-template-columns: 150px minmax(0, 1fr);
+  gap: 1.5rem;
+  align-items: start;
+}
+
+
+/* Thumbnail */
+
+.publication-thumb {
+  width: 150px;
+}
+
+.publication-thumb img {
+  display: block;
+
+  width: 150px;
+  height: 110px;
+
+  object-fit: cover;
+  object-position: center;
+
+  border-radius: 6px;
+}
+
+
+/* Publication information */
+
+.publication-title {
+  margin: 0 0 0.45rem 0;
+
+  font-size: 0.98rem;
+  line-height: 1.35;
+  font-weight: 600;
+
+  color: var(--text);
+}
+
+.publication-authors {
+  margin: 0.15rem 0;
+
+  font-size: 0.82rem;
+  line-height: 1.4;
+
+  color: var(--muted);
+}
+
+.publication-authors strong {
+  color: var(--accent);
+  font-weight: 600;
+}
+
+.publication-venue {
+  margin: 0.2rem 0;
+
+  font-size: 0.8rem;
+  line-height: 1.4;
+
+  color: var(--muted);
+}
+
+
+/* Publication links */
+
+.publication-links {
+  display: flex;
+  flex-wrap: wrap;
+
+  gap: 0.5rem;
+  margin-top: 0.7rem;
+}
+
+.publication-links a {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.3rem;
+
+  padding: 0.25rem 0.55rem;
+
+  border: 1px solid var(--border);
+  border-radius: 5px;
+
+  color: var(--muted);
+
+  font-size: 0.72rem;
+  font-weight: 500;
+  text-decoration: none;
+
+  transition:
+    color 0.2s ease,
+    border-color 0.2s ease,
+    background-color 0.2s ease;
+}
+
+.publication-links a:hover {
+  color: var(--accent);
+  border-color: var(--accent);
+  background-color: var(--surface);
+}
+
+
+/* Mobile */
+
+@media (max-width: 768px) {
+
+  .publications-header {
+    padding: 4rem 1.5rem 2rem 1.5rem;
+  }
+
+  .publications-tools {
+    flex-direction: column;
+    align-items: stretch;
+
+    padding: 1rem 1.5rem;
+  }
+
+  .publication-search-wrapper {
+    max-width: none;
+  }
+
+  #publication-count,
+  .publication-year {
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+  }
+
+  .publication-item {
+    padding: 1.3rem 1.5rem;
+  }
+
+  .publication-with-image {
+    grid-template-columns: 110px minmax(0, 1fr);
+    gap: 1rem;
+  }
+
+  .publication-thumb,
+  .publication-thumb img {
+    width: 110px;
+  }
+
+  .publication-thumb img {
+    height: 85px;
+  }
+
+}
+
+
+/* =========================================================
+   TEACHING
+   ========================================================= */
+
+
+/* Header */
+
+.teaching-header {
+  max-width: 850px;
+  margin: 0 auto;
+  padding: 6rem 2rem 4rem 2rem;
+}
+
+.teaching-title {
+  margin: 0.4rem 0 1rem 0;
+
+  font-size: clamp(2rem, 3vw, 2.8rem);
+  line-height: 1.15;
+  font-weight: 500;
+
+  color: var(--text);
+}
+
+.teaching-header p {
+  max-width: 720px;
+  margin: 0;
+
+  font-size: 0.95rem;
+  line-height: 1.6;
+
+  color: var(--muted);
+}
+
+
+/* Teaching approach */
+
+.teaching-section {
+  max-width: 850px;
+  margin: 0 auto;
+  padding: 2rem 2rem 3rem 2rem;
+}
+
+.teaching-section h2 {
+  margin: 0 0 1rem 0;
+
+  font-size: clamp(1.5rem, 2vw, 1.9rem);
+  font-weight: 500;
+
+  color: var(--text);
+}
+
+.teaching-section p {
+  font-size: 0.92rem;
+  line-height: 1.6;
+
+  color: var(--muted);
+}
+
+
+/* Three teaching areas */
+
+.teaching-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem;
+
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 2rem 2rem 6rem 2rem;
+}
+
+.teaching-card {
+  padding-top: 1rem;
+
+  border-top: 1px solid var(--border);
+}
+
+.teaching-number {
+  margin-bottom: 1.2rem;
+
+  font-size: 0.78rem;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+
+  color: var(--accent);
+}
+
+.teaching-card h3 {
+  margin: 0 0 0.7rem 0;
+
+  font-size: 1.05rem;
+  font-weight: 600;
+
+  color: var(--text);
+}
+
+.teaching-card p {
+  margin: 0;
+
+  font-size: 0.88rem;
+  line-height: 1.55;
+
+  color: var(--muted);
+}
+
+
+/* Experience */
+
+.teaching-experience {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 1rem 2rem 6rem 2rem;
+}
+
+.teaching-experience > h2 {
+  margin: 0.4rem 0 3.5rem 0;
+
+  font-size: clamp(1.5rem, 2vw, 1.9rem);
+  font-weight: 500;
+
+  color: var(--text);
+}
+
+
+/* Institution */
+
+.teaching-institution {
+  display: grid;
+  grid-template-columns: minmax(220px, 0.7fr) minmax(0, 1.5fr);
+  column-gap: 4rem;
+
+  margin-bottom: 3.5rem;
+  padding-top: 1.4rem;
+
+  border-top: 1px solid var(--border);
+}
+
+.teaching-institution-header {
+  grid-column: 1;
+  grid-row: 1 / span 20;
+}
+
+.teaching-institution-header h3 {
+  margin: 0;
+
+  font-size: 1rem;
+  line-height: 1.35;
+  font-weight: 600;
+
+  color: var(--text);
+}
+
+.teaching-institution-header p {
+  margin: 0.35rem 0 0 0;
+
+  font-size: 0.8rem;
+  line-height: 1.4;
+
+  color: var(--accent);
+}
+
+
+/* Individual courses */
+
+.teaching-course {
+  grid-column: 2;
+
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto;
+  gap: 1.5rem;
+
+  padding: 0 0 1.1rem 0;
+  margin-bottom: 1rem;
+
+  border-bottom: 1px solid rgba(38, 49, 60, 0.65);
+}
+
+.teaching-course:last-child {
+  border-bottom: 0;
+}
+
+.teaching-course h4 {
+  margin: 0 0 0.2rem 0;
+
+  font-size: 0.9rem;
+  line-height: 1.4;
+  font-weight: 500;
+
+  color: var(--text);
+}
+
+.teaching-course p {
+  margin: 0;
+
+  font-size: 0.76rem;
+
+  color: var(--muted);
+}
+
+.teaching-course > span {
+  padding-top: 0.05rem;
+
+  white-space: nowrap;
+
+  font-size: 0.76rem;
+  font-weight: 500;
+
+  color: var(--muted);
+}
+
+
+/* Responsive */
+
+@media (max-width: 768px) {
+
+  .teaching-header {
+    padding: 4rem 1.5rem 3rem 1.5rem;
+  }
+
+  .teaching-section {
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+  }
+
+  .teaching-grid {
+    grid-template-columns: 1fr;
+
+    gap: 2rem;
+
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    padding-bottom: 4rem;
+  }
+
+  .teaching-experience {
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+  }
+
+  .teaching-institution {
+    display: block;
+
+    margin-bottom: 3rem;
+  }
+
+  .teaching-institution-header {
+    margin-bottom: 1.8rem;
+  }
+
+  .teaching-course {
+    grid-template-columns: 1fr;
+    gap: 0.3rem;
+
+    margin-left: 0;
+  }
+
+  .teaching-course > span {
+    order: -1;
+
+    font-size: 0.72rem;
+
+    color: var(--accent);
+  }
+
+}
+
+/* =========================================================
+   ABOUT ME
+   ========================================================= */
+
+.about-header {
+  max-width: 850px;
+  margin: 0 auto;
+  padding: 6rem 2rem 4rem 2rem;
+}
+
+.about-title {
+  margin: 0.4rem 0 1rem 0;
+
+  font-size: clamp(2rem, 3vw, 2.8rem);
+  line-height: 1.15;
+  font-weight: 500;
+
+  color: var(--text);
+}
+
+.about-header p {
+  max-width: 720px;
+  margin: 0;
+
+  font-size: 0.95rem;
+  line-height: 1.6;
+
+  color: var(--muted);
+}
+
+
+/* Stages */
+
+.about-stage {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 2rem 2rem 5rem 2rem;
+}
+
+.about-stage-number {
+  margin-bottom: 0.8rem;
+
+  font-size: 0.82rem;
+  font-weight: 600;
+  letter-spacing: 0.1em;
+
+  color: var(--accent);
+}
+
+.about-stage-text {
+  max-width: 760px;
+  margin-bottom: 2rem;
+}
+
+.about-stage-text h2 {
+  margin: 0 0 1rem 0;
+
+  font-size: clamp(1.5rem, 2vw, 1.9rem);
+  font-weight: 500;
+
+  color: var(--text);
+}
+
+.about-stage-text p {
+  font-size: 0.92rem;
+  line-height: 1.65;
+
+  color: var(--muted);
+}
+
+
+/* Galleries */
+
+.about-gallery {
+  display: grid;
+  gap: 1rem;
+}
+
+.about-gallery.two {
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.about-gallery.three {
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.about-gallery img {
+  width: 100%;
+  aspect-ratio: 4 / 3;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+
+/* Hobbies */
+
+.about-hobbies {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 1rem 2rem 6rem 2rem;
+}
+
+.about-hobbies h2 {
+  margin: 0.4rem 0 1.5rem 0;
+
+  font-size: clamp(1.5rem, 2vw, 1.9rem);
+  font-weight: 500;
+
+  color: var(--text);
+}
+
+.hobby-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.7rem;
+}
+
+.hobby-tags span {
+  padding: 0.45rem 0.8rem;
+
+  border: 1px solid var(--border);
+  border-radius: 20px;
+
+  font-size: 0.82rem;
+  color: var(--muted);
+
+  background-color: var(--surface);
+}
+
+
+/* Responsive */
+
+@media (max-width: 768px) {
+
+  .about-header {
+    padding: 4rem 1.5rem 3rem 1.5rem;
+  }
+
+  .about-stage,
+  .about-hobbies {
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+  }
+
+  .about-gallery.two,
+  .about-gallery.three {
+    grid-template-columns: 1fr;
+  }
+
+}
+
+
+/* =========================================================
+   RESOURCES
+   ========================================================= */
+
+
+/* Header */
+
+.resources-header {
+  max-width: 850px;
+  margin: 0 auto;
+  padding: 6rem 2rem 3.5rem 2rem;
+}
+
+.resources-title {
+  margin: 0.4rem 0 1rem 0;
+
+  font-size: clamp(2rem, 3vw, 2.8rem);
+  line-height: 1.15;
+  font-weight: 500;
+
+  color: var(--text);
+}
+
+.resources-header p {
+  max-width: 720px;
+  margin: 0;
+
+  font-size: 0.95rem;
+  line-height: 1.6;
+
+  color: var(--muted);
+}
+
+
+/* =========================================================
+   LISTING CONTROLS
+   ========================================================= */
+
+.quarto-listing {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0 2rem 6rem 2rem;
+}
+
+
+/* Search */
+
+.quarto-listing-filter {
+  margin-bottom: 1.5rem;
+}
+
+.quarto-listing-filter input {
+  min-height: 42px;
+
+  border: 1px solid var(--border);
+  border-radius: 7px;
+
+  background-color: var(--surface);
+  color: var(--text);
+
+  font-family: inherit;
+  font-size: 0.85rem;
+}
+
+.quarto-listing-filter input:focus {
+  border-color: var(--accent);
+  box-shadow: none;
+  background-color: var(--surface);
+  color: var(--text);
+}
+
+.quarto-listing-filter input::placeholder {
+  color: var(--muted);
+}
+
+
+/* Sort */
+
+.quarto-listing-sort select,
+.quarto-listing-sort .form-select {
+  min-height: 42px;
+
+  border: 1px solid var(--border);
+  border-radius: 7px;
+
+  background-color: var(--surface);
+  color: var(--text);
+
+  font-family: inherit;
+  font-size: 0.82rem;
+}
+
+.quarto-listing-sort select:focus,
+.quarto-listing-sort .form-select:focus {
+  border-color: var(--accent);
+  box-shadow: none;
+}
+
+
+/* =========================================================
+   RESOURCE GRID
+   ========================================================= */
+
+.quarto-listing-container-grid {
+  gap: 1.5rem;
+}
+
+
+/* Card */
+
+.quarto-listing-container-grid .quarto-grid-item {
+  background: transparent;
+}
+
+.quarto-listing-container-grid .card {
+  height: 100%;
+
+  overflow: hidden;
+
+  border: 1px solid var(--border) !important;
+  border-radius: 10px;
+
+  background-color: var(--surface);
+
+  box-shadow: none;
+
+  transition:
+    transform 0.2s ease,
+    border-color 0.2s ease;
+}
+
+.quarto-listing-container-grid .card:hover {
+  transform: translateY(-3px);
+  border-color: var(--accent) !important;
+}
+
+
+/* =========================================================
+   CARD IMAGE
+   ========================================================= */
+
+.quarto-listing-container-grid .card-img-top {
+  width: 100%;
+  aspect-ratio: 16 / 9;
+
+  object-fit: cover;
+  object-position: center;
+
+  border-radius: 0;
+
+  background-color: var(--bg);
+}
+
+
+/* =========================================================
+   CARD CONTENT
+   ========================================================= */
+
+.quarto-listing-container-grid .card-body {
+  padding: 1.15rem 1.15rem 1.25rem 1.15rem;
+}
+
+
+/* Resource type + language */
+
+.quarto-listing-container-grid .listing-subtitle {
+  margin-bottom: 0.55rem;
+
+  font-size: 0.72rem;
+  line-height: 1.3;
+  font-weight: 600;
+
+  letter-spacing: 0.055em;
+  text-transform: uppercase;
+
+  color: var(--accent);
+}
+
+
+/* Title */
+
+.quarto-listing-container-grid .listing-title {
+  margin-bottom: 0.6rem;
+
+  font-size: 1rem;
+  line-height: 1.35;
+  font-weight: 600;
+
+  color: var(--text);
+}
+
+.quarto-listing-container-grid .listing-title a {
+  color: var(--text);
+  text-decoration: none;
+}
+
+.quarto-listing-container-grid .listing-title a:hover {
+  color: var(--accent);
+}
+
+
+/* Description */
+
+.quarto-listing-container-grid .listing-description {
+  margin-bottom: 0.9rem;
+
+  font-size: 0.84rem;
+  line-height: 1.5;
+
+  color: var(--muted);
+}
+
+
+/* Date */
+
+.quarto-listing-container-grid .listing-date {
+  margin-top: 0.7rem;
+
+  font-size: 0.72rem;
+  color: var(--muted);
+}
+
+
+/* =========================================================
+   CATEGORIES
+   ========================================================= */
+
+.quarto-listing-container-grid .listing-categories {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.35rem;
+
+  margin-top: 0.85rem;
+}
+
+.quarto-listing-container-grid .listing-category {
+  padding: 0.22rem 0.5rem;
+
+  border: 1px solid var(--border);
+  border-radius: 20px;
+
+  background: transparent;
+
+  font-size: 0.68rem;
+  line-height: 1.2;
+
+  color: var(--muted);
+}
+
+
+/* =========================================================
+   LINKS
+   ========================================================= */
+
+.quarto-listing-container-grid a {
+  text-decoration: none;
+}
+
+
+/* =========================================================
+   PAGINATION
+   ========================================================= */
+
+.quarto-listing .pagination {
+  margin-top: 2.5rem;
+}
+
+.quarto-listing .page-link {
+  border-color: var(--border);
+
+  background-color: var(--surface);
+  color: var(--muted);
+
+  font-size: 0.8rem;
+}
+
+.quarto-listing .page-link:hover {
+  border-color: var(--accent);
+
+  background-color: var(--surface);
+  color: var(--accent);
+}
+
+.quarto-listing .page-item.active .page-link {
+  border-color: var(--accent);
+
+  background-color: var(--accent);
+  color: var(--bg);
+}
+
+
+/* =========================================================
+   MOBILE
+   ========================================================= */
+
+@media (max-width: 768px) {
+
+  .resources-header {
+    padding: 4rem 1.5rem 3rem 1.5rem;
+  }
+
+  .quarto-listing {
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+  }
+
+  .quarto-listing-container-grid {
+    gap: 1.2rem;
+  }
+
+}
+
+
+/* =========================================================
+   NAVBAR
+   ========================================================= */
+
+.navbar {
+  min-height: 64px;
+
+  padding-top: 0.7rem;
+  padding-bottom: 0.7rem;
+
+  background-color: var(--bg) !important;
+
+  border-bottom: 1px solid var(--border);
+}
+
+
+/* Site name */
+
+.navbar-brand {
+  font-size: 0.95rem;
+  font-weight: 600;
+  letter-spacing: 0.01em;
+
+  color: var(--text) !important;
+}
+
+.navbar-brand:hover {
+  color: var(--accent) !important;
+}
+
+
+/* Navigation links */
+
+.navbar-nav .nav-link {
+  position: relative;
+
+  margin-left: 0.55rem;
+  margin-right: 0.55rem;
+
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+
+  font-size: 0.82rem;
+  font-weight: 500;
+
+  color: var(--muted) !important;
+
+  transition: color 0.2s ease;
+}
+
+.navbar-nav .nav-link:hover {
+  color: var(--text) !important;
+}
+
+
+/* Active page */
+
+.navbar-nav .nav-link.active {
+  color: var(--accent) !important;
+}
+
+
+/* Small underline on hover / active */
+
+.navbar-nav .nav-link::after {
+  content: "";
+
+  position: absolute;
+  left: 0;
+  bottom: -0.15rem;
+
+  width: 0;
+  height: 1px;
+
+  background-color: var(--accent);
+
+  transition: width 0.2s ease;
+}
+
+.navbar-nav .nav-link:hover::after,
+.navbar-nav .nav-link.active::after {
+  width: 100%;
+}
+
+
+/* Mobile menu */
+
+.navbar-toggler {
+  border: 1px solid var(--border);
+  box-shadow: none !important;
+}
+
+.navbar-toggler:focus {
+  box-shadow: none;
+}
+
+
+/* Mobile spacing */
+
+@media (max-width: 991px) {
+
+  .navbar-nav {
+    padding-top: 1rem;
+  }
+
+  .navbar-nav .nav-link {
+    margin: 0;
+    padding: 0.55rem 0 !important;
+  }
+
+  .navbar-nav .nav-link::after {
+    display: none;
+  }
+
+}
+
+
+/* =========================================================
+   FOOTER
+   ========================================================= */
+
+.nav-footer {
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+
+  border-top: 1px solid var(--border);
+
+  background-color: var(--bg) !important;
+
+  font-size: 0.78rem;
+  color: var(--muted);
+}
+
+.nav-footer a {
+  color: var(--muted);
+}
+
+.nav-footer a:hover {
+  color: var(--accent);
 }

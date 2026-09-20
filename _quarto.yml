@@ -7,31 +7,44 @@ website:
   twitter-card: true
   
   navbar:
-    background: "#104E8B"
-    left:
-      - href: about/index.qmd
-        text: Sobre mi
-      - href: blog/index.qmd
-        text: Blog
+    background: "#0b1016"
+    foreground: "#f1f3f5"
+    collapse-below: lg
+    
+    right:
+      - href: research/index.qmd
+        text: Research
+
       - href: publications/index.qmd
-        text: Publicaciones
+        text: Publications
+
+      - href: teaching/index.qmd
+        text: Teaching
+
+      - href: resources/index.qmd
+        text: Resources
+
+      - href: about/index.qmd
+        text: About me
+
       
     page-footer:
-     left: "Copyright 2022, Gabriel Andrade-Ponce"
+     left: "© 2026 Gabriel Andrade-Ponce"
      right:
       - icon: github
         href: https://github.com/gpandradep
       - icon: twitter
         href: https://twitter.com/Gatorco_AP
-     background: "#536878"
-    
+     background: "#0b1016"
+
 date-format: "D MMMM YYYY"
 
 filters:
   - social-share
+
 share:
   permalink: "https://gpandradep.github.io/gpandradep/"
-  description: "Página Gabriel Andrade"
+  description: "Gabriel Andrade-Ponce"
   twitter: true
   facebook: true
   reddit: false

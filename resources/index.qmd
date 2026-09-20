@@ -1,0 +1,43 @@
+---
+title: ""
+page-layout: full
+
+listing:
+  contents:
+    - "resources.yml"
+
+  type: grid
+  sort: "date desc"
+
+  fields:
+    - image
+    - title
+    - subtitle
+    - description
+    - categories
+    - date
+
+  grid-columns: 3
+  grid-item-border: false
+  grid-item-align: left
+
+  sort-ui:
+    - date
+    - title
+
+  filter-ui: true
+  page-size: 30
+---
+
+::: {.resources-header}
+
+<div class="section-label">Resources</div>
+
+<div class="resources-title">Tutorials, code, and teaching materials</div>
+
+<p>
+A collection of tutorials, workshops, code examples, and other resources related to R, quantitative ecology, wildlife monitoring, and reproducible research.
+</p>
+
+:::
+

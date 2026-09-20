@@ -1,16 +1,313 @@
 ---
-title: "Publicaciones"
-listing:
-  contents: .
-  type: table
-  fields: [image, date, title]
-  max-description-length: 60
-  sort: "date desc"
-  categories: false
-  sort-ui: [date, title]
-  date-format: "YYYY"
-  page-size: 50
-sidebar: false
-page-layout: article
-
+title: ""
+page-layout: full
+toc: false
 ---
+
+::: {.publications-header}
+
+<div class="section-label">Publications</div>
+
+<div class="publications-title">Scientific publications</div>
+
+<p>
+Peer-reviewed articles, book chapters, and other contributions.
+</p>
+
+:::
+
+
+::: {.publications-tools}
+
+<div class="publication-search-wrapper">
+<i class="bi bi-search"></i>
+
+<input
+  type="search"
+  id="publication-search"
+  placeholder="Search publications..."
+  aria-label="Search publications">
+</div>
+
+<select id="publication-type" aria-label="Filter publications by type">
+  <option value="all">All publications</option>
+  <option value="Research article">Research articles</option>
+  <option value="Book chapter">Book chapters</option>
+  <option value="Book">Books</option>
+</select>
+
+:::
+
+<div id="publication-count"></div>
+
+
+```{r}
+#| echo: false
+#| results: asis
+#| warning: false
+#| message: false
+
+library(yaml)
+
+pubs <- yaml::read_yaml("publications.yml")
+
+years <- sort(
+  unique(vapply(pubs, function(x) x$year, numeric(1))),
+  decreasing = TRUE
+)
+
+has_value <- function(x) {
+  !is.null(x) &&
+    length(x) > 0 &&
+    !is.na(x) &&
+    nzchar(x)
+}
+
+strip_html <- function(x) {
+  gsub("<[^>]+>", "", x)
+}
+
+
+for (yr in years) {
+
+  cat(
+    sprintf(
+      '<div class="publication-year" data-year="%s">%s</div>\n',
+      yr,
+      yr
+    )
+  )
+
+  year_pubs <- Filter(
+    function(x) x$year == yr,
+    pubs
+  )
+
+  for (pub in year_pubs) {
+
+    topics <- if (!is.null(pub$topics)) {
+      paste(pub$topics, collapse = " ")
+    } else {
+      ""
+    }
+
+    search_text <- paste(
+      strip_html(pub$title),
+      strip_html(pub$authors),
+      pub$venue,
+      pub$details,
+      pub$year,
+      pub$type,
+      topics
+    )
+
+    # Open publication
+    image_class <- if (has_value(pub$image)) {
+  " publication-with-image"
+} else {
+  ""
+}
+
+cat(
+  sprintf(
+    '<article class="publication-item%s" data-type="%s" data-search="%s">',
+    image_class,
+    pub$type,
+    tolower(search_text)
+  )
+)
+
+    # Image
+    if (has_value(pub$image)) {
+      cat(
+        sprintf(
+          '<div class="publication-thumb"><img src="%s" alt=""></div>',
+          pub$image
+        )
+      )
+    }
+
+    # Content
+    cat('<div class="publication-content">')
+
+    # Title
+    cat(
+      sprintf(
+        '<div class="publication-title">%s</div>',
+        pub$title
+      )
+    )
+
+    # Authors
+    cat(
+      sprintf(
+        '<div class="publication-authors">%s</div>',
+        pub$authors
+      )
+    )
+
+    # Venue
+    details <- if (has_value(pub$details)) {
+      paste0(" · ", pub$details)
+    } else {
+      ""
+    }
+
+    cat(
+      sprintf(
+        '<div class="publication-venue"><em>%s</em>%s</div>',
+        pub$venue,
+        details
+      )
+    )
+
+    # Links
+    cat('<div class="publication-links">')
+
+    if (has_value(pub$publisher)) {
+      cat(
+        sprintf(
+          '<a href="%s" target="_blank"><i class="bi bi-box-arrow-up-right"></i> Publisher</a>',
+          pub$publisher
+        )
+      )
+    }
+
+    if (has_value(pub$researchgate)) {
+      cat(
+        sprintf(
+          '<a href="%s" target="_blank"><i class="ai ai-researchgate"></i> ResearchGate</a>',
+          pub$researchgate
+        )
+      )
+    }
+
+    if (has_value(pub$pdf)) {
+      cat(
+        sprintf(
+          '<a href="%s" target="_blank"><i class="bi bi-file-earmark-pdf"></i> PDF</a>',
+          pub$pdf
+        )
+      )
+    }
+
+    if (has_value(pub$code)) {
+      cat(
+        sprintf(
+          '<a href="%s" target="_blank"><i class="bi bi-github"></i> Code</a>',
+          pub$code
+        )
+      )
+    }
+    
+    if (has_value(pub$supplement)) {
+  cat(
+    sprintf(
+      '<a href="%s" target="_blank"><i class="bi bi-paperclip"></i> Supplement</a>',
+      pub$supplement
+    )
+  )
+}
+
+    cat('</div>')  # publication-links
+    cat('</div>')  # publication-content
+    cat('</article>\n')
+
+  }
+}
+```
+
+
+<script>
+
+document.addEventListener("DOMContentLoaded", function () {
+
+  const search = document.getElementById("publication-search");
+  const typeFilter = document.getElementById("publication-type");
+  const publications = document.querySelectorAll(".publication-item");
+  const years = document.querySelectorAll(".publication-year");
+  const count = document.getElementById("publication-count");
+
+
+  function filterPublications() {
+
+    const query = search.value.toLowerCase().trim();
+    const type = typeFilter.value;
+
+    let visible = 0;
+
+
+    publications.forEach(function (publication) {
+
+      const text = publication.dataset.search;
+      const publicationType = publication.dataset.type;
+
+      const matchesSearch =
+        text.includes(query);
+
+      const matchesType =
+        type === "all" ||
+        publicationType === type;
+
+      const show =
+        matchesSearch && matchesType;
+
+      publication.style.display =
+        show ? "" : "none";
+
+      if (show) visible++;
+
+    });
+
+
+    years.forEach(function (year) {
+
+      let next = year.nextElementSibling;
+      let hasVisible = false;
+
+      while (
+        next &&
+        !next.classList.contains("publication-year")
+      ) {
+
+        if (
+          next.classList.contains("publication-item") &&
+          next.style.display !== "none"
+        ) {
+          hasVisible = true;
+        }
+
+        next = next.nextElementSibling;
+      }
+
+      year.style.display =
+        hasVisible ? "" : "none";
+
+    });
+
+
+    count.textContent =
+      visible +
+      (visible === 1
+        ? " publication"
+        : " publications");
+
+  }
+
+
+  search.addEventListener(
+    "input",
+    filterPublications
+  );
+
+  typeFilter.addEventListener(
+    "change",
+    filterPublications
+  );
+
+
+  filterPublications();
+
+});
+
+</script>

@@ -1,0 +1,234 @@
+---
+title: ""
+page-layout: full
+toc: false
+---
+
+::: {.teaching-header}
+
+<div class="section-label">Teaching</div>
+
+<div class="teaching-title">Teaching ecology through field experience and quantitative thinking</div>
+
+<p>
+My teaching integrates field ecology, quantitative methods, and reproducible research. I aim to help students connect ecological questions with study design, data collection, analysis, and scientific communication.
+</p>
+
+:::
+
+::: {.teaching-grid}
+
+::: {.teaching-card}
+<div class="teaching-number">01</div>
+
+### Field ecology
+
+Hands-on training in wildlife monitoring and ecological field methods, including camera trapping, small-mammal sampling, study design, and data collection.
+:::
+
+::: {.teaching-card}
+<div class="teaching-number">02</div>
+
+### Quantitative ecology
+
+Training in ecological statistics, occupancy and abundance modeling, spatial analysis, and the interpretation of ecological data.
+:::
+
+::: {.teaching-card}
+<div class="teaching-number">03</div>
+
+### R & reproducible research
+
+Workshops and course materials focused on R programming, data management, visualization, reproducible workflows, and ecological analysis.
+:::
+
+:::
+
+
+::: {.teaching-experience}
+
+<div class="section-label">Teaching experience</div>
+
+## Courses, workshops, and guest lectures
+
+
+<div class="teaching-institution">
+
+<div class="teaching-institution-header">
+<div>
+<h3>Stephen F. Austin State University</h3>
+<p>Arthur Temple College of Forestry and Agriculture · Texas, USA</p>
+</div>
+</div>
+
+<div class="teaching-course">
+<div>
+<h4>Mammalogy</h4>
+<p>Guest Lecturer</p>
+</div>
+<span>Fall 2026</span>
+</div>
+
+<div class="teaching-course">
+<div>
+<h4>Using R for Scientific Research</h4>
+<p>Guest Lecturer</p>
+</div>
+<span>Fall 2024, 2025</span>
+</div>
+
+<div class="teaching-course">
+<div>
+<h4>Wildlife Field Station</h4>
+<p>Instructor</p>
+</div>
+<span>Summer 2024–2026</span>
+</div>
+
+<div class="teaching-course">
+<div>
+<h4>Population Ecology</h4>
+<p>Guest Lecturer</p>
+</div>
+<span>Spring 2025</span>
+</div>
+
+<div class="teaching-course">
+<div>
+<h4>Quantitative Ecological Methods in R</h4>
+<p>Guest Lecturer</p>
+</div>
+<span>Spring 2024, 2025</span>
+</div>
+
+</div>
+
+
+<div class="teaching-institution">
+
+<div class="teaching-institution-header">
+<div>
+<h3>Instituto de Ecología A.C. (INECOL)</h3>
+<p>Mexico</p>
+</div>
+</div>
+
+<div class="teaching-course">
+<div>
+<h4>Modeling Occupancy, Abundance, and Population Density: Frequentist and Bayesian Approaches in R</h4>
+<p>Guest Lecturer</p>
+</div>
+<span>Summer 2025</span>
+</div>
+
+<div class="teaching-course">
+<div>
+<h4>Introduction to Statistics</h4>
+<p>Co-Lecturer</p>
+</div>
+<span>Spring 2023</span>
+</div>
+
+<div class="teaching-course">
+<div>
+<h4>Techniques and Methods for the Study and Conservation of Wildlife</h4>
+<p>Guest Lecturer</p>
+</div>
+<span>Spring 2019</span>
+</div>
+
+</div>
+
+
+<div class="teaching-institution">
+
+<div class="teaching-institution-header">
+<div>
+<h3>Universidad Autónoma de Nuevo León</h3>
+<p>Mexico</p>
+</div>
+</div>
+
+<div class="teaching-course">
+<div>
+<h4>Analytical Methods in Population and Community Ecology</h4>
+<p>Guest Lecturer</p>
+</div>
+<span>Fall 2023</span>
+</div>
+
+<div class="teaching-course">
+<div>
+<h4>Occupancy Models for the Study of Wildlife Distribution and Habitat Use</h4>
+<p>Guest Lecturer</p>
+</div>
+<span>Fall 2022</span>
+</div>
+
+</div>
+
+
+<div class="teaching-institution">
+
+<div class="teaching-institution-header">
+<div>
+<h3>Benemérita Universidad Autónoma de Puebla</h3>
+<p>Mexico</p>
+</div>
+</div>
+
+<div class="teaching-course">
+<div>
+<h4>Camera-Trapping Workshop in R: Occupancy and Abundance Modeling</h4>
+<p>Co-Lecturer</p>
+</div>
+<span>Summer 2022</span>
+</div>
+
+<div class="teaching-course">
+<div>
+<h4>Camera-Trapping Workshop in R: Wildlife–Habitat Analysis in GIS and R</h4>
+<p>Co-Lecturer</p>
+</div>
+<span>Summer 2022</span>
+</div>
+
+<div class="teaching-course">
+<div>
+<h4>Camera-Trapping Workshop in R: Diversity Analysis</h4>
+<p>Co-Lecturer</p>
+</div>
+<span>Spring 2022</span>
+</div>
+
+<div class="teaching-course">
+<div>
+<h4>Camera-Trapping Workshop in R: Basic Concepts, Photo Organization, and Analysis</h4>
+<p>Co-Lecturer</p>
+</div>
+<span>Fall 2021 · Spring 2022</span>
+</div>
+
+</div>
+
+
+<div class="teaching-institution">
+
+<div class="teaching-institution-header">
+<div>
+<h3>Universidad Nacional Autónoma de México</h3>
+<p>Mexico</p>
+</div>
+</div>
+
+<div class="teaching-course">
+<div>
+<h4>Camera Trapping in R: Data Organization and Analysis</h4>
+<p>Guest Lecturer</p>
+</div>
+<span>Summer 2020</span>
+</div>
+
+</div>
+
+:::

@@ -1,48 +1,96 @@
 ---
 title: ""
-editor: visual
+page-layout: full
+toc: false
 ---
 
-## Sobre mí
+::: {.about-header}
 
-### Mi trabajo
+<div class="section-label">About me</div>
 
-Soy biólogo colombiano 🇨🇴 y maestro en ciencias por el Instituto de Ecología A.C. (INECOL) 🇲🇽. Actualmente soy estudiante de doctorado del INECOL. Mi trabajo se ha centrado en el uso de modelos estadísticos para estimar e interpretar la co-ocurrencia espacial de mamíferos, principalmente utilizando datos de cámaras trampa🐺🐱🐇.
+<div class="about-title">From Colombia to Mexico and the United States</div>
 
-![](cams_me.png)
+<p>
+My personal and academic journey has taken me across countries, ecosystems, and research traditions. Along the way, fieldwork, teaching, and quantitative ecology have shaped both my professional identity and my way of seeing the world.
+</p>
 
-Soy un entusiasta de aprender y usar la estadística 👨‍💻 para resolver problemas y preguntas sobre ecología de mamíferos (aunque en general puede ser de cualquier bicho).
-
-![](zorro_code.png)
-
-Me apasiona la enseñanza y he participado en varios talleres como profesor y coordinador. En los talleres he tratado temas que abarcan desde la organización de datos, hasta análisis de ocupación, diversidad y algo de estadística espacial. Parte de lo que doy en los cursos lo pueden ver en la sección de blog. Eso sí, todo lo hacemos en R. Olvidé mencionar que me obsesiona el R y lo uso para escribir, enseñar, analizar y visualizar datos de todo lo que se me ocurra.
-
-## CV
-
-[CV formato html {{< fa file-code size= 1.8x >}}](https://htmlpreview.github.io/?https://raw.githubusercontent.com/gpandradep/CV/master/cv.html)
-
-[CV en PDF {{< fa file-pdf size= 1.8x >}}](https://github.com/gpandradep/CV/raw/master/Gabriel%20Andrade%20Ponce%E2%80%99s%20CV.pdf)
-
-## Sociales
-
-::: columns
-::: {.column width="50%"}
-[{{< fa brands twitter size= 2x >}}]{style="color:Dodgerblue"} [\@Gatorco_AP](https://twitter.com/Gatorco_AP)
-
-[{{< fa brands facebook size= 2x >}}]{style="color:DeepSkyBlue"} [ Gabriel Andrade-Ponce](https://www.facebook.com/patrick.l.ponce)
-
-[{{< fa brands instagram size= 2x >}}]{style="color:LightSalmon"} [ gpandradep](https://www.instagram.com/gatorcandrade/)
 :::
 
-::: {.column width="50%"}
-[{{< fa brands github size= 2x >}}]{style="color:black"} [ gpandradep](https://github.com/gpandradep)
 
-[{{< ai google-scholar size= 2x >}}]{style="color:black"} [ Google Scholar](https://scholar.google.com.mx/citations?user=tu7S2ZAAAAAJ&hl=es)
+::: {.about-stage}
 
-[{{< fa brands researchgate size= 2x >}}]{style="color:DarkTurquoise"} [ Researchgate](https://www.researchgate.net/profile/Gabriel-Andrade-Ponce)
+<div class="about-stage-number">01</div>
+
+<div class="about-stage-text">
+
+## Colombia
+
+I trained as a biologist in Colombia, where I first developed my interest in wildlife, natural history, and ecological research. My early experiences in the field shaped the way I approach ecology today: with curiosity about organisms, landscapes, and the questions that connect them.
+
+</div>
+
+<div class="about-gallery three">
+![](images/about-colombia-1.jpg)
+![](images/about-colombia-2.jpg)
+![](images/about-colombia-3.jpg)
+</div>
+
 :::
+
+
+::: {.about-stage}
+
+<div class="about-stage-number">02</div>
+
+<div class="about-stage-text">
+
+## Mexico
+
+My graduate training in Mexico was a defining stage in my development as an ecologist. During my M.Sc. and Ph.D., I deepened my work on mammals, camera trapping, species interactions, and quantitative ecology, while also building lasting collaborations and friendships.
+
+</div>
+
+<div class="about-gallery two">
+![](images/about-mexico-1.jpg)
+![](images/about-mexico-2.jpg)
+</div>
+
 :::
 
-## Otros intereses
 
--   Aficionado a los videojuegos, especialmente estrategia en tiempo real y aventura
+::: {.about-stage}
+
+<div class="about-stage-number">03</div>
+
+<div class="about-stage-text">
+
+## United States
+
+I currently work as a Postdoctoral Research Associate at Stephen F. Austin State University, where I continue developing research in wildlife ecology, mentoring students, and teaching quantitative and field-based methods. This stage has expanded my work into new systems, collaborations, and applied conservation questions.
+
+</div>
+
+<div class="about-gallery three">
+![](images/about-usa-1.jpg)
+![](images/about-usa-2.jpg)
+![](images/about-usa-3.jpg)
+</div>
+
+:::
+
+
+::: {.about-hobbies}
+
+<div class="section-label">Beyond academia</div>
+
+## A few things I enjoy outside work
+
+<div class="hobby-tags">
+<span>Video games</span>
+<span></span>
+<span></span>
+<span></span>
+<span>Food</span>
+</div>
+
+:::

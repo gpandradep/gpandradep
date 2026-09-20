@@ -1,0 +1,437 @@
+- id: AP_2015
+  title: "Generalidades del orden Carnivora"
+  authors: "<strong>Andrade-Ponce, G. P.</strong>, Jiménez-Ramírez, J. S., Montaño Salazar, S. M., & Riveros Loaiza, L. M."
+  year: 2015
+  venue: "Los carnívoros terrestres y semiacuáticos continentales de Colombia // Guía de Campo"
+  details: "Eds. Andrés F. Suárez-Castro & Héctor E. Ramírez-Chaves"
+  type: "Book chapter"
+  topics:
+    - Carnivores
+    - Colombia
+  image: "img/AP_2015p.png"
+  publisher: ""
+  researchgate: "https://www.researchgate.net/publication/312373249_Generalidades_del_orden_Carnivora"
+  pdf: ""
+  code: ""
+
+- id: AP_2016
+  title: "Estado del conocimiento y prioridades de investigación sobre las familias Canidae, Mephitidae y Procyonidae (Mammalia: Carnivora) en Colombia"
+  authors: "<strong>Andrade Ponce, G. P.</strong>, Montaño-Salazar, S. M., Riveros-Loaiza, L. M., Ramírez-Cháves, H. E., & Suárez-Castro, A. F."
+  year: 2016
+  venue: "Revista de la Academia Colombiana de Ciencias Exactas, Físicas y Naturales"
+  details: "40(156), 500–513"
+  type: "Research article"
+  topics:
+    - Carnivores
+    - Colombia
+  image: "img/AP_2016.png"
+  publisher: "https://raccefyn.co/index.php/raccefyn/article/view/327"
+  researchgate: "https://www.researchgate.net/publication/308963398_Estado_del_conocimiento_y_prioridades_de_investigacion_sobre_las_familias_Canidae_Mephitidae_y_Procyonidae_Mammalia_Carnivora_en_Colombia"
+  pdf: ""
+  code: ""
+
+- id: AP_2017
+  title: "Notable altitudinal range expansion of <em>Lontra longicaudis</em> (Carnivora: Mustelidae) in Colombia"
+  authors: "<strong>Andrade-Ponce, G. P.</strong> & Angarita-Sierra, T."
+  year: 2017
+  venue: "Therya"
+  details: "8(1)"
+  type: "Research article"
+  topics:
+    - Carnivores
+    - Colombia
+    - Natural history
+  image: "img/AP_2017.png"
+  publisher: "https://www.scielo.org.mx/scielo.php?pid=S2007-33642017000100075&script=sci_arttext&tlng=en"
+  researchgate: "https://www.researchgate.net/publication/312373252_Notable_altitudinal_range_expansion_of_Lontra_longicaudis_Carnivora_Mustelidae_in_Colombian_Paramos"
+  pdf: ""
+  code: ""
+
+- id: AP_2020
+  title: "Coexistencia de <em>Vulpes macrotis</em> y <em>Canis latrans</em> (Carnivora: Canidae) en la Reserva de la Biosfera de Mapimí, México"
+  authors: "<strong>Andrade-Ponce, G. P.</strong>, Gallina, S., Gómez-Valencia, B., & Lira-Noriega, A."
+  year: 2020
+  venue: "Revista Mexicana de Biodiversidad"
+  details: "91"
+  type: "Research article"
+  topics:
+    - Carnivores
+    - Co-occurrence
+    - Occupancy
+    - Mexico
+  image: "img/AP_2020.png"
+  publisher: "https://revista.ib.unam.mx/index.php/bio/article/view/2973"
+  researchgate: "https://www.researchgate.net/publication/339182388_Coexistencia_de_Vulpes_macrotis_y_Canis_latrans_Carnivora_Canidae_en_la_Reserva_de_la_Biosfera_de_Mapimi_Mexico"
+  pdf: ""
+  code: ""
+
+- id: AP_2020b
+  title: "Interaction between Ground Squirrels with rattlesnakes in arid zones"
+  authors: "<strong>Andrade-Ponce, G. P.</strong>, Montero-Bagatella, S. H., Durán-Antonio, J., González-Romero, A., & Gallina, S."
+  year: 2020
+  venue: "Therya Notes"
+  details: "1, 11–13"
+  type: "Research article"
+  topics:
+    - Rodents
+    - Natural history
+    - Mexico
+  image: "img/AP_2020b.png"
+  publisher: "https://theryanotes.mastozoologiamexicana.com/index.php/theryanotes/article/view/20"
+  researchgate: "https://www.researchgate.net/publication/340479791_Interaction_between_Ground_Squirrels_with_rattlesnakes_in_arid_zones"
+  pdf: ""
+  code: ""
+
+- id: AP_2020c
+  title: "Registros de mamíferos terrestres en un salado natural del Resguardo Indígena Nonuya-Villazul departamento del Amazonas, Colombia"
+  authors: "<strong>Andrade-Ponce, G.</strong>"
+  year: 2020
+  venue: "Mammalogy Notes"
+  details: "6(1), 0107"
+  type: "Research article"
+  topics:
+    - Mammals
+    - Camera trapping
+    - Salt licks
+    - Colombia
+  image: "img/AP_2020c.png"
+  publisher: "https://doi.org/10.47603/manovol6n1.mn0107"
+  researchgate: "https://www.researchgate.net/publication/341273437_Registros_de_mamiferos_terrestres_en_un_salado_natural_y_sus_inmediaciones_en_el_Resguardo_Indigena_Nonuya_Villazul_departamento_del_Amazonas_-_Colombia"
+  pdf: ""
+  code: ""
+
+- id: AP_2020d
+  title: "Uso de bebederos artificiales por pequeños roedores en un bosque tropical seco en Oaxaca, México"
+  authors: "Hernández-Gómez, C. A., <strong>Andrade-Ponce, G. P.</strong>, Velásquez-C., K. L., & Mandujano, S."
+  year: 2020
+  venue: "Mammalogy Notes"
+  details: "6(2), 179"
+  type: "Research article"
+  topics:
+    - Rodents
+    - Wildlife management
+    - Camera trapping
+    - Mexico
+  image: "img/AP_2020d.png"
+  publisher: "https://doi.org/10.47603/mano.v6n2.179"
+  researchgate: "https://www.researchgate.net/publication/344469109_Uso_de_bebederos_artificiales_por_pequenos_roedores_en_un_bosque_tropical_seco_en_Oaxaca_Mexico"
+  pdf: ""
+  code: ""
+
+- id: CV_2021
+  title: "Does patch quality drive arboreal mammal assemblages in fragmented rainforests?"
+  authors: "Cudney-Valenzuela, S. J., Arroyo-Rodríguez, V., Andresen, E., Toledo-Aceves, T., Mora-Ardila, F., <strong>Andrade-Ponce, G.</strong>, & Mandujano, S."
+  year: 2021
+  venue: "Perspectives in Ecology and Conservation"
+  details: "19(1), 61–68"
+  type: "Research article"
+  topics:
+    - Mammals
+    - Fragmentation
+    - Landscape ecology
+    - Mexico
+  image: "img/CV_2021.jpg"
+  publisher: "https://www.sciencedirect.com/science/article/pii/S2530064420300821"
+  researchgate: "https://www.researchgate.net/publication/346791262_Does_patch_quality_drive_arboreal_mammal_assemblages_in_fragmented_rainforests"
+  pdf: ""
+  code: ""
+
+- id: AP_2021
+  title: "Modelos de ocupación para datos de cámaras trampa"
+  authors: "<strong>Andrade-Ponce, G.</strong>, Cepeda-Duque, J. C., Mandujano, S., Velásquez-C, K. L., Lizcano, D. J., & Gómez-Valencia, B."
+  year: 2021
+  venue: "Mammalogy Notes"
+  details: "7(1), 200"
+  type: "Research article"
+  topics:
+    - Camera trapping
+    - Occupancy
+    - Quantitative ecology
+  image: "img/AP_2021.png"
+  publisher: "https://doi.org/10.47603/mano.v7n1.200"
+  researchgate: "https://www.researchgate.net/publication/352134794_Modelos_de_Ocupacion_para_datos_de_camaras_trampa_de_los_conceptos_a_la_interpretacion"
+  pdf: ""
+  code: ""
+
+- id: AP_2022
+  title: "A framework to interpret co-occurrence patterns from camera trap data: The case of the gray fox, the bobcat, and the eastern cottontail rabbit in a tropical dry habitat"
+  authors: "<strong>Andrade-Ponce, G. P.</strong>, Mandujano, S., Dáttilo, W., Farías-González, V., Jiménez, J., Velásquez-C, K., & Zavaleta, A."
+  year: 2022
+  venue: "J Zool."
+  details: ""
+  type: "Research article"
+  topics:
+    - Mammals
+    - Camera trapping
+    - Co-occurrence
+    - Occupancy
+    - Quantitative ecology
+  image: "img/AP_2022.png"
+  publisher: "https://doi.org/10.1111/jzo.13002"
+  researchgate: "https://www.researchgate.net/publication/362814492_A_framework_to_interpret_co-occurrence_patterns_from_camera_trap_data_The_case_of_the_gray_fox_the_bobcat_and_the_eastern_cottontail_rabbit_in_a_tropical_dry_habitat"
+  pdf: ""
+  code: "https://zslpublications.onlinelibrary.wiley.com/action/downloadSupplement?doi=10.1111%2Fjzo.13002&file=jzo13002-sup-0002-AppendixS2.docx"
+
+- id: FS_2023
+  title: "Socioecological Assessment of Mammal Assemblages in Small Oil-Palm Plantations in a Highly Deforested Region in Mexico"
+  authors: "Franquesa-Soler, M., Ocampo-Saure, F., Mora, F., <strong>Andrade-Ponce, G. P.</strong>, & Andresen, E."
+  year: 2023
+  venue: "Tropical Conservation Science"
+  details: "16, 19400829231169977"
+  type: "Research article"
+  topics:
+    - Mammals
+    - Conservation
+    - Agricultural landscapes
+    - Mexico
+  image: "img/FS_2023.jpg"
+  publisher: "https://journals.sagepub.com/doi/full/10.1177/19400829231169977"
+  researchgate: "https://www.researchgate.net/publication/369998157_Socioecological_Assessment_of_Mammal_Assemblages_in_Small_Oil-Palm_Plantations_in_a_Highly_Deforested_Region_in_Mexico"
+  pdf: ""
+  code: ""
+  
+- id: JCD_2023
+  title: "Assessing microhabitat, landscape features and intraguild relationships in the occupancy of the enigmatic and threatened Andean tiger cat (Leopardus tigrinus pardinoides) in the cloud forests of northwestern Colombia"
+  authors: "Cepeda-Duque, J.C., <strong>Andrade-Ponce, G. P.</strong>, Montes-Rojas, A., Rendón-Jaramillo, U., López-Velasco, V., Arango-Correa, E., López-Barrera, A., Mazariegos, L., Lizcano, D., Link, A. & de Oliveira, T.G.
+"
+  year: 2023
+  venue: "PLOS ONE"
+  details: "18(7), e0288247"
+  type: "Research article"
+  topics:
+    - Mammals
+    - Conservation
+    - Carnivores
+    - Occupancy
+    - Quantitative ecology
+    - Colombia
+  image: "img/JCD_2023.PNG"
+  publisher: "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0288247"
+  researchgate: "https://www.researchgate.net/publication/372245552_Assessing_microhabitat_landscape_features_and_intraguild_relationships_in_the_occupancy_of_the_enigmatic_and_threatened_Andean_tiger_cat_Leopardus_tigrinus_pardinoides_in_the_cloud_forests_of_northwes"
+  pdf: ""
+  code: ""
+  
+- id: JCD_2023b
+  title: "Expanding the frontiers of camera-trapping in Colombia: application of the “Mostela” system to gain knowledge on small non-volant mammals from an Andean cloud forest"
+  authors: "Cepeda-Duque, J.C., Arango-Correa, E., <strong>Andrade-Ponce, G. P.</strong>, Mazariegos, L., Hofmeester T.R. & Ramírez-Chaves, H.
+"
+  year: 2023
+  venue: "Mammalia"
+  details: "87(5):419-428"
+  type: "Research article"
+  topics:
+    - Mammals
+    - Conservation
+    - Colombia
+    - Camera trap
+    
+  image: "img/JCD_2023b.jpg"
+  publisher: "https://doi.org/10.1515/mammalia-2023-0033"
+  researchgate: "https://www.researchgate.net/publication/372781143_Expanding_the_frontiers_of_camera-trapping_in_Colombia_application_of_the_Mostela_system_to_gain_knowledge_on_small_non-volant_mammals_from_an_Andean_cloud_forest"
+  pdf: ""
+  code: ""
+  
+
+- id: SM_2023
+  title: "Occupancy Modeling Reveals That Landscape Scale Drives Habitat Use by White-Tailed Deer in the Tehuacán-Cuicatlán Biosphere Reserve, Mexico"
+  authors: "Mandujano, S., <strong>Andrade-Ponce, G. P.</strong>, Zavaleta, A. & López-Téllez, C."
+  year: 2023
+  venue: "Neotropical Mammals: Hierarchical Analysis of Occupancy and Abundance (pp. 317–338)"
+  details: "Eds. Mandujano, S., Naranjo, E. J., & Andrade-Ponce, G. P."
+  type: "Book chapter"
+  topics:
+    - Mammals
+    - Landscape
+    - Mexico
+    - Camera trap
+    - Occupancy
+    
+  image: "img/SM_2023.webp"
+  publisher: "https://link.springer.com/chapter/10.1007/978-3-031-39566-6_14"
+  researchgate: "https://www.researchgate.net/publication/375209828_Occupancy_Modeling_Reveals_That_Landscape_Scale_Drives_Habitat_Use_by_White-Tailed_Deer_in_the_Tehuacan-Cuicatlan_Biosphere_Reserve_Mexico"
+  pdf: ""
+  code: ""
+  
+- id: SM_2023b
+  title: "Neotropical Mammals and the Analysis of Occupancy and Abundance"
+  authors: "Mandujano, S., Naranjo, E. J. & <strong>Andrade-Ponce, G. P.</strong>"
+  year: 2023
+  venue: "Neotropical Mammals: Hierarchical Analysis of Occupancy and Abundance (pp. 3–11)"
+  details: "Eds. Mandujano, S., Naranjo, E. J., & Andrade-Ponce, G. P."
+  type: "Book chapter"
+  topics:
+    - Mammals
+    - Quantitative ecology
+    
+  image: "img/SM_2023b.webp"
+  publisher: "https://link.springer.com/chapter/10.1007/978-3-031-39566-6_1"
+  researchgate: "https://www.researchgate.net/publication/375209741_Neotropical_Mammals_and_the_Analysis_of_Occupancy_and_Abundance"
+  pdf: ""
+  code: ""
+
+- id: AP_2023
+  title: "Overview of Hierarchical Models and Future Directions in the Study of Neotropical Mammals"
+  authors: "<strong>Andrade-Ponce, G. P.</strong>"
+  year: 2023
+  venue: "Neotropical Mammals: Hierarchical Analysis of Occupancy and Abundance (pp. 339-352)"
+  details: "Eds. Mandujano, S., Naranjo, E. J., & Andrade-Ponce, G. P."
+  type: "Book chapter"
+  topics:
+    - Mammals
+    - Quantitative ecology
+  image: "img/SM_2023c.webp"
+  publisher: "https://link.springer.com/chapter/10.1007/978-3-031-39566-6_15"
+  researchgate: "https://www.researchgate.net/publication/375209324_Overview_of_Hierarchical_Models_and_Future_Directions_in_the_Study_of_Neotropical_Mammals"
+  pdf: ""
+  code: ""
+  
+  
+- id: SM_2023c
+  title: "Neotropical Mammals: Hierarchical Analysis of Occupancy and Abundance"
+  authors: "Mandujano, S., Naranjo, E. J. & <strong>Andrade-Ponce, G. P.</strong>"
+  year: 2023
+  venue: "Springer"
+  details: "img/SM_2023c.webp"
+  type: "Book"
+  topics:
+    - Mammals
+    - Quantitative ecology
+  image: "img/SM_2023c.webp"
+  publisher: "https://link.springer.com/book/10.1007/978-3-031-39566-6"
+  researchgate: "https://www.researchgate.net/publication/375415168_Neotropical_Mammals_Hierarchical_Analysis_of_Occupancy_and_Abundance"
+  pdf: ""
+  code: ""
+    
+- id: SB_2024
+  title: "Wilderness areas maintain mammal assemblage in subtropical mountain forests"
+  authors: "Bardavid, S., <strong>Andrade-Ponce, G. P.</strong>, Politi, N., & Rivera, L."
+  year: 2024
+  venue: "Biodiversity and Conservation"
+  details: "33(13), 3853–3870"
+  type: "Research article"
+  topics:
+    - Mammals
+    - Quantitative ecology
+    - Argentina
+    - Camera trap
+    - Conservation
+    - Occupancy
+  image: ""
+  publisher: "https://link.springer.com/article/10.1007/s10531-024-02932-8"
+  researchgate: "https://www.researchgate.net/publication/384113739_Wilderness_areas_maintain_mammal_assemblage_in_subtropical_mountain_forests"
+  pdf: ""
+  code: ""
+  
+- id: KM_2025
+  title: "When the wild things are: Defining mammalian diel activity and plasticity"
+  authors: "Devarajan, K., Fidino, M., Farris, Z. J., Adalsteinsson, S. A., <strong>Andrade-Ponce, G. P.</strong>, Angstmann, J. L., et al."
+  year: 2025
+  venue: "Science Advances"
+  details: "11(9), eado3843"
+  type: "Research article"
+  topics:
+    - Mammals
+    - Quantitative ecology
+    - Camera trap
+  image: "img/KM_2025.jpg"
+  publisher: "https://www.science.org/doi/full/10.1126/sciadv.ado3843"
+  researchgate: "https://www.researchgate.net/publication/389358196_When_the_wild_things_are_Defining_mammalian_diel_activity_and_plasticity"
+  pdf: ""
+  code: ""
+  
+- id: AP_2025
+  title: "Different drivers, same tick: Effect of host traits, habitat, and climate on the infestation of three rodent species by larval <em>Dermacentor</em> ticks"
+  authors: "<strong>Andrade-Ponce, G. P.</strong>, Giles, B. G., Newman, B. C., López-Pérez, A. M., & Eversole, C. B."
+  year: 2025
+  venue: "International Journal for Parasitology: Parasites and Wildlife"
+  details: "26, 101054"
+  type: "Research article"
+  topics:
+    - Mammals
+    - Quantitative ecology
+    - Interactions
+    - United States
+  image: "img/AP_2025.jpg"
+  publisher: "https://doi.org/10.1016/j.ijppaw.2025.101054"
+  researchgate: "https://www.researchgate.net/publication/389655573_Different_drivers_same_tick_Effect_of_host_traits_habitat_and_climate_on_the_infestation_of_three_rodent_species_by_larval_Dermacentor_ticks"
+  pdf: ""
+  code: ""
+  
+  
+- id: ER_2025
+  title: "Efficacy of various survey methods to detect an experimental population of spot-tailed earless lizards: A case study"
+  authors: "Rangel, E. D., Henke, S. E., Wester, D. B., <strong>Andrade-Ponce, G. P.</strong>, Ayala, R. A., & Eversole, C. B."
+  year: 2025
+  venue: "PLOS ONE"
+  details: "20(11), e0336129."
+  type: "Research article"
+  topics:
+    - Reptiles
+    - Quantitative ecology
+    - Methods
+    - US
+  image: "img/ER_2025.PNG"
+  publisher: "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0336129"
+  researchgate: "https://www.researchgate.net/publication/397685722_Efficacy_of_various_survey_methods_to_detect_an_experimental_population_of_spot-tailed_earless_lizards_A_case_study"
+  pdf: ""
+  code: ""
+  
+- id: RA_2026
+  title: "Climbing the urban canopy: Camera trap insights into mammal activity and habitat use"
+  authors: "Antoniazzi, R., Velasquez-C., K., Menzel, E. R., Stage, D., Hughes, K., & <strong>Andrade-Ponce, G. P.</strong>"
+  year: 2026
+  venue: "Wildlife Society Bulletin"
+  details: "50(1), e70013"
+  type: "Research article"
+  topics:
+    - Mammals
+    - Camera trapping
+    - Urban ecology
+    - Canopy
+    - United States
+  image: "img/RA_2026.jpg"
+  publisher: "https://doi.org/10.1002/wsb.70013"
+  researchgate: "https://www.researchgate.net/publication/400831782_Climbing_the_urban_canopy_Camera_trap_insights_into_mammal_activity_and_habitat_use"
+  pdf: ""
+  code: "https://figshare.com/articles/journal_contribution/Dataset_and_R_scripts_for_the_manuscript_Climbing_the_Urban_Canopy_Camera_Trap_Insights_into_Mammal_Activity_and_Habitat_Use_/29452724"
+  
+
+- id: AP_2026
+  title: "Understanding Mammalian Habitat Use With a Multi-Species, Multi-Scale Approach: The Jaguar Protection Corridor in Guaviare, Colombia"
+  authors: "<strong>Andrade-Ponce, G. P.</strong>, Molina-González, E., & Cabrera, J. A."
+  year: 2026
+  venue: "Animal Conservation"
+  details: "1–15"
+  type: "Research article"
+  topics:
+    - Mammals
+    - Camera trapping
+    - Landscape ecology
+    - Occupancy
+    - Conservation
+    - Colombia
+  image: "img/AP_2026.jpg"
+  publisher: "https://doi.org/10.1111/acv.70084"
+  researchgate: "https://www.researchgate.net/publication/408490968_Understanding_Mammalian_Habitat_Use_With_a_Multi-Species_Multi-Scale_Approach_The_Jaguar_Protection_Corridor_in_Guaviare_Colombia"
+  pdf: ""
+  code: ""
+  supplement: "https://zslpublications.onlinelibrary.wiley.com/action/downloadSupplement?doi=10.1111%2Facv.70084&file=acv70084-sup-0001-Supinfo.pdf"
+  
+- id: DS_2026
+  title: "Wildlife in Shortleaf Pine Ecosystems"
+  authors: "Saenz, D., Anderson, T., Antoniazzi, R., <strong>Andrade-Ponce, G. P.</strong>, Bennett, D., Eversole, C. B., Glasscock, J. L., Glasscock, S. N., Grantham, G., Suarez Joaqui, T., Velasquez-C, K., Loeb, S., Schaefer, R. R., & Schalk, C. M."
+  year: 2026
+  venue: "The Ecology and Management of Shortleaf Pine Ecosystems"
+  details: "Chapter 5 · In press · Eds. Crouch, C., Dey, D., Kabrick, J., & Knapp, B."
+  type: "Book chapter"
+  topics:
+    - Wildlife
+    - Forest ecology
+    - Conservation
+    - United States
+  image: ""
+  publisher: "https://doi.org/10.1079/9781800627420.0005"
+  researchgate: ""
+  pdf: ""
+  code: ""
+  

@@ -1,0 +1,136 @@
+- title: "Occupancy models for biological communities"
+  subtitle: "Tutorial · Español"
+  description: "Introduction to the DiversityOccupancy and camtrapR packages for fitting community occupancy models to camera-trap data."
+  date: 2022-04-30
+  image: "img/occu_multi.png"
+  categories:
+    - R
+    - Data analysis
+    - Occupancy
+  path: "https://gpandradep.github.io/Ocupacion_comunidades/"
+
+
+- title: "Radar plot tutorial"
+  subtitle: "Tutorial · Español"
+  description: "A short tutorial on creating a radar plot using camera-trap activity data."
+  date: 2022-05-10
+  image: "img/rad_plot.png"
+  categories:
+    - R
+    - Data analysis
+    - Data visualization
+  path: "https://gpandradep.github.io/Grafico_roseta/"
+
+
+- title: "What is spatial independence?"
+  subtitle: "Tutorial · Español"
+  description: "An introduction to assessing the spatial independence of camera-trap data."
+  date: 2022-06-08
+  image: "img/IN_esp.png"
+  categories:
+    - R
+    - Data analysis
+    - Statistics
+  path: "https://introindependenciaespacial.netlify.app/"
+
+
+- title: "Relative Abundance Index (RAI)"
+  subtitle: "Tutorial · Español"
+  description: "What is the RAI? What is it used for, and what are its limitations? This tutorial was developed as part of the pre-conference courses for the 15th National Congress of Mammalogy, Chihuahua 2022, and provides a brief introduction to the relative abundance index, its uses, and its limitations."
+  date: 2022-10-12
+  image: "img/iar_plot.png"
+  categories:
+    - R
+    - Data analysis
+    - RAI
+    - Camera trapping
+  path: "https://gpandradep.github.io/Curso-Congreso-Chihuahhua/IAR_doc.html"
+
+
+- title: "Introduction to R (2023)"
+  subtitle: "Guide · Español"
+  description: "A quick introduction to R and RStudio designed for beginners or users with some experience who want to strengthen their foundations, from installing R and working with R objects to creating graphics and using the tidyverse."
+  date: 2024-05-08
+  image: "img/introR.png"
+  categories:
+    - R
+    - Data analysis
+    - Data visualization
+  path: "https://gpandradep.github.io/Intro-a-R/"
+
+
+- title: "Generalized Linear Mixed Models for Proportions: The Beta Family"
+  subtitle: "Tutorial · Español"
+  description: "A brief example of how to fit and validate a beta-family GLMM for proportion data. This exercise, originally developed for a graduate-level course, covers model fitting, validation, and visualization."
+  date: 2023-03-29
+  image: "img/beta.png"
+  categories:
+    - R
+    - Data analysis
+    - Statistics
+  path: "https://gpandradep.quarto.pub/glmm-familia-beta--introduccion/"
+
+
+- title: "Camera Trap Workshop in R: Processing, Organization, and Analysis of Camera Trap Data (CAPES)"
+  subtitle: "Workshop · Español"
+  description: "Training workshop held at the Center for Applied Ecology and Sustainability (CAPES), Catholic University of Chile."
+  date: 2023-11-22
+  image: "img/CAPES.jpg"
+  categories:
+    - R
+    - Data analysis
+    - Occupancy
+    - Camera trapping
+    - Wildlife management
+  path: "https://gpandradep.github.io/Curso/"
+
+
+- title: "Recordings — Camera Trap Workshop in R: Processing, Organization, and Analysis of Camera Trap Data (CAPES)"
+  subtitle: "Workshop Videos · Español"
+  description: "Recordings from the training workshop held at the Center for Applied Ecology and Sustainability (CAPES), Catholic University of Chile."
+  date: 2023-11-22
+  image: "img/CAPES.jpg"
+  categories:
+    - R
+    - Data analysis
+    - Occupancy
+    - Camera trapping
+    - Wildlife management
+  path: "https://www.youtube.com/playlist?list=PLxrEExyX4Dsk8dOVg8uuTm1FN80B1Wbbk"
+
+
+- title: "TCTWS Abstracts (2022–2025): Interactive Companion"
+  subtitle: "Code · English"
+  description: "Code and interactive material for analyzing research trends in the Texas Chapter of The Wildlife Society using data mined from annual meeting programs."
+  date: 2025-02-13
+  image: "img/TWSCT_abstracts.png"
+  categories:
+    - R
+    - Data analysis
+    - Data visualization
+    - Wildlife management
+  path: "https://gpandradep.github.io/TCTWS_Abstracts_Companion/"
+
+
+- title: "Introduction to Model Selection in R"
+  subtitle: "Lecture · English"
+  description: "Introductory lecture on model selection using AIC and hypothesis testing in R."
+  date: 2025-10-29
+  image: "img/modsel.png"
+  categories:
+    - R
+    - Data analysis
+    - Statistics
+  path: "https://gpandradep.github.io/Model-selection/#/title-slide"
+
+
+- title: "Introduction to R: A Practical Introduction to Data Management and Visualization"
+  subtitle: "Guide · English"
+  description: "A beginner-friendly introduction to R designed to provide the foundations needed to work confidently with data management and visualization."
+  date: 2026-09-20
+  image: ""
+  categories:
+    - R
+    - Data analysis
+    - Data visualization
+  path: "https://gpandradep.github.io/R-CameraTrap-Workshop/"

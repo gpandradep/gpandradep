@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.9.36">
+<meta name="generator" content="quarto-1.10.18">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -12,10 +12,13 @@
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
 */
-code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
-div.columns{display: flex; gap: min(4vw, 1.5em);}
-div.column{flex: auto; overflow-x: auto;}
+div.columns{display: flex; gap: 1.5em;}
+div.column{flex: auto;}
+@media screen {
+div.columns{gap: min(4vw, 1.5em);}
+div.column{overflow-x: auto;}
+}
 div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
 ul.task-list{list-style: none;}
 ul.task-list li input[type="checkbox"] {
@@ -39,16 +42,12 @@ ul.task-list li input[type="checkbox"] {
 <script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="../site_libs/quarto-html/anchor.min.js"></script>
 <link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting-845c23b38eaddc0f92fda52bfe77a8c8.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-8f45ca03c306255dd7117c768ed20bd9.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-75bc9b293d53c3d78cc056fa33739b4f.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <link href="../site_libs/quarto-contrib/social-share-0.1.0/social-share.css" rel="stylesheet">
 <link href="../site_libs/quarto-contrib/social-share-0.1.0/all.css" rel="stylesheet">
-<link href="../site_libs/quarto-contrib/fontawesome6-0.1.0/all.css" rel="stylesheet">
-<link href="../site_libs/quarto-contrib/fontawesome6-0.1.0/latex-fontsize.css" rel="stylesheet">
-<link href="../site_libs/quarto-contrib/academicons-1.9.2/all.css" rel="stylesheet">
-<link href="../site_libs/quarto-contrib/academicons-1.9.2/size.css" rel="stylesheet">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -86,8 +85,7 @@ ul.task-list li input[type="checkbox"] {
 
 <link rel="stylesheet" href="../styles.css">
 <meta name="twitter:title" content="– Gabriel Andrade-Ponce">
-<meta name="twitter:description" content="">
-<meta name="twitter:image" content="cams_me.png">
+<meta name="twitter:image" content="images/about-colombia-1.jpg">
 <meta name="twitter:card" content="summary_large_image">
 </head>
 
@@ -110,15 +108,19 @@ ul.task-list li input[type="checkbox"] {
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
     <a class="nav-link active" href="../about/index.html" aria-current="page"> 
-<span class="menu-text">Sobre mi</span></a>
-  </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="../blog/index.html"> 
-<span class="menu-text">Blog</span></a>
+<span class="menu-text">About me</span></a>
   </li>  
   <li class="nav-item">
     <a class="nav-link" href="../publications/index.html"> 
-<span class="menu-text">Publicaciones</span></a>
+<span class="menu-text">Publications</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../teaching/index.html"> 
+<span class="menu-text">Teaching</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../resources/index.html"> 
+<span class="menu-text">Resources</span></a>
   </li>  
 </ul>
           </div> <!-- /navcollapse -->
@@ -128,68 +130,76 @@ ul.task-list li input[type="checkbox"] {
     </nav>
 </header>
 <!-- content -->
-<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        <nav id="TOC" role="doc-toc" class="toc-active">
-    <h2 id="toc-title">On this page</h2>
-   
-  <ul>
-  <li><a href="#sobre-mí" id="toc-sobre-mí" class="nav-link active" data-scroll-target="#sobre-mí">Sobre mí</a>
-  <ul class="collapse">
-  <li><a href="#mi-trabajo" id="toc-mi-trabajo" class="nav-link" data-scroll-target="#mi-trabajo">Mi trabajo</a></li>
-  </ul></li>
-  <li><a href="#cv" id="toc-cv" class="nav-link" data-scroll-target="#cv">CV</a></li>
-  <li><a href="#sociales" id="toc-sociales" class="nav-link" data-scroll-target="#sociales">Sociales</a></li>
-  <li><a href="#otros-intereses" id="toc-otros-intereses" class="nav-link" data-scroll-target="#otros-intereses">Otros intereses</a></li>
-  </ul>
-</nav>
-    </div>
+    
 <!-- main -->
-<main class="content" id="quarto-document-content"><header id="title-block-header" class="quarto-title-block"></header>
+<main class="content column-page" id="quarto-document-content"><header id="title-block-header" class="quarto-title-block"></header>
 
 
 
 
-<section id="sobre-mí" class="level2">
-<h2 class="anchored" data-anchor-id="sobre-mí">Sobre mí</h2>
-<section id="mi-trabajo" class="level3">
-<h3 class="anchored" data-anchor-id="mi-trabajo">Mi trabajo</h3>
-<p>Soy biólogo colombiano 🇨🇴 y maestro en ciencias por el Instituto de Ecología A.C. (INECOL) 🇲🇽. Actualmente soy estudiante de doctorado del INECOL. Mi trabajo se ha centrado en el uso de modelos estadísticos para estimar e interpretar la co-ocurrencia espacial de mamíferos, principalmente utilizando datos de cámaras trampa🐺🐱🐇.</p>
-<p><img src="cams_me.png" class="img-fluid"></p>
-<p>Soy un entusiasta de aprender y usar la estadística 👨‍💻 para resolver problemas y preguntas sobre ecología de mamíferos (aunque en general puede ser de cualquier bicho).</p>
-<p><img src="zorro_code.png" class="img-fluid"></p>
-<p>Me apasiona la enseñanza y he participado en varios talleres como profesor y coordinador. En los talleres he tratado temas que abarcan desde la organización de datos, hasta análisis de ocupación, diversidad y algo de estadística espacial. Parte de lo que doy en los cursos lo pueden ver en la sección de blog. Eso sí, todo lo hacemos en R. Olvidé mencionar que me obsesiona el R y lo uso para escribir, enseñar, analizar y visualizar datos de todo lo que se me ocurra.</p>
+<div class="about-header">
+<div class="section-label">
+About me
+</div>
+<div class="about-title">
+From Colombia to Mexico and the United States
+</div>
+<p>
+My personal and academic journey has taken me across countries, ecosystems, and research traditions. Along the way, fieldwork, teaching, and quantitative ecology have shaped both my professional identity and my way of seeing the world.
+</p>
+</div>
+<div class="about-stage">
+<div class="about-stage-number">
+01
+</div>
+<section id="colombia" class="level2 about-stage-text">
+<h2 class="anchored" data-anchor-id="colombia">Colombia</h2>
+<p>I trained as a biologist in Colombia, where I first developed my interest in wildlife, natural history, and ecological research. My early experiences in the field shaped the way I approach ecology today: with curiosity about organisms, landscapes, and the questions that connect them.</p>
 </section>
-</section>
-<section id="cv" class="level2">
-<h2 class="anchored" data-anchor-id="cv">CV</h2>
-<p><a href="https://htmlpreview.github.io/?https://raw.githubusercontent.com/gpandradep/CV/master/cv.html">CV formato html <i class="fa-solid fa-file-code fa-1.8x" aria-label="file-code"></i></a></p>
-<p><a href="https://github.com/gpandradep/CV/raw/master/Gabriel%20Andrade%20Ponce%E2%80%99s%20CV.pdf">CV en PDF <i class="fa-solid fa-file-pdf fa-1.8x" aria-label="file-pdf"></i></a></p>
-</section>
-<section id="sociales" class="level2">
-<h2 class="anchored" data-anchor-id="sociales">Sociales</h2>
-<div class="columns">
-<div class="column" style="width:50%;">
-<p><span style="color:Dodgerblue"><i class="fa-brands fa-twitter fa-2x" aria-label="twitter"></i></span> <a href="https://twitter.com/Gatorco_AP">@Gatorco_AP</a></p>
-<p><span style="color:DeepSkyBlue"><i class="fa-brands fa-facebook fa-2x" aria-label="facebook"></i></span> <a href="https://www.facebook.com/patrick.l.ponce">&nbsp;Gabriel Andrade-Ponce</a></p>
-<p><span style="color:LightSalmon"><i class="fa-brands fa-instagram fa-2x" aria-label="instagram"></i></span> <a href="https://www.instagram.com/gatorcandrade/">&nbsp;gpandradep</a></p>
-</div><div class="column" style="width:50%;">
-<p><span style="color:black"><i class="fa-brands fa-github fa-2x" aria-label="github"></i></span> <a href="https://github.com/gpandradep">&nbsp;gpandradep</a></p>
-<p><span style="color:black"><i class="ai  ai-google-scholar ai-2x" title="" style="color:"></i></span> <a href="https://scholar.google.com.mx/citations?user=tu7S2ZAAAAAJ&amp;hl=es">&nbsp;Google Scholar</a></p>
-<p><span style="color:DarkTurquoise"><i class="fa-brands fa-researchgate fa-2x" aria-label="researchgate"></i></span> <a href="https://www.researchgate.net/profile/Gabriel-Andrade-Ponce">&nbsp;Researchgate</a></p>
+<div class="about-gallery three">
+<p><img src="images/about-colombia-1.jpg" class="img-fluid"> <img src="images/about-colombia-2.jpg" class="img-fluid"> <img src="images/about-colombia-3.jpg" class="img-fluid"></p>
 </div>
 </div>
+<div class="about-stage">
+<div class="about-stage-number">
+02
+</div>
+<section id="mexico" class="level2 about-stage-text">
+<h2 class="anchored" data-anchor-id="mexico">Mexico</h2>
+<p>My graduate training in Mexico was a defining stage in my development as an ecologist. During my M.Sc. and Ph.D., I deepened my work on mammals, camera trapping, species interactions, and quantitative ecology, while also building lasting collaborations and friendships.</p>
 </section>
-<section id="otros-intereses" class="level2">
-<h2 class="anchored" data-anchor-id="otros-intereses">Otros intereses</h2>
-<ul>
-<li>Aficionado a los videojuegos, especialmente estrategia en tiempo real y aventura</li>
-</ul>
+<div class="about-gallery two">
+<p><img src="images/about-mexico-1.jpg" class="img-fluid"> <img src="images/about-mexico-2.jpg" class="img-fluid"></p>
+</div>
+</div>
+<div class="about-stage">
+<div class="about-stage-number">
+03
+</div>
+<section id="united-states" class="level2 about-stage-text">
+<h2 class="anchored" data-anchor-id="united-states">United States</h2>
+<p>I currently work as a Postdoctoral Research Associate at Stephen F. Austin State University, where I continue developing research in wildlife ecology, mentoring students, and teaching quantitative and field-based methods. This stage has expanded my work into new systems, collaborations, and applied conservation questions.</p>
+</section>
+<div class="about-gallery three">
+<p><img src="images/about-usa-1.jpg" class="img-fluid"> <img src="images/about-usa-2.jpg" class="img-fluid"> <img src="images/about-usa-3.jpg" class="img-fluid"></p>
+</div>
+</div>
+<div class="about-hobbies">
+<div class="section-label">
+Beyond academia
+</div>
+<section id="a-few-things-i-enjoy-outside-work" class="level2">
+<h2 class="anchored" data-anchor-id="a-few-things-i-enjoy-outside-work">A few things I enjoy outside work</h2>
+<div class="hobby-tags">
+<p><span>Video games</span> <span></span> <span></span> <span></span> <span>Food</span></p>
+</div>
+</section>
+</div>
 
 
-</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
