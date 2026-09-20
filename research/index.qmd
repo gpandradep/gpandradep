@@ -1,0 +1,114 @@
+---
+title: "Research"
+page-layout: full
+toc: false
+---
+
+::: {.research-header}
+
+<div class="section-label">Research</div>
+
+# Understanding wildlife in changing landscapes
+
+My research seeks to understand how wildlife species and communities respond to environmental variation, habitat transformation, and human activities.
+
+I combine **field-based ecological monitoring with quantitative and spatial approaches** to study species distributions, abundance, habitat use, ecological interactions, and biodiversity patterns across landscapes.
+
+Much of my work focuses on terrestrial vertebrates in Latin America and the southern United States, while increasingly extending these approaches to broader questions in applied ecology and conservation.
+
+:::
+
+
+::: {.research-theme}
+
+::: {.research-image}
+
+![](../images/research-wildlife.jpg){fig-alt="Wildlife field research"}
+
+:::
+
+::: {.research-text}
+
+<div class="research-number">01</div>
+
+## Wildlife ecology & species interactions
+
+I am interested in how species use landscapes, interact with one another, and respond to environmental change.
+
+My work has examined patterns of **occupancy, abundance, habitat use, and species co-occurrence**, with particular emphasis on terrestrial mammals and wildlife communities monitored using camera traps.
+
+These questions range from understanding carnivore interactions to evaluating how wildlife responds to habitat modification and human infrastructure.
+
+:::
+
+:::
+
+
+::: {.research-theme .research-theme-reverse}
+
+::: {.research-image}
+
+![](../images/research-landscape.jpg){fig-alt="Landscape ecology research"}
+
+:::
+
+::: {.research-text}
+
+<div class="research-number">02</div>
+
+## Landscape ecology & conservation
+
+A central component of my research examines how wildlife responds to landscapes that vary in habitat amount, configuration, fragmentation, and human influence.
+
+I integrate **remote sensing, geographic information systems, and field observations** to study ecological responses across spatial scales and identify patterns relevant to wildlife conservation and management.
+
+:::
+
+:::
+
+
+::: {.research-theme}
+
+::: {.research-image}
+
+![](../images/research-quantitative.jpg){fig-alt="Quantitative ecological research"}
+
+:::
+
+::: {.research-text}
+
+<div class="research-number">03</div>
+
+## Quantitative ecology
+
+Quantitative methods are an integral part of how I approach ecological questions.
+
+My research uses **hierarchical models, occupancy and abundance models, Bayesian methods, spatial analysis, and reproducible workflows in R** to account for ecological complexity and imperfect observation.
+
+I am particularly interested in connecting methodological development with applied ecological questions rather than treating statistical methods as an end in themselves.
+
+:::
+
+:::
+
+
+::: {.research-methods}
+
+<div class="section-label">Approaches</div>
+
+## From field observations to ecological inference
+
+<div class="methods-list">
+
+<span>Camera trapping</span>
+<span>Occupancy models</span>
+<span>Abundance models</span>
+<span>Bayesian hierarchical models</span>
+<span>Spatial ecology</span>
+<span>Remote sensing</span>
+<span>GIS</span>
+<span>R & reproducible workflows</span>
+
+</div>
+
+:::
